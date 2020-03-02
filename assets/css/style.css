@@ -43,7 +43,7 @@ img {
       Menu Section Start
 ***************************************/
 .menu_area {
-   padding: 1.25rem 0rem; /* 20px 0px */
+   padding: 1.25rem 0rem;
 }
 
 .main_menu ul li {
@@ -60,13 +60,16 @@ img {
    text-decoration: none;
 }
 
-.boxed_btn, input[type="submit"],
+.boxed_btn,
+input[type="submit"],
 button[type="submit"] {
    color: #fff;
    background: #ef476f;
-   display: block;
+   display: inline-block;
    padding: 0.75rem 0.625rem;
    text-align: center;
+   -webkit-border-radius: 0.20rem;
+   -moz-border-radius: 0.20rem;
    border-radius: 0.20rem;
 }
 
@@ -89,8 +92,8 @@ button[type="submit"] {
 ***************************************/
 .hero_area {
    font-weight: 300;
-   padding: 9.375rem 0px;
-   border-bottom: 1px solid #F6F6F6;
+   padding: 9.375rem 0rem;
+   border-bottom: 0.0625rem solid #F6F6F6;
 }
 
 .hero_area h1 {
@@ -116,4 +119,86 @@ textarea {
 
 /************************************** 
      Header Section End
+***************************************/
+
+
+/************************************** 
+     Services Section Start
+***************************************/
+.section_padding {
+   padding: 7.1875rem 0rem;
+}
+
+.transparency {
+   padding-top: 7.1875rem;
+   line-height: 1.8;
+}
+
+.transparency h2 {
+   font-size: 1.75rem;
+}
+
+.transparency p {
+   margin-top: 1.5625rem;
+   margin-bottom: 1.25rem;
+}
+
+.section_title {
+   margin-bottom: 5.625rem;
+}
+
+.section_title h2 {
+   font-size: 1.75rem;
+}
+
+.section_title p {
+   margin-top: 0.9375rem;
+}
+
+.singl_service_box {
+   padding: 1.5625rem;
+   border: 0.0625rem solid #F3F3F3;
+   font-weight: 300;
+   margin-bottom: 3.125rem;
+   line-height: 1.6;
+   -webkit-transition: .3s;
+   -o-transition: .3s;
+   -moz-transition: .3s;
+   transition: .3s;
+}
+
+.singl_service_box:hover {
+   border-color: #EF476F;
+}
+
+.singl_service_box:hover .service_icon,
+.singl_service_box:hover .service_readmore_btn,
+.singl_service_box:hover h3 {
+   color: #EF476F;
+}
+
+.service_icon {
+   font-size: 1.875rem;
+   color: #7a7878;
+}
+
+.singl_service_box h3 {
+   font-size: 1.25rem;
+   margin-top: 0.875rem;
+   margin-bottom: 1.25rem;
+}
+
+.service_readmore_btn {
+   color: #373737;
+   font-weight: 400;
+   display: inline-block;
+   margin-top: 1.25rem;
+}
+
+.service_readmore_btn i {
+   padding-left: 0.625rem;
+}
+
+/************************************** 
+     Services Section End
 ***************************************/

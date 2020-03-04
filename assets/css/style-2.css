@@ -1,11 +1,17 @@
+/************************************** 
+       Hero Area Start
+***************************************/
 .hero_area {
    background-image: url(../img/home-2/home-2-hero-bg.jpg);
    background-color: #3394F5;
    color: #fff;
    background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
    background-size: cover;
    line-height: 1.9;
-   padding: 80px;
+   padding: 90px;
 }
 
 .hero_area h1 {
@@ -13,6 +19,105 @@
    color: #fff;
 }
 
-.boxed_btn {
+.boxed_btn,
+input[type="submit"],
+button[type="submit"],
+.bottom_to_top {
    background-color: #06D6A0;
 }
+
+/************************************** 
+   Hero Area End
+***************************************/
+
+
+/************************************** 
+   Team Member / Fastest Growing Start 
+***************************************/
+h3 {
+   font-size: 22px;
+}
+
+.about_text h3 {
+   margin-bottom: 30px;
+}
+
+.about_text .boxed_btn {
+   margin-top: 18px;
+}
+
+
+/************************************** 
+    Team Member / Fastest Growing End 
+***************************************/
+
+
+/************************************** 
+   Home-2 Service Start
+***************************************/
+a.single_service_box_2 {
+   background: #FBFBFB;
+   width: 100%;
+   height: 250px;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -moz-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   text-align: center;
+   text-decoration: none;
+   position: relative;
+   z-index: 1;
+}
+
+a.single_service_box_2:hover :after {
+   content: '';
+   position: absolute;
+   background: #05bdfe;
+   background: -moz-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: -webkit-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: -webkit-gradient(linear, left top, left bottom, from(#05bdfe), to(#4482ec));
+   background: -o-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: linear-gradient(to bottom, #05bdfe 0%, #4482ec 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05bdfe', endColorstr='#4482ec', GradientType=0);
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+}
+
+a.single_service_box_2:hover .service_icon,
+a.single_service_box_2:hover h3 {
+   color: #fff;
+}
+
+a.single_service_box_2 h3 {
+   -webkit-transition: .3s;
+   -o-transition: .3s;
+   -moz-transition: .3s;
+   transition: .3s;
+}
+
+.service_icon {
+   color: #299DF8;
+   margin-bottom: 30px;
+   -webkit-transition: .3s;
+   -o-transition: .3s;
+   -moz-transition: .3s;
+   transition: .3s;
+}
+
+/************************************** 
+    Home-2 Service End 
+***************************************/

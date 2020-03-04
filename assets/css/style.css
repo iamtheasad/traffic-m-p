@@ -612,6 +612,42 @@ a.case_study_more {
    color: #999;
 }
 
+.bottom_to_top {
+   width: 50px;
+   height: 50px;
+   background: #ef476f;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+   border: none;
+   position: fixed;
+   bottom: 13%;
+   left: 95%;
+   font-size: 30px;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -moz-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   color: #fff;
+   z-index: 10;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
+   transition: .2s;
+   opacity: 0;
+}
+
 /************************************** 
     Copyright Area End
 ***************************************/

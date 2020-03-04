@@ -49,6 +49,36 @@
         });
         /* Home Page Company Logo Carousel End */
 
+
+        /* Scroll to Top Button Start */
+        // https://codepen.io/karencho/pen/KIgur
+        var topBottomButton = $(".bottom_to_top");
+
+        $(window).scroll(function () {
+
+            var topPosition = $(this).scrollTop(); // scrollTop is a jquery function
+
+            if (topPosition > 900) {
+                $(topBottomButton).css({
+                    "opacity": "1",
+                })
+
+            } else {
+                $(topBottomButton).css({
+                    "opacity": "0",
+                })
+            }
+        });
+
+        $(topBottomButton).on('click', function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+            return false;
+
+        });
+        /* Scroll to Top Button End */
+
     });
 
 })();

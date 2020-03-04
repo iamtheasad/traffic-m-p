@@ -66,7 +66,7 @@ button[type="submit"] {
    color: #fff;
    background: #ef476f;
    display: inline-block;
-   padding: 15px 20px;
+   padding: 0.9375rem 1.25rem;
    text-align: center;
    -webkit-border-radius: 0.20rem;
    -moz-border-radius: 0.20rem;
@@ -245,9 +245,9 @@ textarea {
 
 .single_case_study {
    background-color: #EEEEF0;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   border-radius: 3px;
+   -moz-border-radius: 0.1875rem;
+   -webkit-border-radius: 0.1875rem;
+   border-radius: 0.1875rem;
    background-position: center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -259,17 +259,17 @@ textarea {
    display: table-cell;
    vertical-align: middle;
    text-align: center;
-   height: 320px;
-   padding: 30px;
+   height: 20rem;
+   padding: 1.875rem;
    background: #EF476F;
    -webkit-transition: .3s;
    -moz-transition: .3s;
    -o-transition: .3s;
    transition: .3s;
    opacity: 0;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
+   -webkit-border-radius: 0.1875rem;
+   -moz-border-radius: 0.1875rem;
+   border-radius: 0.1875rem;
 }
 
 .single_case_study:hover .case_study_wrapper {
@@ -283,12 +283,12 @@ textarea {
 }
 
 .case_study_wrapper h4 {
-   margin: 10px 0px 30px 0px;
-   font-size: 17px;
+   margin: 0.625rem 0rem 1.875rem 0rem;
+   font-size: 1.0625rem;
 }
 
 .case_study_wrapper h3 {
-   font-size: 24px;
+   font-size: 1.5rem;
 }
 
 .case_study_wrapper p {
@@ -296,8 +296,8 @@ textarea {
 }
 
 a.case_study_more {
-   width: 40px;
-   height: 40px;
+   width: 2.5rem;
+   height: 2.5rem;
    background: #fff;
    display: -webkit-box;
    display: -webkit-flex;
@@ -314,7 +314,7 @@ a.case_study_more {
    -moz-box-align: center;
    -ms-flex-align: center;
    align-items: center;
-   margin: 15px auto 0px;
+   margin: 0.9375rem auto 0rem;
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
    border-radius: 50%;
@@ -339,10 +339,10 @@ a.case_study_more {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-   width: 20px;
-   height: 3px;
+   width: 1.25rem;
+   height: 0.1875rem;
    background-color: #E2E2E2;
-   margin-top: 20px;
+   margin-top: 1.25rem;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -360,15 +360,15 @@ a.case_study_more {
      Testimonial Section Start
 ***************************************/
 .testimonial_content p {
-   font-size: 24px;
+   font-size: 1.5rem;
    color: #373737;
    font-weight: 400;
 }
 
 .testimonial_carousel.owl-carousel .owl-item .testimonial_meta img {
-   width: 60px;
+   width: 3.75rem;
    display: inline-block;
-   margin-top: 30px;
+   margin-top: 1.875rem;
    background-color: #F0F0F2;
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
@@ -376,31 +376,31 @@ a.case_study_more {
 }
 
 .testimonial_carousel.owl-theme.owl-carousel .owl-dots {
-   margin-top: 25px;
+   margin-top: 1.5625rem;
 }
 
 .testimonial_meta h4 {
-   font-size: 18px;
-   margin: 25px 0px 10px;
+   font-size: 1.125rem;
+   margin: 1.5625rem 0rem 0.625rem;
 }
 
 .testimonial_meta p {
-   font-size: 14px;
+   font-size: 0.875rem;
    font-weight: 300;
 }
 
 .cta_area {
    background-color: #F8F8F8;
-   padding: 60px 0px;
+   padding: 3.75rem 0rem;
 }
 
 .cta_area h2 {
-   font-size: 28px;
+   font-size: 1.75rem;
 }
 
 .cta_area .boxed_btn {
-   font-size: 14px;
-   padding: 15px 25px;
+   font-size: 0.875rem;
+   padding: 0.9375rem 1.5625rem;
 }
 
 /************************************** 
@@ -412,9 +412,9 @@ a.case_study_more {
      Pricing Section Start
 ***************************************/
 .single_pricing_box {
-   border: 1px solid #fbfbfb;
-   padding: 30px;
-   margin-bottom: 75px;
+   border: 0.0625rem solid #fbfbfb;
+   padding: 1.875rem;
+   margin-bottom: 4.6875rem;
    -webkit-transition: .2s;
    -o-transition: .2s;
    -moz-transition: .2s;
@@ -422,7 +422,7 @@ a.case_study_more {
 }
 
 .pricing_content {
-   font-size: 17px;
+   font-size: 1.0625rem;
    line-height: 2.4;
    font-weight: 300;
 }
@@ -432,9 +432,9 @@ a.case_study_more {
 }
 
 .pricing_heading {
-   border-bottom: 1px solid #fafafa;
-   padding-bottom: 30px;
-   margin-bottom: 15px;
+   border-bottom: 0.0625rem solid #fafafa;
+   padding-bottom: 1.875rem;
+   margin-bottom: 0.9375rem;
    -webkit-transition: .2s;
    -o-transition: .2s;
    -moz-transition: .2s;
@@ -443,22 +443,22 @@ a.case_study_more {
 
 .pricing_count {
    font-weight: 400;
-   font-size: 50px;
+   font-size: 3.125rem;
    color: #ef476f;
 }
 
 .pricing_heading h4 {
-   font-size: 20px;
-   margin: 25px 0px 15px;
+   font-size: 1.25rem;
+   margin: 1.5625rem 0rem 0.9375rem;
 }
 
 .pricing_heading span {
    font-weight: 300;
-   font-size: 14px;
+   font-size: 0.875rem;
 }
 
 .pricing_content ul {
-   margin-bottom: 40px;
+   margin-bottom: 2.5rem;
 }
 
 .pricing_content ul li {
@@ -467,11 +467,11 @@ a.case_study_more {
    -moz-transition: .2s;
    transition: .2s;
    cursor: pointer;
-   border-bottom: 1px solid transparent;
+   border-bottom: 0.0625rem solid transparent;
 }
 
 .pricing_content ul li:hover {
-   border-bottom: 1px solid;
+   border-bottom: 0.0625rem solid;
 }
 
 .pricing_content a.boxed_btn {
@@ -499,7 +499,7 @@ a.case_study_more {
 }
 
 .single_logo_item {
-   height: 100px;
+   height: 6.25rem;
    display: -webkit-box;
    display: -webkit-flex;
    display: -moz-box;
@@ -536,7 +536,7 @@ a.case_study_more {
 ***************************************/
 .footer_area {
    background: #fdfdfd;
-   padding: 100px 0px;
+   padding: 6.25rem 0rem;
 }
 
 .footer_area a {
@@ -545,8 +545,8 @@ a.case_study_more {
 }
 
 .footer_area h4 {
-   font-size: 20px;
-   margin-bottom: 25px;
+   font-size: 1.25rem;
+   margin-bottom: 1.5625rem;
 }
 
 .footer_area li {
@@ -555,23 +555,23 @@ a.case_study_more {
 }
 
 .email_subscribe_form input[type="email"] {
-   border: 1px solid transparent;
-   margin-right: -5px;
+   border: 0.0625rem solid transparent;
+   margin-right: -0.3125rem;
    width: 60%;
-   padding: 15px 10px;
+   padding: 0.9375rem 0.625rem;
    background-color: #F6F6F6;
 }
 
 .email_subscribe_form input[type="submit"] {
-   -webkit-border-radius: 0px 3px 3px 0px;
-   -moz-border-radius: 0px 3px 3px 0px;
-   border-radius: 0px 3px 3px 0px;
-   padding: 15px 25px;
-   border: 1px solid transparent;
+   -webkit-border-radius: 0rem 0.1875rem 0.1875rem 0rem;
+   -moz-border-radius: 0rem 0.1875rem 0.1875rem 0rem;
+   border-radius: 0rem 0.1875rem 0.1875rem 0rem;
+   padding: 0.9375rem 1.5625rem;
+   border: 0.0625rem solid transparent;
 }
 
 .social_links {
-   margin-top: 40px;
+   margin-top: 2.5rem;
 }
 
 .social_links ul li {
@@ -580,7 +580,7 @@ a.case_study_more {
 }
 
 .social_links ul li a i {
-   padding-right: 10px;
+   padding-right: 0.625rem;
    color: #373737;
 }
 
@@ -604,7 +604,7 @@ a.case_study_more {
     Copyright Area Start
 ***************************************/
 .copyright_area {
-   padding: 15px 0px;
+   padding: 0.9375rem 0rem;
    background: #f7f7f7;
 }
 
@@ -613,8 +613,8 @@ a.case_study_more {
 }
 
 .bottom_to_top {
-   width: 50px;
-   height: 50px;
+   width: 3.125rem;
+   height: 3.125rem;
    background: #ef476f;
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
@@ -623,7 +623,7 @@ a.case_study_more {
    position: fixed;
    bottom: 13%;
    left: 95%;
-   font-size: 30px;
+   font-size: 1.875rem;
    display: -webkit-box;
    display: -webkit-flex;
    display: -moz-box;
@@ -650,4 +650,57 @@ a.case_study_more {
 
 /************************************** 
     Copyright Area End
+***************************************/
+
+
+/************************************** 
+   Home-2 Hero Area Start
+***************************************/
+.hero_form {
+   background-color: #fff;
+   padding: 30px;
+   color: #999;
+   position: relative;
+   z-index: 1;
+   border-radius: 5px;
+}
+
+.hero_form:after {
+   content: '';
+   position: absolute;
+   background-color: rgba(255, 255, 255, 0.2);
+   width: 100%;
+   height: 100%;
+   top: 10px;
+   left: 10px;
+   border-radius: 5px;
+   z-index: -1;
+}
+
+.hero_form_header h3 {
+   font-size: 22px;
+}
+
+.hero_form_header p {
+   font-size: 14px;
+   margin-top: 10px;
+}
+
+.hero_form_header {
+   margin-bottom: 35px;
+}
+
+.hero_form input {
+   width: 100%;
+   margin-top: 15px;
+}
+
+.hero_form input[type="submit"] {
+   width: 200px;
+   margin-top: 35px;
+   display: inline-block;
+}
+
+/************************************** 
+   Home-2 Hero Area End
 ***************************************/

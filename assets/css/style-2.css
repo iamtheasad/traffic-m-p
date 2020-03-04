@@ -1,0 +1,18 @@
+.hero_area {
+   background-image: url(../img/home-2/home-2-hero-bg.jpg);
+   background-color: #3394F5;
+   color: #fff;
+   background-position: center;
+   background-size: cover;
+   line-height: 1.9;
+   padding: 80px;
+}
+
+.hero_area h1 {
+   font-size: 50px;
+   color: #fff;
+}
+
+.boxed_btn {
+   background-color: #06D6A0;
+}

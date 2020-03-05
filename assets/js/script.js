@@ -31,7 +31,7 @@
             items: 1,
             loop: true,
             margin: 0,
-            nav: true,
+            nav: false,
             autoplay: true,
             autoplaySpeed: 1000,
         });
@@ -78,6 +78,19 @@
 
         });
         /* Scroll to Top Button End */
+
+
+        
+        /* Home-2 Testimonial Slider Start */
+        $(".home_2_testimonial_carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 0,
+            nav: false,
+            autoplay: true,
+            autoplaySpeed: 1000,
+        });
+        /* Home-2 Testimonial Slider End */
 
     });
 

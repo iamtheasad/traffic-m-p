@@ -367,6 +367,7 @@ a.case_study_more {
 
 .testimonial_carousel.owl-carousel .owl-item .testimonial_meta img {
    width: 3.75rem;
+   height: 3.75rem;
    display: inline-block;
    margin-top: 1.875rem;
    background-color: #F0F0F2;

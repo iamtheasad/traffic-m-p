@@ -283,3 +283,48 @@ a.single_service_box_2 h3 {
 /************************************** 
     Home-2 Case Study End
 ***************************************/
+
+
+/************************************** 
+    Home-2 Pricing Table Start
+***************************************/
+.single_pricing_box.theme_2 {
+   border: none;
+}
+
+.theme_2 .pricing_heading {
+   background-color: #FBFBFB;
+   padding: 25px;
+   margin-bottom: 50px;
+   border: none;
+}
+
+.theme_2 .pricing_heading h4 {
+   margin: 0px 0px 15px;
+}
+
+.single_pricing_box.theme_2:hover .pricing_heading h4 {
+   background: -webkit-linear-gradient(#05bdfe, #4482ec);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.theme_2 p.pricing_count {
+   background: -webkit-linear-gradient(#05bdfe, #4482ec);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.theme_2 .pricing_content ul li:hover,
+.theme_2 .pricing_content ul li {
+   border: none;
+}
+
+.theme_2 .pricing_content a.boxed_btn {
+   display: block;
+   border-radius: 0px;
+}
+
+/************************************** 
+    Home-2 Pricing Table End
+***************************************/

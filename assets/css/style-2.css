@@ -290,6 +290,7 @@ a.single_service_box_2 h3 {
 ***************************************/
 .single_pricing_box.theme_2 {
    border: none;
+   margin: 0px;
 }
 
 .theme_2 .pricing_heading {
@@ -322,9 +323,88 @@ a.single_service_box_2 h3 {
 
 .theme_2 .pricing_content a.boxed_btn {
    display: block;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
    border-radius: 0px;
 }
 
 /************************************** 
     Home-2 Pricing Table End
+***************************************/
+
+
+/************************************** 
+    Home-2 Blog Section Start
+***************************************/
+.single_blog_box {
+   border: 1px solid #F3F3F3;
+   padding: 50px 25px;
+   -webkit-transition: .2s;
+   -moz-transition: .2s;
+   -o-transition: .2s;
+   transition: .2s;
+}
+
+.single_blog_box:hover {
+   border-color: #FBFBFB;
+   background: #FBFBFB;
+}
+
+.single_blog_box h3 {
+   font-size: 20px;
+}
+
+.single_blog_box p {
+   font-weight: 300;
+   line-height: 24px;
+   margin: 20px 0px;
+}
+
+a.blog_readmore_btn {
+   color: #06d6a0;
+   font-weight: 400;
+   text-decoration: none;
+}
+
+a.blog_readmore_btn i {
+   padding-left: 5px;
+}
+
+/************************************** 
+    Home-2 Blog Section End
+***************************************/
+
+
+/************************************** 
+    Home-2 Call To Action Section Start
+***************************************/
+
+.cta_area.theme_2 h2 {
+   color: #fff;
+   margin-bottom: 35px;
+}
+
+.cta_area.theme_2 {
+   background: #58d4fe;
+   background: -moz-linear-gradient(top, #58d4fe 1%, #7db9e8 100%);
+   background: -webkit-linear-gradient(top, #58d4fe 1%, #7db9e8 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #58d4fe), to(#7db9e8));
+   background: -o-linear-gradient(top, #58d4fe 1%, #7db9e8 100%);
+   background: linear-gradient(to bottom, #58d4fe 1%, #7db9e8 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#58d4fe', endColorstr='#7db9e8', GradientType=0);
+
+}
+
+.cta_area.theme_2 a.boxed_btn {
+   padding-left: 55px;
+   padding-right: 55px;
+   font-size: 14px;
+   color: #333;
+   font-weight: 400;
+   letter-spacing: 1px;
+   background-color: #fff;
+}
+
+/************************************** 
+    Home-2 Call To Action Section End
 ***************************************/

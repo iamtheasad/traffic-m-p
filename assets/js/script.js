@@ -101,7 +101,7 @@
             dots: true,
             nav: true,
             navText: ['<i class="zmdi zmdi-long-arrow-left"></i>', '<i class="zmdi zmdi-long-arrow-right"></i>'],
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 1000,
             responsive: {
                 0: {

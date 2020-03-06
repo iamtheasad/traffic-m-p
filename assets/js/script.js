@@ -92,6 +92,28 @@
         });
         /* Home-2 Testimonial Slider End */
 
+
+        /* Home-3 Hero Slider Start */
+        $(".homepage_3_slides").owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 0,
+            dots: true,
+            nav: true,
+            navText: ['<i class="zmdi zmdi-long-arrow-left"></i>', '<i class="zmdi zmdi-long-arrow-right"></i>'],
+            autoplay: false,
+            autoplaySpeed: 1000,
+            responsive: {
+                0: {
+                    nav: false,
+                },
+                600: {
+                    nav: true,
+                }
+            }
+        });
+        /* Home-3 Hero Slider End */
+
     });
 
 })();

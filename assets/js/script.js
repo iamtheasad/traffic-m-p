@@ -130,7 +130,7 @@
 
         /* Home-4 Search Box Show and Hide Start */
         $(".search_trigger").on('click', function () {
-            $('.search_box').addClass('active');
+            $('.search_box').toggleClass('active');
         });
 
         $('.homepage_4_slides').on('click', function () {

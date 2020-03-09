@@ -109,14 +109,6 @@ a.video_play_btn {
    background-color: #06d6a0;
 }
 
-.menu_area.header_absolute {
-   position: absolute;
-   z-index: 10;
-   width: 100%;
-   left: 0;
-   top: 0;
-}
-
 .menu_area .main_menu ul li a {
    color: #fff;
 }
@@ -285,6 +277,14 @@ a.case_study_more_3 {
 ***************************************/
 .blog_thumb_bg_1 {
    background: url(../img/home-3/blog_1.jpg);
+}
+
+.blog_thumb_bg_2 {
+   background: url(../img/home-3/blog_2.jpg);
+}
+
+.blog_thumb_bg_3 {
+   background: url(../img/home-3/blog_3.jpg);
 }
 
 a.single_blog_box {

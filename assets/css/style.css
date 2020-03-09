@@ -98,6 +98,14 @@ button[type="submit"] {
 /************************************** 
      Header Section Start
 ***************************************/
+.menu_area.header_absolute {
+   position: absolute;
+   z-index: 10;
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+
 .hero_area {
    font-weight: 300;
    padding: 9.375rem 0rem;

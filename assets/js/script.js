@@ -80,7 +80,7 @@
         /* Scroll to Top Button End */
 
 
-        
+
         /* Home-2 Testimonial Slider Start */
         $(".home_2_testimonial_carousel").owlCarousel({
             items: 1,
@@ -114,6 +114,29 @@
         });
         /* Home-3 Hero Slider End */
 
-    });
 
+        /* Home-4 Canvas Menu Show and Off Start */
+        $('.menu_trigger').on('click', function () {
+            $('.off_canvas_menu').addClass('show_off_canvas_menu');
+            $('.off_canvas_menu_shade').addClass('active');
+        });
+
+        $('.menu_close, .off_canvas_menu_shade').on('click', function () {
+            $('.off_canvas_menu').removeClass('show_off_canvas_menu');
+            $('.off_canvas_menu_shade').removeClass('active');
+        });
+        /* Home-4 Canvas Menu Show and Off End */
+
+
+        /* Home-4 Search Box Show and Hide Start */
+        $(".search_trigger").on('click', function () {
+            $('.search_box').addClass('active');
+        });
+
+        $('.homepage_4_slides').on('click', function () {
+            $('.search_box').removeClass('active');
+        });
+        /* Home-4 Search Box Show and Hide End */
+
+    });
 })();

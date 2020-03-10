@@ -348,7 +348,7 @@ How can traffic help my buisness grow End
 
 .service_box_4 h4 {
    font-size: 18px;
-   margin: 20px 0px 25px;
+   margin: 10px 0px 25px;
 }
 
 .service_icon_4 {
@@ -358,4 +358,54 @@ How can traffic help my buisness grow End
 
 /************************************** 
    Service Section End
+***************************************/
+
+
+/************************************** 
+   How traffic work Start
+***************************************/
+.cta_area.theme_4 {
+   position: relative;
+   z-index: 1;
+   color: #fff;
+   padding: 90px 0px;
+}
+
+.cta_area.theme_4:after {
+   content: '';
+   position: absolute;
+   background-image: url(../img/home-4/how_to_bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   z-index: -1;
+}
+
+.cta_area.theme_4 h2 {
+   font-size: 36px;
+   color: #fff;
+}
+
+.cta_area.theme_4 p {
+   margin: 25px 0px 20px;
+}
+
+.video_play_icon {
+   font-size: 20px;
+   background: #06D6A0;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid transparent;
+}
+
+/************************************** 
+   How traffic work End
 ***************************************/

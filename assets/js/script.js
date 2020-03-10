@@ -80,6 +80,12 @@
         /* Scroll to Top Button End */
 
 
+        // Navigation Background Change on Scrolling
+        $(window).scroll(function () {
+            $('.menu_area').toggleClass('scrolled', $(this).scrollTop() > 100
+            );
+        });
+
 
         /* Home-2 Testimonial Slider Start */
         $(".home_2_testimonial_carousel").owlCarousel({
@@ -137,6 +143,9 @@
             $('.search_box').removeClass('active');
         });
         /* Home-4 Search Box Show and Hide End */
+
+
+
 
     });
 })();

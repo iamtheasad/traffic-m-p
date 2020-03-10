@@ -376,6 +376,9 @@ How can traffic help my buisness grow End
    position: absolute;
    background-image: url(../img/home-4/how_to_bg.jpg);
    background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
    background-size: cover;
    background-attachment: fixed;
    width: 100%;
@@ -399,13 +402,56 @@ How can traffic help my buisness grow End
    background: #06D6A0;
    width: 70px;
    height: 70px;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
    border-radius: 50%;
+   display: -webkit-inline-box;
+   display: -webkit-inline-flex;
+   display: -moz-inline-box;
+   display: -ms-inline-flexbox;
    display: inline-flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -moz-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
    border: 1px solid transparent;
 }
 
 /************************************** 
    How traffic work End
+***************************************/
+
+
+/************************************** 
+   Feature Section Start
+***************************************/
+.feature_content h2 {
+   font-size: 26px;
+}
+
+.feature_content p {
+   margin: 20px 0px 40px;
+}
+
+.single_feature_item h3 {
+   font-size: 18px;
+}
+
+.single_feature_item p {
+   margin: 20px 0px 30px;
+}
+
+.feature_icon {
+   font-size: 35px;
+   color: #06D6A0;
+}
+
+/************************************** 
+   Feature Section End
 ***************************************/

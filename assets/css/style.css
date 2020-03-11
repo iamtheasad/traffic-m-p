@@ -38,6 +38,9 @@ img {
    height: auto;
 }
 
+.slide_items_wrapper span {
+   display: none;
+}
 
 /************************************** 
       Menu Section Start
@@ -88,7 +91,6 @@ button[type="submit"] {
    border: none;
    font-weight: 400;
 }
-
 
 /************************************** 
       Menu Section End
@@ -712,4 +714,119 @@ a.case_study_more {
 
 /************************************** 
    Home-2 Hero Area End
+***************************************/
+
+/************************************** 
+   Home-4 Call to Action Start
+***************************************/
+.cta_area.call_to_action_4 {
+   background-image: url(../img/home-4/call_to_action.jpg);
+   background-color: #073b4c;
+   z-index: 1;
+   position: relative;
+   color: #fff;
+   background-position: center;
+   background-size: cover;
+}
+
+.cta_area.call_to_action_4:after {
+   content: '';
+   position: absolute;
+   background: #073b4c;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   opacity: .62;
+   z-index: -1;
+}
+
+.cta_area.call_to_action_4 h2 {
+   font-size: 36px;
+   color: #fff;
+}
+
+.cta_area.call_to_action_4 p {
+   font-size: 16px;
+   margin: 20px 0px;
+}
+
+.cta_area.call_to_action_4 a.boxed_btn {
+   background: #06D6A0;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+
+/************************************** 
+   Home-4 Call to Action End
+***************************************/
+
+
+/************************************** 
+  Serives v1 what we do for you Start
+***************************************/
+.cta_area.call_to_action_4.services_cta_v1.what_we_do {
+   background-image: url(../img/services-v1/what_we_do_bg.jpg);
+   padding: 150px 0px;
+}
+
+.cta_area.call_to_action_4.services_cta_v1.what_we_do:after {
+   opacity: .4;
+}
+
+.cta_area.call_to_action_4.services_cta_v1.what_we_do h2 {
+   font-weight: 700;
+}
+
+.cta_area.call_to_action_4.services_cta_v1.what_we_do p {
+   font-size: 22px;
+   font-weight: 400;
+}
+
+/************************************** 
+   Serives v1 what we do for you End
+***************************************/
+
+
+/************************************** 
+   All Services v1 Start
+***************************************/
+.all_services_v1 .singl_service_box:hover {
+   border-color: #06d6a0;
+}
+
+.all_services_v1 .singl_service_box:hover .service_icon,
+.all_services_v1 .singl_service_box:hover .service_readmore_btn,
+.all_services_v1 .singl_service_box:hover h3 {
+   color: #06d6a0;
+}
+
+.all_services_v1 .service_icon,
+.all_services_v1 .service_readmore_btn,
+.all_services_v1 .singl_service_box {
+   transition: .2s;
+}
+
+/************************************** 
+   All Services v1 End
+***************************************/
+
+
+/************************************** 
+   Services v1 Call to Action Start
+***************************************/
+.cta_area.call_to_action_4.services_cta_v1 {
+   background-image: url(../img/services-v1/services_v1_cta_bg.jpg);
+}
+
+.cta_area.call_to_action_4.services_cta_v1 h2 {
+   font-weight: 700;
+}
+
+.cta_area.call_to_action_4.services_cta_v1 p {
+   font-weight: 300;
+}
+
+/************************************** 
+   Services v1 Call to Action End
 ***************************************/

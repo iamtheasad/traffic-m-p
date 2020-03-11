@@ -121,6 +121,38 @@
         /* Home-3 Hero Slider End */
 
 
+        /* Home-3 Header Start */
+        $('.video_play_btn').magnificPopup({
+            type: 'iframe',
+
+            iframe: {
+                markup: '<div class="mfp-iframe-scaler">' +
+                    '<div class="mfp-close"></div>' +
+                    '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+                    '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+
+                patterns: {
+                    youtube: {
+                        index: 'youtube.com/', // String that detects type of video (in this case YouTube). Simply via url.indexOf(index).
+
+                        id: 'v=', // String that splits URL in a two parts, second part should be %id%
+                        // Or null - full URL will be returned
+                        // Or a function that should return %id%, for example:
+                        // id: function(url) { return 'parsed id'; }
+
+                        src: 'https://www.youtube.com/embed/%id%?autoplay=2' // URL that will be set as a source for iframe.
+                    }
+
+                    // you may add here more sources
+
+                },
+
+                srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
+            }
+        });
+        /* Home-3 Header End */
+
+
         /* Home-4 Canvas Menu Show and Off Start */
         $('.menu_trigger').on('click', function () {
             $('.off_canvas_menu').addClass('show_off_canvas_menu');
@@ -144,6 +176,45 @@
         });
         /* Home-4 Search Box Show and Hide End */
 
+
+        /* Home-4 Testimonial Hover Effect Start */
+        $('.single_testimial_box_4').hover(function () {
+            $('.single_testimial_box_4').removeClass('active');
+            $(this).addClass('active');
+        });
+        /* Home-4 Testimonial Hover Effect End */
+
+
+        /* Home-4 How Traffic Work Popup Video Start */
+        $('.video_play_icon').magnificPopup({
+            type: 'iframe',
+
+            iframe: {
+                markup: '<div class="mfp-iframe-scaler">' +
+                    '<div class="mfp-close"></div>' +
+                    '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+                    '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+
+                patterns: {
+                    youtube: {
+                        index: 'youtube.com/', // String that detects type of video (in this case YouTube). Simply via url.indexOf(index).
+
+                        id: 'v=', // String that splits URL in a two parts, second part should be %id%
+                        // Or null - full URL will be returned
+                        // Or a function that should return %id%, for example:
+                        // id: function(url) { return 'parsed id'; }
+
+                        src: 'https://www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe.
+                    }
+
+                    // you may add here more sources
+
+                },
+
+                srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
+            }
+        });
+        /* Home-4 How Traffic Work Popup Video End */
 
 
 

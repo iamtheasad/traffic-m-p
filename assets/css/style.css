@@ -807,8 +807,8 @@ a.case_study_more {
    transition: .2s;
 }
 
-.footer_area li:hover a,
-.social_links ul li:hover a {
+.footer_area.service_v1 li:hover a,
+.social_links.service_v1 ul li:hover a {
    color: #06D6A0;
 }
 
@@ -893,4 +893,41 @@ a.case_study_more {
 
 /************************************** 
    Services v2 Section End
+***************************************/
+
+
+/************************************** 
+   Service Details Pricing Box Start
+***************************************/
+section.cta_area.call_to_action_4.service_details.what_we_do {
+   padding: 150px 0px;
+   background-image: url(../img/Service-Details/service_details.jpg);
+}
+
+.service_details .single_pricing_box:hover {
+   border-color: #06D6A0;
+}
+
+.service_details .single_pricing_box:hover .pricing_heading {
+   border-color: #06D6A0;
+}
+
+.service_details .pricing_count {
+   color: #06D6A0;
+}
+
+.service_details .pricing_content ul li:hover {
+   border-bottom: 0.0625rem solid transparent;
+}
+
+.menu_area.service_details .main_menu ul li a {
+   color: #888;
+}
+
+.menu_area.service_details .main_menu ul li:hover a {
+   color: #06D6A0;
+}
+
+/************************************** 
+   Service Details Pricing Box End
 ***************************************/

@@ -807,6 +807,15 @@ a.case_study_more {
    transition: .2s;
 }
 
+.footer_area li:hover a,
+.social_links ul li:hover a {
+   color: #06D6A0;
+}
+
+.all_services_v1 .service_icon {
+   color: #373737;
+}
+
 /************************************** 
    All Services v1 End
 ***************************************/
@@ -829,4 +838,59 @@ a.case_study_more {
 
 /************************************** 
    Services v1 Call to Action End
+***************************************/
+
+
+/************************************** 
+   Serives v2 what we do for you Start
+***************************************/
+.cta_area.call_to_action_4.services_cta_v2.what_we_do {
+   padding: 150px 0px;
+   background-image: url(../img/services-v2/what_we_do_bg.jpg);
+}
+
+/************************************** 
+   Serives v2 what we do for you End
+***************************************/
+
+
+/************************************** 
+   Services v2 Call to Action Start
+***************************************/
+.cta_area.call_to_action_4.services_cta_v2 {
+   background-image: url(../img/services-v2/services_v2_cta_bg.jpg);
+}
+
+/************************************** 
+   Services v2 Call to Action End
+***************************************/
+
+/************************************** 
+   Services v2 Section Start
+***************************************/
+.all_services_v2 .singl_service_box:hover .service_icon,
+.all_services_v2 .singl_service_box:hover .service_readmore_btn,
+.all_services_v2 .singl_service_box:hover h3 {
+   color: #06D6A0;
+}
+
+.all_services_v2 .singl_service_box:hover {
+   border-color: #06D6A0;
+}
+
+.all_services_v2 .service_number {
+   font-size: 70px;
+   color: #DCDCDC;
+   font-weight: 400;
+   margin-bottom: -15px;
+   display: block;
+}
+
+.all_services_v2 .singl_service_box {
+   border: 2px solid transparent;
+   margin-bottom: 0px;
+}
+
+/************************************** 
+   Services v2 Section End
 ***************************************/

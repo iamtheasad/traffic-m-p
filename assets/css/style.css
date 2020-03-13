@@ -566,6 +566,10 @@ a.case_study_more {
    line-height: 2;
 }
 
+.footer_area li a {
+   transition: .2s;
+}
+
 .email_subscribe_form input[type="email"] {
    border: 0.0625rem solid transparent;
    margin-right: -0.3125rem;
@@ -1935,7 +1939,8 @@ p.author_detail strong {
    padding-right: 10px;
 }
 
-.footer_area.theme_4 li:hover a {
+.footer_area.theme_4 li:hover a,
+.service_details.footer_area li:hover a {
    color: #06D6A0;
 }
 

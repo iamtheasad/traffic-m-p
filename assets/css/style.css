@@ -1,3 +1,6 @@
+/* Adobe Fonts */
+@import url("https://use.typekit.net/ayk8xpr.css");
+
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&display=swap');
 
@@ -942,13 +945,18 @@ a.case_study_more {
 /************************************** 
    Service Details Pricing Box Start
 ***************************************/
-section.cta_area.call_to_action_4.service_details.what_we_do {
+.cta_area.call_to_action_4.service_details.what_we_do {
    padding: 150px 0px;
    background-image: url(../img/Service-Details/service_details.jpg);
 }
 
-section.cta_area.call_to_action_4.service_details.what_we_do.main_blog {
-   background-image: url(../img/blog/blog_breadcrumb_bg.jpg);
+.cta_area.call_to_action_4.service_details.what_we_do.single_blog {
+   background-image: url(../img/blog/single_blog_breadcrumb.jpg);
+}
+
+section.cta_area.call_to_action_4.service_details.what_we_do {
+   padding: 150px 0px;
+   background-image: url(../img/Service-Details/service_details.jpg);
 }
 
 .service_details .single_pricing_box:hover {
@@ -2146,4 +2154,85 @@ p.author_detail strong {
 
 /************************************** 
        Copy Right Area End
+***************************************/
+
+
+/************************************** 
+      Single Blog Start
+***************************************/
+.blog_single h3 {
+   font-size: 22px;
+}
+
+.single_blog_socials {
+   border-bottom: 1px solid #fafafa;
+   border-top: 1px solid #fafafa;
+   padding: 30px 0px;
+}
+
+.single_blog_socials li {
+   padding: 20px 30px;
+   border-radius: 30px;
+   list-style: none;
+   display: inline-block;
+   margin-right: 20px;
+}
+
+.single_blog_socials li i {
+   padding-right: 15px;
+}
+
+.single_blog_socials li a {
+   color: #fff;
+   text-decoration: none;
+   display: block;
+   font-family: 'myriad-pro', sans-serif;
+}
+
+.single_blog_socials ul li:nth-child(1) {
+   background: #275BAA;
+}
+
+.single_blog_socials ul li:nth-child(2) {
+   background: #28C8F0;
+}
+
+.single_blog_socials ul li:nth-child(3) {
+   background: #D6061E;
+}
+
+.post_author {
+   border-bottom: 1px solid #fafafa;
+}
+
+.post_author p {
+   padding: 20px 0px;
+}
+
+.reply_form input {
+   width: 100%;
+   margin-bottom: 30px;
+   border-color: #f9f9f9;
+}
+
+.reply_form textarea {
+   width: 100%;
+   border-color: #f9f9f9;
+}
+
+.reply_form input:focus,
+.reply_form textarea:focus {
+   border-color: #06d6a0;
+   outline: none;
+}
+
+input.post_submit {
+   width: 150px;
+   display: inline-block;
+   margin-top: 30px;
+   margin-bottom: 0px;
+}
+
+/************************************** 
+      Single Blog End
 ***************************************/

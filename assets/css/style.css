@@ -42,6 +42,7 @@ img {
    display: none;
 }
 
+
 /************************************** 
       Menu Section Start
 ***************************************/
@@ -878,7 +879,7 @@ a.case_study_more {
    border-color: #06D6A0;
 }
 
-.all_services_v2 .service_number {
+.service_number {
    font-size: 70px;
    color: #DCDCDC;
    font-weight: 400;
@@ -928,6 +929,1052 @@ section.cta_area.call_to_action_4.service_details.what_we_do {
    color: #06D6A0;
 }
 
+.service_details .service_section {
+   margin-top: 0px;
+}
+
+.service_details .service_content {
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+
+.service_details .service_content .service_box_4:last-child {
+   margin-bottom: 0px;
+}
+
+
 /************************************** 
    Service Details Pricing Box End
+***************************************/
+
+
+/************************************** 
+  Home-2 Team Member / Fastest Growing Start 
+***************************************/
+.about_text h3 {
+   margin-bottom: 30px;
+}
+
+.about_text .boxed_btn {
+   margin-top: 18px;
+}
+
+/************************************** 
+   Home-2 Team Member / Fastest Growing End 
+***************************************/
+
+
+/************************************** 
+   Home-2 Service Start
+***************************************/
+a.single_service_box_2 {
+   background: #FBFBFB;
+   width: 100%;
+   height: 250px;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -moz-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   text-align: center;
+   text-decoration: none;
+   position: relative;
+   z-index: 1;
+}
+
+a.single_service_box_2:hover :after {
+   content: '';
+   position: absolute;
+   background: #05bdfe;
+   background: -moz-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: -webkit-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: -webkit-gradient(linear, left top, left bottom, from(#05bdfe), to(#4482ec));
+   background: -o-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: linear-gradient(to bottom, #05bdfe 0%, #4482ec 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05bdfe', endColorstr='#4482ec', GradientType=0);
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+}
+
+a.single_service_box_2:hover .service_icon,
+a.single_service_box_2:hover h3 {
+   color: #fff;
+}
+
+a.single_service_box_2 h3 {
+   -webkit-transition: .1s;
+   -o-transition: .1s;
+   -moz-transition: .1s;
+   transition: .1s;
+}
+
+/************************************** 
+    Home-2 Service End 
+***************************************/
+
+
+/************************************** 
+    Home-2 Testimonial Start
+***************************************/
+.padding-80 {
+   padding: 80px 0px;
+}
+
+.testimonial_icon {
+   background: #fff;
+   border: 1px solid #E8E8E8;
+   width: 60px;
+   height: 60px;
+   margin: 0px auto 40px;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+   color: #299df8;
+}
+
+.single_testimonial_item.theme_2 p {
+   color: #373737;
+   line-height: 2;
+   font-weight: 400;
+   font-size: 18px;
+}
+
+.single_testimonial_item.theme_2 h4 {
+   margin-top: 35px;
+   font-size: 18px;
+}
+
+.single_testimonial_item.theme_2 span {
+   font-weight: 300;
+   font-size: 14px;
+   display: block;
+   line-height: 2;
+}
+
+.home_2_testimonial_carousel.owl-theme .owl-dots .owl-dot.active span {
+   background-color: #06d6a0;
+}
+
+/************************************** 
+    Home-2 Testimonial End
+***************************************/
+
+
+/************************************** 
+    Home-2 Case Study Start
+***************************************/
+.case_study_preview_1 {
+   background-image: url(../img/home-2/home-2-testimonial_1.jpg);
+}
+
+.case_study_preview_2 {
+   background-image: url(../img/home-2/home-2-testimonial_2.jpg);
+}
+
+.case_study_preview_3 {
+   background-image: url(../img/home-2/home-2-testimonial_3.jpg);
+}
+
+.case_study_preview {
+   background-color: #ddd;
+   height: 300px;
+   width: 100%;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+   z-index: 1;
+   display: table;
+}
+
+.case_study_preview:after {
+   content: '';
+   position: absolute;
+   background: #05bdfe;
+   background: -moz-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: -webkit-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: -webkit-gradient(linear, left top, left bottom, from(#05bdfe), to(#4482ec));
+   background: -o-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+   background: linear-gradient(to bottom, #05bdfe 0%, #4482ec 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05bdfe', endColorstr='#4482ec', GradientType=0);
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   opacity: 0;
+   -webkit-transition: .3s;
+   -moz-transition: .3s;
+   -o-transition: .3s;
+   transition: .3s;
+   z-index: -1;
+   -webkit-transform: scale(.8);
+   -moz-transform: scale(.8);
+   -ms-transform: scale(.8);
+   -o-transform: scale(.8);
+   transform: scale(.8);
+}
+
+.case_study_link_tablecell {
+   opacity: 0;
+   -webkit-transition: .4s;
+   -moz-transition: .4s;
+   -o-transition: .4s;
+   transition: .4s;
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.case_study_link_tablecell a {
+   background: #fff;
+   color: #373737;
+   font-size: 14px;
+}
+
+.case_study_link_tablecell a i {
+   padding-left: 10px;
+}
+
+.case_study_box_style_2 h4 {
+   font-size: 18px;
+   margin-top: 30px;
+}
+
+.case_study_box_style_2 p {
+   font-size: 14px;
+   font-weight: 300;
+   margin-top: 5px;
+}
+
+.case_study_box_style_2 {
+   -webkit-transition: .3s;
+   -o-transition: .3s;
+   -moz-transition: .3s;
+   transition: .3s;
+}
+
+.case_study_box_style_2:hover .case_study_preview:after {
+   -webkit-transform: scale(1);
+   -moz-transform: scale(1);
+   -o-transform: scale(1);
+   -ms-transform: scale(1);
+   transform: scale(1);
+}
+
+.case_study_box_style_2:hover .case_study_preview:after {
+   opacity: .5;
+}
+
+.case_study_box_style_2:hover .case_study_link_tablecell {
+   opacity: 1;
+}
+
+/************************************** 
+    Home-2 Case Study End
+***************************************/
+
+
+/************************************** 
+    Home-2 Pricing Table Start
+***************************************/
+.single_pricing_box.theme_2 {
+   border: none;
+   margin: 0px;
+}
+
+.theme_2 .pricing_heading {
+   background-color: #FBFBFB;
+   padding: 25px;
+   margin-bottom: 50px;
+   border: none;
+}
+
+.theme_2 .pricing_heading h4 {
+   margin: 0px 0px 15px;
+}
+
+.single_pricing_box.theme_2:hover .pricing_heading h4 {
+   background: -webkit-linear-gradient(#05bdfe, #4482ec);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.theme_2 p.pricing_count {
+   background: -webkit-linear-gradient(#05bdfe, #4482ec);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.theme_2 .pricing_content ul li:hover,
+.theme_2 .pricing_content ul li {
+   border: none;
+}
+
+.theme_2 .pricing_content a.boxed_btn {
+   display: block;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+}
+
+/************************************** 
+    Home-2 Pricing Table End
+***************************************/
+
+
+/************************************** 
+    Home-2 Blog Section Start
+***************************************/
+.single_blog_box {
+   border: 1px solid #F3F3F3;
+   padding: 50px 25px;
+   -webkit-transition: .2s;
+   -moz-transition: .2s;
+   -o-transition: .2s;
+   transition: .2s;
+}
+
+.single_blog_box:hover {
+   border-color: #FBFBFB;
+   background: #FBFBFB;
+}
+
+.single_blog_box h3 {
+   font-size: 20px;
+}
+
+.single_blog_box p {
+   font-weight: 300;
+   line-height: 24px;
+   margin: 20px 0px;
+}
+
+a.blog_readmore_btn {
+   color: #06d6a0;
+   font-weight: 400;
+   text-decoration: none;
+}
+
+a.blog_readmore_btn i {
+   padding-left: 5px;
+}
+
+/************************************** 
+    Home-2 Blog Section End
+***************************************/
+
+
+/************************************** 
+    Home-2 Call To Action Section Start
+***************************************/
+.cta_area.theme_2 h2 {
+   color: #fff;
+   margin-bottom: 35px;
+}
+
+.cta_area.theme_2 {
+   background: #58d4fe;
+   background: -moz-linear-gradient(top, #58d4fe 1%, #7db9e8 100%);
+   background: -webkit-linear-gradient(top, #58d4fe 1%, #7db9e8 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #58d4fe), to(#7db9e8));
+   background: -o-linear-gradient(top, #58d4fe 1%, #7db9e8 100%);
+   background: linear-gradient(to bottom, #58d4fe 1%, #7db9e8 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#58d4fe', endColorstr='#7db9e8', GradientType=0);
+
+}
+
+.cta_area.theme_2 a.boxed_btn {
+   padding-left: 55px;
+   padding-right: 55px;
+   font-size: 14px;
+   color: #333;
+   font-weight: 400;
+   letter-spacing: 1px;
+   background-color: #fff;
+}
+
+/************************************** 
+    Home-2 Call To Action Section End
+***************************************/
+
+
+/************************************** 
+   Home-3 Get Free SEO Analysis Start
+***************************************/
+.website_check_form input {
+   margin-right: 2%;
+   width: 23%;
+}
+
+.website_check_form input[type="submit"] {
+   width: 15%;
+}
+
+/************************************** 
+  Home-3 Get Free SEO Analysis End 
+***************************************/
+
+
+/************************************** 
+Home-3 About Traffic Section Start
+***************************************/
+.theme_3 .about_text h3 {
+   font-size: 24px;
+}
+
+.theme_3 .about_text p {
+   font-weight: 300;
+   margin: 30px 0px 25px;
+}
+
+.theme_3 .about_text a.boxed_btn {
+   font-size: 14px;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+
+/************************************** 
+  Home-3 About Traffic Section End
+***************************************/
+
+
+/************************************** 
+  Home-3 Service Section Start
+***************************************/
+.theme_3 .singl_service_box:hover .service_icon,
+.theme_3 .singl_service_box:hover .service_readmore_btn,
+.theme_3 .singl_service_box:hover h3 {
+   color: #06D6A0;
+}
+
+.theme_3 .singl_service_box:hover {
+   border-color: #06D6A0;
+}
+
+.theme_3 .singl_service_box {
+   border: 2px solid transparent;
+   margin-bottom: 0px;
+}
+
+/************************************** 
+  Home-3 Service Section End
+***************************************/
+
+
+/************************************** 
+  Home-3 Case Study Sectin Start
+***************************************/
+.single_case_study_3 {
+   height: 300px;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -moz-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   position: relative;
+   z-index: 1;
+}
+
+.single_case_study_3:after {
+   content: '';
+   position: absolute;
+   background: #06d6a0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   z-index: -1;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
+   transition: .2s
+}
+
+.case_study_tablecell h4,
+.case_study_tablecell p,
+.case_study_tablecell a.case_study_more_3 {
+   color: #fff;
+}
+
+.case_study_tablecell {
+   font-size: 20px;
+   opacity: 0;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
+   transition: .2s;
+}
+
+.case_study_tablecell p {
+   font-weight: 300;
+   font-size: 14px;
+   margin: 10px 0px 15px;
+}
+
+a.case_study_more_3 {
+   font-size: 25px;
+}
+
+.single_case_study_3:hover .case_study_tablecell {
+   opacity: 1;
+}
+
+.single_case_study_3:hover:after {
+   opacity: .96;
+}
+
+/************************************** 
+  Home-3 Case Study Sectin End
+***************************************/
+
+
+/************************************** 
+  Home-3 Call to Action Section Start
+***************************************/
+.cta_area.theme_3 {
+   background-image: url(../img/home-3/cta_bg_3.jpg);
+   position: relative;
+   z-index: 1;
+}
+
+.cta_area.theme_3::after {
+   content: '';
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 100%;
+   height: 100%;
+   background: #1d62f0;
+   background: -moz-linear-gradient(45deg, #1d62f0 0%, #1ad8fd 100%);
+   background: -webkit-linear-gradient(45deg, #1d62f0 0%, #1ad8fd 100%);
+   background: -o-linear-gradient(45deg, #1d62f0 0%, #1ad8fd 100%);
+   background: linear-gradient(45deg, #1d62f0 0%, #1ad8fd 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1d62f0', endColorstr='#1ad8fd', GradientType=1);
+   z-index: -1;
+   opacity: .8;
+}
+
+.cta_area.theme_3 h2 {
+   font-size: 40px;
+   color: #fff;
+}
+
+.cta_area.theme_3 p {
+   font-size: 18px;
+   color: #fff;
+   margin: 15px 0px 25px;
+}
+
+.cta_area.theme_3 a.boxed_btn {
+   font-weight: 600;
+   letter-spacing: 1px;
+   background: #fff;
+   color: #373737;
+}
+
+/************************************** 
+  Home-3 Call to Action Section End
+***************************************/
+
+
+/************************************** 
+  Home-3 Footer Area Section Start
+***************************************/
+.footer_area_2 a {
+   color: #888;
+}
+
+.footer_area_2 ul li:hover a,
+.copyright_area_3 li:hover a {
+   color: #06d6a0;
+}
+
+.footer_area_2 li {
+   list-style: none;
+   display: inline-block;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
+   transition: .2s;
+}
+
+.footer_area_2 a {
+   display: inline-block;
+   padding: 10px;
+}
+
+.footer_area_2 {
+   height: 100px;
+}
+
+.social_links_3 a {
+   padding-left: 7px;
+   padding-right: 8px;
+}
+
+/************************************** 
+  Home-3 Footer Area Section End
+***************************************/
+
+
+/************************************** 
+  Home-3 Copy Right Section Start
+***************************************/
+.copyright_area_3 {
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
+   transition: .2s;
+   padding: 30px 0px;
+}
+
+.copyright_area_3 li {
+   list-style: none;
+   display: inline-block;
+}
+
+.copyright_area_3 a {
+   color: #999;
+}
+
+.copyright_area_3 ul li a {
+   padding: 15px;
+   font-weight: 400;
+}
+
+.bottom_to_top button.btn.bottom_to_top {
+   background: #1b1b1b !important;
+}
+
+.copyright_area_3 .bottom_to_top {
+   background: #06D6A0;
+}
+
+.copyright_area_3 .bottom_to_top:hover {
+   color: #2172cf;
+}
+
+/************************************** 
+  Home-3 Copy Right Section End
+***************************************/
+
+
+/*************************************************
+   How can traffic help my buisness grow Start
+**************************************************/
+.about_text {
+   padding-left: 50px;
+}
+
+.about_text h3 {
+   font-size: 26px;
+   margin-bottom: 30px;
+}
+
+a.inline_btn {
+   font-weight: 600;
+   color: #06d6a0;
+   margin-top: 25px;
+   display: inline-block;
+}
+
+a.inline_btn i {
+   padding-left: 5px;
+}
+
+.tile_gallery img:nth-child(2) {
+   position: absolute;
+   right: 0%;
+   top: 0%;
+   -webkit-box-shadow: -3px 10px 15px 0px #bdaba5;
+   -moz-box-shadow: -3px 10px 15px 0px #bdaba5;
+   box-shadow: -3px 10px 15px 0px #bdaba5;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.tile_gallery {
+   height: 480px;
+}
+
+.tile_gallery img:nth-child(1) {
+   position: absolute;
+   bottom: 0%;
+   left: 0%;
+   z-index: 1;
+   -webkit-box-shadow: -3px 10px 15px 0px #bdaba5;
+   -moz-box-shadow: -3px 10px 15px 0px #bdaba5;
+   box-shadow: -3px 10px 15px 0px #bdaba5;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+}
+
+/************************************************* 
+   How can traffic help my buisness grow End
+**************************************************/
+
+
+/************************************** 
+   Service Section Start
+***************************************/
+.service_section {
+   position: relative;
+   z-index: 1;
+   margin-top: 60px;
+}
+
+.service_section:before {
+   background-image: url(../img/home-4/service_bg.jpg);
+   background-color: #073b4c;
+   content: '';
+   position: absolute;
+   width: 50%;
+   height: 100%;
+   right: 0%;
+   top: -60px;
+   background-repeat: no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   -webkit-box-shadow: 0px 4px 7px 1px #D2D2D2;
+   -moz-box-shadow: 0px 4px 7px 1px #D2D2D2;
+   box-shadow: 0px 4px 7px 1px #D2D2D2;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.service_section:after {
+   content: '';
+   position: absolute;
+   background-color: #FDFDFD;
+   width: 54%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   z-index: -1;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: 0px 0px 11px 2px #F2F2F2;
+   -moz-box-shadow: 0px 0px 11px 2px #F2F2F2;
+   box-shadow: 0px 0px 11px 2px #F2F2F2;
+}
+
+.service_details .service_section:after {
+   display: none;
+}
+
+.service_details .service_section:before {
+   display: none;
+}
+
+.service_content {
+   padding-top: 90px;
+   padding-bottom: 40px;
+}
+
+.service_box_4 {
+   margin-bottom: 50px;
+}
+
+.service_box_4 h4 {
+   font-size: 18px;
+   margin: 10px 0px 25px;
+}
+
+.service_icon_4 {
+   color: #06D6A0;
+   font-size: 40px;
+}
+
+/************************************** 
+   Service Section End
+***************************************/
+
+
+/************************************** 
+   How traffic work Start
+***************************************/
+.cta_area.theme_4 {
+   position: relative;
+   z-index: 1;
+   color: #fff;
+   padding: 90px 0px;
+   background-image: url(../img/home-4/how_to_bg.jpg);
+   background-color: #073b4c;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.cta_area.theme_4:after {
+   content: '';
+   background: #000000;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   z-index: -1;
+   opacity: .1;
+}
+
+.cta_area.theme_4 h2 {
+   font-size: 36px;
+   color: #fff;
+}
+
+.cta_area.theme_4 p {
+   margin: 25px 0px 20px;
+}
+
+.video_play_icon {
+   font-size: 20px;
+   background: #06D6A0;
+   width: 70px;
+   height: 70px;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+   display: -webkit-inline-box;
+   display: -webkit-inline-flex;
+   display: -moz-inline-box;
+   display: -ms-inline-flexbox;
+   display: inline-flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -moz-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   border: 1px solid transparent;
+}
+
+/************************************** 
+   How traffic work End
+***************************************/
+
+
+/************************************** 
+   Feature Section Start
+***************************************/
+.feature_content h2 {
+   font-size: 26px;
+}
+
+.feature_content span {
+   margin: 20px 0px;
+   display: block;
+}
+
+.single_feature_item h3 {
+   font-size: 18px;
+}
+
+.single_feature_item {
+   margin-top: 40px;
+}
+
+.single_feature_item h3 {
+   margin-bottom: 30px;
+}
+
+.feature_icon {
+   font-size: 35px;
+   color: #06D6A0;
+}
+
+.image_shadow {
+   -webkit-box-shadow: 0px 2px 15px 0px #ddd;
+   -moz-box-shadow: 0px 2px 15px 0px #ddd;
+   box-shadow: 0px 2px 15px 0px #ddd;
+}
+
+/************************************** 
+   Feature Section End
+***************************************/
+
+
+/************************************** 
+   Testimonial Section Start
+***************************************/
+.single_testimial_box_4 {
+   overflow: hidden;
+}
+
+.testimonial_content_4 {
+   position: relative;
+   color: #cbcbcb;
+   padding: 28px 20px;
+}
+
+.testimonial_content_4:after {
+   content: '';
+   position: absolute;
+   background: #06d6a0;
+   width: 50px;
+   height: 50px;
+   -webkit-transform: skew(21deg) rotate(47deg);
+   -moz-transform: skew(21deg) rotate(47deg);
+   -ms-transform: skew(21deg) rotate(47deg);
+   -o-transform: skew(21deg) rotate(47deg);
+   transform: skew(21deg) rotate(47deg);
+   left: -3px;
+   bottom: -15px;
+   z-index: -1;
+   opacity: 0;
+}
+
+.active .testimonial_content_4:after {
+   opacity: 1;
+}
+
+.active .testimonial_content_4 {
+   background: #06D6A0;
+   color: #fff;
+}
+
+.testimonial_content_4 i {
+   font-size: 40px;
+   margin-bottom: 20px;
+}
+
+p.author_detail {
+   padding-left: 25px;
+   font-size: 14px;
+}
+
+p.author_detail strong {
+   font-weight: 700;
+   color: #373737;
+}
+
+.testimonial_author {
+   margin-top: 50px;
+   display: -webkit-inline-box;
+   display: -webkit-inline-flex;
+   display: -moz-inline-box;
+   display: -ms-inline-flexbox;
+   display: inline-flex;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   opacity: 0;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
+   transition: .2s;
+}
+
+.active .testimonial_author {
+   opacity: 1;
+}
+
+.testimonial_author img {
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+   width: 60px;
+}
+
+/************************************** 
+   Testimonial Section End
+***************************************/
+
+
+/************************************** 
+       Footer Area Start
+***************************************/
+.footer_area.theme_4 {
+   background: #073B4C;
+}
+
+.footer_area.theme_4 a,
+.footer_area.theme_4 h4 {
+   color: #fff;
+}
+
+.footer_area.theme_4 li a i {
+   padding-right: 10px;
+}
+
+.footer_area.theme_4 li:hover a {
+   color: #06D6A0;
+}
+
+.footer_area.theme_4 li {
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
+   transition: .2s;
+}
+
+.footer_area.theme_4 h4 {
+   margin-bottom: 35px;
+}
+
+/************************************** 
+       Footer Area End
+***************************************/
+
+
+/************************************** 
+       Copy Right Area Start
+***************************************/
+.copyright_area.theme_4 {
+   background: #0F2E38;
+   color: #fff;
+}
+
+.copyright_area.theme_4 a {
+   color: #fff;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
+   transition: .2s;
+}
+
+.copyright_area.theme_4 a:hover {
+   color: #06D6A0;
+}
+
+/************************************** 
+       Copy Right Area End
 ***************************************/

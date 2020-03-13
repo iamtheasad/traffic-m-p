@@ -251,27 +251,31 @@ textarea {
 }
 
 .case_study_1 .case_study_bg_1 {
-   background-image: url(../img/home/case_study_bg_1.jpg);
+   background-image: url(../img/case-study/case_study_item_1.jpg);
 }
 
 .case_study_1 .case_study_bg_2 {
-   background-image: url(../img/home/case_study_bg_2.jpg);
+   background-image: url(../img/case-study/case_study_item_2.jpg);
 }
 
 .case_study_1 .case_study_bg_3 {
-   background-image: url(../img/home/case_study_bg_3.jpg);
+   background-image: url(../img/case-study/case_study_item_3.jpg);
 }
 
 .case_study_1 .case_study_bg_4 {
-   background-image: url(../img/home/case_study_bg_4.jpg);
+   background-image: url(../img/case-study/case_study_item_4.jpg);
 }
 
 .case_study_1 .case_study_bg_5 {
-   background-image: url(../img/home/case_study_bg_5.jpg);
+   background-image: url(../img/case-study/case_study_item_5.jpg);
 }
 
 .case_study_1 .case_study_bg_6 {
-   background-image: url(../img/home/case_study_bg_6.jpg);
+   background-image: url(../img/case-study/case_study_item_6.jpg);
+}
+
+.case_study_1 .case_study_bg_7 {
+   background-image: url(../img/case-study/case_study_item_7.jpg);
 }
 
 a.load_more_btn {
@@ -1124,6 +1128,30 @@ a.single_service_box_2 h3 {
 
 .case_study_preview_3 {
    background-image: url(../img/home-2/home-2-testimonial_3.jpg);
+}
+
+.case_study_2 .case_study_preview_1 {
+   background-image: url(../img/home-2/home-2-testimonial_1.jpg);
+}
+
+.case_study_2 .case_study_preview_2 {
+   background-image: url(../img/home-2/home-2-testimonial_2.jpg);
+}
+
+.case_study_2 .case_study_preview_3 {
+   background-image: url(../img/home-2/home-2-testimonial_3.jpg);
+}
+
+.case_study_2 .case_study_preview_4 {
+   background-image: url(../img/case-study/case_study_item_1.jpg);
+}
+
+.case_study_2 .case_study_preview_5 {
+   background-image: url(../img/case-study/case_study_item_4.jpg);
+}
+
+.case_study_2 .case_study_preview_6 {
+   background-image: url(../img/case-study/case_study_item_5.jpg);
 }
 
 .case_study_preview {

@@ -947,6 +947,10 @@ section.cta_area.call_to_action_4.service_details.what_we_do {
    background-image: url(../img/Service-Details/service_details.jpg);
 }
 
+section.cta_area.call_to_action_4.service_details.what_we_do.main_blog {
+   background-image: url(../img/blog/blog_breadcrumb_bg.jpg);
+}
+
 .service_details .single_pricing_box:hover {
    border-color: #06D6A0;
 }
@@ -1341,6 +1345,96 @@ a.blog_readmore_btn i {
 
 /************************************** 
     Home-2 Blog Section End
+***************************************/
+
+
+/************************************** 
+  Home-3 Blog Section Start
+***************************************/
+.home_3_blog .blog_thumb_bg_1 {
+   background: url(../img/home-3/blog_1.jpg);
+}
+
+.home_3_blog .blog_thumb_bg_2 {
+   background: url(../img/home-3/blog_2.jpg);
+}
+
+.home_3_blog .blog_thumb_bg_3 {
+   background: url(../img/home-3/blog_3.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_1 {
+   background: url(../img/home-3/blog_1.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_2 {
+   background: url(../img/home-3/blog_2.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_3 {
+   background: url(../img/home-3/blog_3.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_4 {
+   background: url(../img/home-3/blog_4.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_5 {
+   background: url(../img/home-3/blog_5.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_6 {
+   background: url(../img/home-3/blog_6.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_7 {
+   background: url(../img/home-3/blog_7.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_8 {
+   background: url(../img/home-3/blog_8.jpg);
+}
+
+.home_3_blog.main_blog .blog_thumb_bg_9 {
+   background: url(../img/home-3/blog_9.jpg);
+}
+
+.home_3_blog a.single_blog_box {
+   color: #999;
+   font-weight: 300;
+   text-decoration: none;
+   line-height: 1.9;
+   display: block;
+   -webkit-box-shadow: 1px 1px 5px 0px #EAEAEA;
+   -moz-box-shadow: 1px 1px 5px 0px #EAEAEA;
+   box-shadow: 1px 1px 5px 0px #EAEAEA;
+   padding: 0px;
+}
+
+.home_3_blog.main_blog a.single_blog_box {
+   margin-bottom: 30px;
+}
+
+.home_3_blog .blog_thumb_wrapper {
+   height: 250px;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.home_3_blog .blog_3_content {
+   padding: 50px 30px;
+}
+
+.home_3_blog .blog_3_content h4 {
+   margin: 10px 0px 15px;
+   font-size: 18px;
+}
+
+/************************************** 
+  Home-3 Blog Section End
 ***************************************/
 
 

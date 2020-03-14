@@ -403,6 +403,10 @@ a.case_study_more {
 
 /* For Carousel Customization / */
 
+.bottom_to_top.case_study_1:hover {
+   color: #fff;
+}
+
 /************************************** 
      Case Study Section End
 ***************************************/
@@ -2171,11 +2175,10 @@ p.author_detail strong {
 }
 
 .single_blog_socials li {
-   padding: 20px 30px;
-   border-radius: 30px;
    list-style: none;
    display: inline-block;
    margin-right: 20px;
+   border-radius: 30px;
 }
 
 .single_blog_socials li i {
@@ -2183,6 +2186,7 @@ p.author_detail strong {
 }
 
 .single_blog_socials li a {
+   padding: 20px 30px;
    color: #fff;
    text-decoration: none;
    display: block;
@@ -2218,6 +2222,7 @@ p.author_detail strong {
 .reply_form textarea {
    width: 100%;
    border-color: #f9f9f9;
+   height: 120px;
 }
 
 .reply_form input:focus,
@@ -2227,7 +2232,7 @@ p.author_detail strong {
 }
 
 input.post_submit {
-   width: 150px;
+   width: auto;
    display: inline-block;
    margin-top: 30px;
    margin-bottom: 0px;

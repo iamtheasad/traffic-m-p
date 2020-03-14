@@ -2241,3 +2241,32 @@ input.post_submit {
 /************************************** 
       Single Blog End
 ***************************************/
+
+
+/************************************** 
+      About Start
+***************************************/
+.logo_about {
+   padding: 60px 0px;
+}
+
+.about .transparency {
+   padding-top: 115px;
+}
+
+.single_team_box img {
+   box-shadow: 0px 1px 0px 3px #fafafa;
+}
+
+.single_team_box h4 {
+   font-size: 18px;
+   margin-top: 25px;
+}
+
+.single_team_box span {
+   font-size: 14px;
+}
+
+/************************************** 
+      About End
+***************************************/

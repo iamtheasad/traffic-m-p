@@ -779,6 +779,10 @@ a.case_study_more {
    background-size: cover;
 }
 
+.cta_area.call_to_action_4.faq {
+   background-image: url(../img/faq/breadcrumbe_2.jpg);
+}
+
 .cta_area.call_to_action_4:after {
    content: '';
    position: absolute;
@@ -958,10 +962,14 @@ a.case_study_more {
    background-image: url(../img/blog/single_blog_breadcrumb.jpg);
 }
 
-section.cta_area.call_to_action_4.service_details.what_we_do {
-   padding: 150px 0px;
-   background-image: url(../img/Service-Details/service_details.jpg);
+.cta_area.call_to_action_4.service_details.what_we_do.team {
+   background-image: url(../img/team/team_breadcrumb.jpg);
 }
+
+.cta_area.call_to_action_4.service_details.what_we_do.faq {
+   background-image: url(../img/faq/breadcrumbe_1.jpg);
+}
+
 
 .service_details .single_pricing_box:hover {
    border-color: #06D6A0;
@@ -2255,7 +2263,7 @@ input.post_submit {
 }
 
 .single_team_box img {
-   box-shadow: 0px 1px 0px 3px #fafafa;
+   box-shadow: 0px 2px 8px #ddd;
 }
 
 .single_team_box h4 {
@@ -2269,4 +2277,63 @@ input.post_submit {
 
 /************************************** 
       About End
+***************************************/
+
+
+/************************************** 
+            FAQ Start
+***************************************/
+.faq_content h3 {
+   font-size: 22px;
+   margin-bottom: 55px;
+}
+
+.traffic_faq .card-header {
+   background: transparent;
+   border-bottom-width: 0px;
+   padding: 0px;
+}
+
+.traffic_faq button {
+   color: #373737;
+   font-size: 15px;
+   font-weight: 600;
+   width: 100%;
+   text-align: left;
+   padding: 15px 15px;
+   position: relative;
+}
+
+.traffic_faq button:focus {
+   text-decoration: none;
+}
+
+.traffic_faq button:after {
+   content: '+';
+   position: absolute;
+   right: 0px;
+   top: 50%;
+   transform: translateY(-50%);
+   padding: 15px;
+   font-size: 20px;
+}
+
+.traffic_faq button[aria-expanded="true"]:after {
+   content: '-';
+   font-size: 30px;
+}
+
+
+.traffic_faq button:hover {
+   color: #06D6A0;
+   text-decoration: none;
+   box-shadow: none;
+}
+
+.traffic_faq .card {
+   border-color: #06D6A0;
+}
+
+/************************************** 
+            FAQ End
 ***************************************/

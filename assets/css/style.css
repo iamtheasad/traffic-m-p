@@ -970,6 +970,9 @@ a.case_study_more {
    background-image: url(../img/faq/breadcrumbe_1.jpg);
 }
 
+.cta_area.call_to_action_4.service_details.what_we_do.about {
+   background-image: url(../img/about/about_breadcrumb.jpg);
+}
 
 .service_details .single_pricing_box:hover {
    border-color: #06D6A0;

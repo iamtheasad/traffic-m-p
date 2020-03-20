@@ -17,6 +17,12 @@
 
    <!-- CSS Links -->
 
+   <!-- Slick Nav For Responsive Menu -->
+   <link rel="stylesheet" href="assets/css/slicknav.min.css" />
+
+   <!-- Magnific Popup -->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
    <!-- Material Design Iconic Font CSS -->
    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css" />
 
@@ -51,44 +57,97 @@
 
 <body>
 
-   <!-- Menu Area Start-->
-   <div class="menu_area service_details">
+   <!-- Menu Start -->
+   <div class="menu_area header_absolute">
+
+      <div class="mobile_menu_wrap about_slick"></div>
+
       <div class="container">
-         <div class="row">
-            <div class="col-lg-1">
+         <div class="row d-flex align-items-center text-md-right">
+            <div class="col-lg-2 text-lg-left">
                <div class="logo">
-                  <a href="case-studies-details.html"><img src="assets/img/logo.png" alt="logo"></a>
+                  <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
                </div>
             </div>
-            <div class="col-lg-9 text-center">
-               <div class="main_menu">
-                  <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="home-2.html">Home 2</a></li>
-                        <li><a href="home-3.html">Home 3</a></li>
-                        <li><a href="home-4.html">Home 4</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="services-v1.html">Services</a></li>
-                        <li><a href="services-v2.html">Services 2</a></li>
-                        <li><a href="service-details.html">Services Details</a></li>
-                        <li><a href="case-studies-1.html">Case Study 1</a></li>
-                        <li><a href="case-studies-2.html">Case Study 2</a></li>
-                        <li><a href="case-studies-details.html">Case Study Details</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+            <div class="col-lg-8">
+               <div class="mainmenu">
+                  <ul id="main_nav">
+                     <li><a href="index.html">Home</a>
+                        <ul class="dropdown_header_menu">
+                           <li><a href="index.html">Home 1</a></li>
+                           <li><a href="home-2.html">Home 2</a></li>
+                           <li><a href="home-3.html">Home 3</a></li>
+                           <li><a href="home-4.html">Home 4</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#">Features</a></li>
+                     <li><a href="javascript:void(0)">Pages</a>
+                        <ul class="mega_menu">
+                           <li class="mega_menu_content">
+                              <h6>Main Pages</h6>
+                              <ul class="mega_menu_1">
+                                 <li>
+                                    <h4>Traffic is a <span>Awesoem</span> Template</h4>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, aspernatur
+                                       tempore velit suscipit ipsum harum voluptates quaerat dignissimos eaque
+                                       voluptatibus.</p>
+
+                                    <a href="#" class="boxed_btn">Purchase Now</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="mega_menu_content">
+                              <h6>Other Pages</h6>
+                              <ul class="mega_menu_1">
+                                 <li><a href="about.html">About</a></li>
+                                 <li><a href="faq.html">FAQ</a></li>
+                                 <li><a href="team.html">Team</a></li>
+                              </ul>
+                           </li>
+                           <li class="mega_menu_content">
+                              <h6>Bonus Pages</h6>
+                              <ul class="mega_menu_1">
+                                 <li><a href="home-2.html">Home 2</a></li>
+                                 <li><a href="home-3.html">Home 3</a></li>
+                                 <li><a href="home-4.html">Home 4</a></li>
+                                 <li><a href="case-study-v1.html">Case Study 1</a></li>
+                                 <li><a href="case-study-v1.html">Case Study 2</a></li>
+                                 <li><a href="services-v1.html">Services 1</a></li>
+                                 <li><a href="services-v2.html">Services 2</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="services-v1.html">Services</a>
+                        <ul class="dropdown_header_menu">
+                           <li><a href="services-v1.html">Services 1</a></li>
+                           <li><a href="services-v2.html">Service 2</a></li>
+                           <li><a href="service-details.html">Service Details</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="case-study-v1.html">Case Study</a>
+                        <ul class="dropdown_header_menu">
+                           <li><a href="case-study-v1.html">Case Study 1</a></li>
+                           <li><a href="case-study-v2.html">Case Study 2</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="blog.html">Blog</a>
+                        <ul class="dropdown_header_menu">
+                           <li><a href="blog.html">Blog</a></li>
+                           <li><a href="blog-single.html">Single Blog</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="contact.html">Contact</a></li>
                   </ul>
                </div>
             </div>
-            <div class="col-lg-2 text-right">
+            <div class="col-lg-2 d-flex justify-content-center">
                <a href="#" class="boxed_btn">Free SEO Analysis</a>
             </div>
          </div>
       </div>
    </div>
-   <!-- Menu Area End -->
+   <!-- Menu End -->
 
 
    <!-- Case Study Details Promises Start -->
@@ -426,7 +485,7 @@
       </div>
 
       <!-- Bottom to Top -->
-      <button class="btn bottom_to_top d-flex justify-content-center align-items-center">
+      <button class="btn bottom_to_top case_study_1 d-flex justify-content-center align-items-center">
          <i class="zmdi zmdi-chevron-up"></i>
       </button>
    </div>
@@ -460,10 +519,15 @@
    <!-- isotop js CDN link -->
    <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
 
+   <!-- Magnific Popup -->
+   <script src="assets/js/jquery.magnific-popup.min.js"></script>
 
+   <!-- Slick Nav For Responsive Menu -->
+   <script src="assets/js/jquery.slicknav.min.js"></script>
 
    <!-- Defualt JS -->
    <script src="assets/js/script.js"></script>
+   <script src="assets/js/home-1-slick.js"></script>
 </body>
 
 </html>

@@ -23,6 +23,14 @@ button[type="submit"],
 /************************************** 
   Off Canvas Menu Start
 ***************************************/
+.menu_area_4 {
+   position: absolute;
+   width: 100%;
+   left: 0;
+   top: 0;
+   z-index: 98;
+}
+
 .off_canvas_menu {
    position: fixed;
    width: 300px;
@@ -37,6 +45,7 @@ button[type="submit"],
    -o-transition: .3s;
    -moz-transition: .3s;
    transition: .3s;
+   overflow-y: auto;
 }
 
 .off_canvas_menu.show_off_canvas_menu {
@@ -89,6 +98,8 @@ button[type="submit"],
 .menu_area.scrolled {
    background: #073B4C;
    padding: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 
 .menu_area.scrolled .menu_trigger,

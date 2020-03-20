@@ -30,6 +30,20 @@ button[type="submit"],
    background-color: #06D6A0;
 }
 
+.mainmenu li:hover a,
+.footer_area li:hover a {
+   color: #06d6a0;
+}
+
+ul.dropdown_header_menu,
+ul.mega_menu {
+   background: #06d6a0;
+}
+
+.social_links ul li:hover a {
+   color: #06d6a0;
+}
+
 /************************************** 
    Hero Area End
 ***************************************/

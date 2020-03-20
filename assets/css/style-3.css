@@ -115,8 +115,17 @@ a.video_play_btn {
    background-color: #06d6a0;
 }
 
-.menu_area .main_menu ul li a {
+.menu_area ul li a {
    color: #fff;
+}
+
+.mainmenu li:hover a {
+   color: #06d6a0;
+}
+
+ul.dropdown_header_menu,
+ul.mega_menu {
+   background-color: #06d6a0;
 }
 
 /************************************** 

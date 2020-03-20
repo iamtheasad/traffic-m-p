@@ -49,22 +49,155 @@ img {
 /************************************** 
       Menu Section Start
 ***************************************/
-.menu_area {
-   padding: 1.25rem 0rem;
+.menu_area.header_absolute {
+   position: absolute;
+   z-index: 10;
+   width: 100%;
+   left: 0;
+   top: 0;
 }
 
-.main_menu ul li {
+.menu_area {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.mainmenu {
+   position: relative;
+   z-index: 10;
+}
+
+.mainmenu li {
    list-style: none;
    display: inline-block;
-   position: relative;
+   transition: .2s;
 }
 
-.main_menu ul li a {
+.mainmenu li a {
+   padding: 0.625rem;
    display: block;
-   color: #888;
-   font-size: 0.937rem;
-   padding: 0.75rem 0.937rem;
    text-decoration: none;
+}
+
+.service_details .mainmenu li a {
+   color: #888; 
+}
+
+.mainmenu li ul li a {
+   padding: 0.625rem 0.9375rem;
+}
+
+.mainmenu li a,
+.mainmenu li ul li a {
+   -webkit-transition: .2s;
+   -moz-transition: .2s;
+   -o-transition: .2s;
+   transition: .2s;
+}
+
+.mainmenu li:hover a {
+   color: #ef476f;
+}
+
+ul.dropdown_header_menu {
+   position: absolute;
+   background-color: #EF476F;
+   opacity: 0;
+   visibility: hidden;
+   transition: .3s;
+   top: 115%;
+   text-align: left;
+}
+
+ul.dropdown_header_menu li {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+}
+
+ul.dropdown_header_menu li a {
+   color: #fff !important;
+   width: 100%;
+}
+
+ul.dropdown_header_menu li:hover a,
+li.mega_menu_content li:hover a {
+   background: #373737;
+   color: #fff;
+}
+
+.mainmenu ul li:hover ul.dropdown_header_menu,
+li.mega_menu_content li {
+   opacity: 1;
+   visibility: visible;
+   top: 100%;
+}
+
+.mainmenu li:hover ul.mega_menu {
+   display: block;
+}
+
+li.mega_menu_content h6 {
+   color: #fff;
+   font-size: 1.25rem;
+   text-transform: uppercase;
+   border-bottom: 0.125rem solid #fff;
+   padding-bottom: 0.625rem;
+   margin-bottom: 0.625rem;
+   text-align: center;
+}
+
+ul.mega_menu {
+   position: absolute;
+   background: #EF476F;
+   width: 100%;
+   left: 0;
+   display: none;
+}
+
+li.mega_menu_content {
+   width: 33%;
+   float: left;
+   padding: 0.625rem;
+}
+
+li.mega_menu_content li a {
+   color: #fff !important;
+}
+
+.margin_padding_0 {
+   margin: 0rem;
+   padding: 0.625rem;
+}
+
+.slicknav_menu {
+   display: none;
+}
+
+ul.mega_menu_1 {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+}
+
+ul.mega_menu_1 h4 {
+   font-size: 22px;
+   color: #fff;
+}
+
+ul.mega_menu_1 a.boxed_btn {
+   background: #373737;
+}
+
+ul.mega_menu_1 p {
+   color: #fff;
+   margin: 20px 5px;
+}
+
+ul.mega_menu_1 a.boxed_btn:hover {
+   color: #ef476f !important;
 }
 
 .boxed_btn,
@@ -104,14 +237,6 @@ button[type="submit"] {
 /************************************** 
      Header Section Start
 ***************************************/
-.menu_area.header_absolute {
-   position: absolute;
-   z-index: 10;
-   width: 100%;
-   left: 0;
-   top: 0;
-}
-
 .hero_area {
    font-weight: 300;
    padding: 9.375rem 0rem;
@@ -599,6 +724,7 @@ a.case_study_more {
 .footer_area a {
    color: #999999;
    font-weight: 300;
+   transition: .1s;
 }
 
 .footer_area h4 {
@@ -609,10 +735,6 @@ a.case_study_more {
 .footer_area li {
    list-style: none;
    line-height: 2;
-}
-
-.footer_area li a {
-   transition: .2s;
 }
 
 .email_subscribe_form input[type="email"] {
@@ -638,6 +760,7 @@ a.case_study_more {
 .social_links ul li {
    display: inline-block;
    width: 32%;
+   transition: .2s;
 }
 
 .social_links ul li a i {
@@ -647,13 +770,6 @@ a.case_study_more {
 
 .social_links ul li:hover a {
    color: #EF476F;
-}
-
-.social_links ul li a {
-   -webkit-transition: .2s;
-   -o-transition: .2s;
-   -moz-transition: .2s;
-   transition: .2s;
 }
 
 /************************************** 
@@ -707,6 +823,10 @@ a.case_study_more {
    -moz-transition: .2s;
    transition: .2s;
    opacity: 0;
+}
+
+.bottom_to_top:hover {
+   color: #999;
 }
 
 /************************************** 
@@ -988,10 +1108,6 @@ a.case_study_more {
 
 .service_details .pricing_content ul li:hover {
    border-bottom: 0.0625rem solid transparent;
-}
-
-.menu_area.service_details .main_menu ul li a {
-   color: #888;
 }
 
 .menu_area.service_details .main_menu ul li:hover a {

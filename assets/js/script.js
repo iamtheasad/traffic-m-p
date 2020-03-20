@@ -58,7 +58,7 @@
 
             var topPosition = $(this).scrollTop(); // scrollTop is a jquery function
 
-            if (topPosition > 900) {
+            if (topPosition > 200) {
                 $(topBottomButton).css({
                     "opacity": "1",
                 })
@@ -80,7 +80,7 @@
         /* Scroll to Top Button End */
 
 
-        // Navigation Background Change on Scrolling
+        // Blog Single Menu / Navigation Background Change on Scrolling
         $(window).scroll(function () {
             $('.menu_area').toggleClass('scrolled', $(this).scrollTop() > 100
             );
@@ -129,25 +129,20 @@
                 markup: '<div class="mfp-iframe-scaler">' +
                     '<div class="mfp-close"></div>' +
                     '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
-                    '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+                    '</div>',
 
                 patterns: {
                     youtube: {
-                        index: 'youtube.com/', // String that detects type of video (in this case YouTube). Simply via url.indexOf(index).
+                        index: 'youtube.com/',
 
-                        id: 'v=', // String that splits URL in a two parts, second part should be %id%
-                        // Or null - full URL will be returned
-                        // Or a function that should return %id%, for example:
-                        // id: function(url) { return 'parsed id'; }
+                        id: 'v=',
 
-                        src: 'https://www.youtube.com/embed/%id%?autoplay=2' // URL that will be set as a source for iframe.
+                        src: 'https://www.youtube.com/embed/%id%?autoplay=2' // https: added in the url
                     }
-
-                    // you may add here more sources
 
                 },
 
-                srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
+                srcAction: 'iframe_src',
             }
         });
         /* Home-3 Header End */
@@ -193,29 +188,23 @@
                 markup: '<div class="mfp-iframe-scaler">' +
                     '<div class="mfp-close"></div>' +
                     '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
-                    '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+                    '</div>',
 
                 patterns: {
                     youtube: {
-                        index: 'youtube.com/', // String that detects type of video (in this case YouTube). Simply via url.indexOf(index).
+                        index: 'youtube.com/',
 
-                        id: 'v=', // String that splits URL in a two parts, second part should be %id%
-                        // Or null - full URL will be returned
-                        // Or a function that should return %id%, for example:
-                        // id: function(url) { return 'parsed id'; }
+                        id: 'v=',
 
-                        src: 'https://www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe.
+                        src: 'https://www.youtube.com/embed/%id%?autoplay=1' // https: added in the url
                     }
-
-                    // you may add here more sources
 
                 },
 
-                srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
+                srcAction: 'iframe_src',
             }
         });
         /* Home-4 How Traffic Work Popup Video End */
-
 
 
     });

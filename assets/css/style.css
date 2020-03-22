@@ -80,7 +80,7 @@ img {
 }
 
 .service_details .mainmenu li a {
-   color: #888; 
+   color: #888;
 }
 
 .mainmenu li ul li a {
@@ -206,7 +206,7 @@ button[type="submit"] {
    color: #fff;
    background: #ef476f;
    display: inline-block;
-   padding: 0.9375rem 1.25rem;
+   padding: 15px 17px;
    text-align: center;
    -webkit-border-radius: 0.20rem;
    -moz-border-radius: 0.20rem;
@@ -241,6 +241,29 @@ button[type="submit"] {
    font-weight: 300;
    padding: 9.375rem 0rem;
    border-bottom: 0.0625rem solid #F6F6F6;
+}
+
+.seo.hero_area {
+   padding: 115px;
+   border-bottom: none;
+}
+
+.hero_area.home_2 {
+   background-image: url(../img/home-2/home-2-hero-bg.jpg);
+   background-color: #3394F5;
+   color: #fff;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   line-height: 1.9;
+   padding: 90px;
+}
+
+.hero_area.home_2 h1 {
+   font-size: 50px;
+   color: #fff;
 }
 
 .hero_area h1 {
@@ -841,21 +864,12 @@ a.case_study_more {
    background-color: #fff;
    padding: 30px;
    color: #999;
-   position: relative;
-   z-index: 1;
    border-radius: 5px;
+   box-shadow: 12px 12px 0px 0px #99bef6;
 }
 
-.hero_form:after {
-   content: '';
-   position: absolute;
-   background-color: rgba(255, 255, 255, 0.2);
-   width: 100%;
-   height: 100%;
-   top: 10px;
-   left: 10px;
-   border-radius: 5px;
-   z-index: -1;
+.hero_form.seo {
+   box-shadow: 12px 12px 0px 0px #f2f2f2;
 }
 
 .hero_form_header h3 {
@@ -880,6 +894,16 @@ a.case_study_more {
    width: 200px;
    margin-top: 35px;
    display: inline-block;
+}
+
+.seo .reply_form input,
+.seo .reply_form textarea {
+   border-color: #ddd;
+   background: #f9f9f9;
+}
+
+.seo .reply_form input[type="submit"] {
+   background: #06D6A0;
 }
 
 /************************************** 
@@ -1092,6 +1116,10 @@ a.case_study_more {
 
 .cta_area.call_to_action_4.service_details.what_we_do.about {
    background-image: url(../img/about/about_breadcrumb.jpg);
+}
+
+.cta_area.call_to_action_4.service_details.what_we_do.seo {
+   background-image: url(../img/seo/seo-cta-bg-1.jpg);
 }
 
 .service_details .single_pricing_box:hover {

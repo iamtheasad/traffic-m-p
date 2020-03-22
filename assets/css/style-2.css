@@ -5,24 +5,6 @@ h3 {
 /************************************** 
       Hero Area Start
 ***************************************/
-.hero_area {
-   background-image: url(../img/home-2/home-2-hero-bg.jpg);
-   background-color: #3394F5;
-   color: #fff;
-   background-position: center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   line-height: 1.9;
-   padding: 90px;
-}
-
-.hero_area h1 {
-   font-size: 50px;
-   color: #fff;
-}
-
 .boxed_btn,
 input[type="submit"],
 button[type="submit"],

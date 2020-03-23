@@ -19,6 +19,9 @@ button[type="submit"],
    background: #06D6A0;
 }
 
+.theme_4 .bottom_to_top:hover {
+   color: #333;
+}
 
 /************************************** 
   Off Canvas Menu Start
@@ -116,26 +119,6 @@ button[type="submit"],
    line-height: 51px;
 }
 
-.search_box {
-   padding: 10px;
-   width: 20%;
-   display: inline-block;
-   position: fixed;
-   left: 58%;
-   border: 1px solid #999;
-   opacity: 0;
-   z-index: -1;
-   -webkit-transition: .3s;
-   -o-transition: .3s;
-   -moz-transition: .3s;
-   transition: .3s;
-}
-
-.search_box.active {
-   opacity: 1;
-   z-index: 1;
-}
-
 .off_canvas_menu_shade {
    background: #073b4c;
    position: fixed;
@@ -165,6 +148,73 @@ button[type="submit"],
 
 /************************************** 
   Off Canvas Menu End
+***************************************/
+
+
+/************************************** 
+      Home-4 Sarch Start
+***************************************/
+.search_box {
+   padding: 10px;
+   width: 20%;
+   display: inline-block;
+   position: fixed;
+   left: 58%;
+   border: 1px solid #999;
+   opacity: 0;
+   z-index: -1;
+   -webkit-transition: .3s;
+   -o-transition: .3s;
+   -moz-transition: .3s;
+   transition: .3s;
+}
+
+.search_bar_wrap {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 99;
+   background: #073B4C;
+   color: #fff;
+   text-align: center;
+   visibility: hidden;
+   opacity: 0;
+   transition: .2s;
+}
+
+.search_bar_wrap.active {
+   visibility: visible;
+   opacity: 1;
+}
+
+.search_bar_table {
+   max-width: 500px;
+}
+
+.search_bar_table p {
+   margin: 20px 0px;
+}
+
+.search_bar_wrap h2 {
+   color: #fff;
+}
+
+.search_bar_table input {
+   border: none;
+   padding: 10px;
+}
+
+.search_close {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   padding: 20px;
+   display: inline-block;
+   cursor: pointer;
+}
+
+/************************************** 
+      Home-4 Sarch End
 ***************************************/
 
 

@@ -162,12 +162,25 @@
 
 
         /* Home-4 Search Box Show and Hide Start */
+
+        /* For The Expand Input Box on click */
+        /* 
+            $(".search_trigger").on('click', function () {
+                $('.search_box').toggleClass('active');
+            });
+
+            $('.homepage_4_slides').on('click', function () {
+                $('.search_box').removeClass('active');
+            });  
+        */
+
+
         $(".search_trigger").on('click', function () {
-            $('.search_box').toggleClass('active');
+            $('.search_bar_wrap').addClass('active');
         });
 
-        $('.homepage_4_slides').on('click', function () {
-            $('.search_box').removeClass('active');
+        $('.search_close').on('click', function () {
+            $('.search_bar_wrap').removeClass('active');
         });
         /* Home-4 Search Box Show and Hide End */
 

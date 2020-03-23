@@ -1122,6 +1122,10 @@ a.case_study_more {
    background-image: url(../img/seo/seo-cta-bg-1.jpg);
 }
 
+.cta_area.call_to_action_4.service_details.what_we_do.contact_1 {
+   background-image: url(../img/contact/contact_1_brdc.jpg);
+}
+
 .service_details .single_pricing_box:hover {
    border-color: #06D6A0;
 }

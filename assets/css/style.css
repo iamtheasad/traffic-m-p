@@ -2511,3 +2511,31 @@ input.post_submit {
 /************************************** 
          Google Map End
 ***************************************/
+
+
+/************************************** 
+      Contact v2 Start
+***************************************/
+.contact-wrap {
+   margin-bottom: 20px;
+   display: inline-flex;
+   align-items: center;
+}
+
+.contact-wrap span {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-right: 20px;
+   color: #06d6a0;
+   font-size: 35px;
+}
+
+.contact-wrap h5 {
+   font-size: 15px;
+   color: #999;
+}
+
+/************************************** 
+      Contact v2 End
+***************************************/

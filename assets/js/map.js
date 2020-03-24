@@ -1,0 +1,4 @@
+    /* Google Map Start */
+    function init_map() { var myOptions = { zoom: 12, center: new google.maps.LatLng(23.937999, 90.269650), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(23.937999, 90.269650) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Dhaka</strong><br>Dhaka, Bangladesh<br>1200<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);
+
+    /* Google Map End */

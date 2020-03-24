@@ -220,5 +220,6 @@
         /* Home-4 How Traffic Work Popup Video End */
 
 
-    });
-})();
+    }); // ready function end
+
+})(); // use strict end

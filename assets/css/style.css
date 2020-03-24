@@ -2488,3 +2488,26 @@ input.post_submit {
 /************************************** 
             FAQ End
 ***************************************/
+
+
+/************************************** 
+         Google Map Start
+***************************************/
+.gm-style .gm-style-iw-c {
+   background: #06d6a0;
+   color: #fff;
+   font-size: 14px;
+}
+
+.gm-style .gm-style-iw-t::after {
+   background: #06D6A0;
+}
+
+.gm-style-iw-d {
+   overflow: hidden !important;
+   padding: 10px 10px 20px;
+}
+
+/************************************** 
+         Google Map End
+***************************************/

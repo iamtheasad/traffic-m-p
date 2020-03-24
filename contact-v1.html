@@ -12,7 +12,7 @@
    <!-- Favicon -->
    <link rel="icon" href="favicon.ico" type="image/png">
 
-   <title>Contact V1</title>
+   <title>Contact-V1</title>
 
 
    <!-- CSS Links -->
@@ -211,8 +211,9 @@
    <!-- Blog Single Post End -->
 
 
-   <div style='overflow:hidden;height:400px;width:520px;'>
-      <div id='gmap_canvas' style='height:400px;width:520px;'></div>
+   <!-- Map Start -->
+   <div style='overflow:hidden;height:400px;width:100%;'>
+      <div id='gmap_canvas' style='height:400px;width:100%;'></div>
       <style>
          #gmap_canvas img {
             max-width: none !important;
@@ -220,6 +221,7 @@
          }
       </style>
    </div> <a href='http://maps-generator.com/'>google maps widget</a>
+   <!-- Map End-->
 
 
    <!-- Service Details Call to Action Section Start -->
@@ -375,12 +377,10 @@
    <!-- Slick Nav For Responsive Menu -->
    <script src="assets/js/jquery.slicknav.min.js"></script>
 
-   <!-- Maps -->
+   <!-- Google Map JS -->
    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDPE7lwu6IsEQPUjaKpQ9luBg5vJB3BQN8'></script>
-   <script type='text/javascript'
-      src='https://embedmaps.com/google-maps-authorization/script.js?id=1508e7bf738648248ea68cc556015c46acfbbe9e'></script>
-   <script
-      type='text/javascript'>function init_map() { var myOptions = { zoom: 12, center: new google.maps.LatLng(23.9371242, 90.2800546), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(23.9371242, 90.2800546) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Dhaka</strong><br>Dhaka, Bangladesh<br>1200 Dhaka<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
+   <script src='https://embedmaps.com/google-maps-authorization/script.js?id=1508e7bf738648248ea68cc556015c46acfbbe9e'></script>
+   <script src="assets/js/map.js"></script>
 
    <!-- Defualt JS -->
    <script src="assets/js/script.js"></script>

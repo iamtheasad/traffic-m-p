@@ -37,6 +37,9 @@ ul.mega_menu {
 .service_icon {
    color: #299DF8;
    margin-bottom: 30px;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
    transition: .2s;
 }
 

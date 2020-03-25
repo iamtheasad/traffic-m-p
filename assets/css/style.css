@@ -70,6 +70,9 @@ img {
 .mainmenu li {
    list-style: none;
    display: inline-block;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
    transition: .2s;
 }
 
@@ -104,9 +107,13 @@ ul.dropdown_header_menu {
    background-color: #EF476F;
    opacity: 0;
    visibility: hidden;
+   -webkit-transition: .3s;
+   -o-transition: .3s;
+   -moz-transition: .3s;
    transition: .3s;
    top: 115%;
    text-align: left;
+   width: 150px;
 }
 
 ul.dropdown_header_menu li {
@@ -177,7 +184,17 @@ li.mega_menu_content li a {
 }
 
 ul.mega_menu_1 {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -webkit-flex-direction: column;
+   -moz-box-orient: vertical;
+   -moz-box-direction: normal;
+   -ms-flex-direction: column;
    flex-direction: column;
    text-align: left;
 }
@@ -747,6 +764,9 @@ a.case_study_more {
 .footer_area a {
    color: #999999;
    font-weight: 300;
+   -webkit-transition: .1s;
+   -o-transition: .1s;
+   -moz-transition: .1s;
    transition: .1s;
 }
 
@@ -788,10 +808,16 @@ a.case_study_more {
 .social_links ul li {
    display: inline-block;
    width: 32%;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
    transition: .2s;
 }
 
 .social_links ul li a {
+   -webkit-transition: .1s;
+   -o-transition: .1s;
+   -moz-transition: .1s;
    transition: .1s;
 }
 
@@ -878,11 +904,17 @@ a.case_study_more {
    background-color: #fff;
    padding: 30px;
    color: #999;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
    border-radius: 5px;
+   -webkit-box-shadow: 12px 12px 0px 0px #99bef6;
+   -moz-box-shadow: 12px 12px 0px 0px #99bef6;
    box-shadow: 12px 12px 0px 0px #99bef6;
 }
 
 .hero_form.seo {
+   -webkit-box-shadow: 12px 12px 0px 0px #f2f2f2;
+   -moz-box-shadow: 12px 12px 0px 0px #f2f2f2;
    box-shadow: 12px 12px 0px 0px #f2f2f2;
 }
 
@@ -939,6 +971,9 @@ a.case_study_more {
    position: relative;
    color: #fff;
    background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
    background-size: cover;
 }
 
@@ -1021,6 +1056,9 @@ a.case_study_more {
 .all_services_v1 .service_icon,
 .all_services_v1 .service_readmore_btn,
 .all_services_v1 .singl_service_box {
+   -webkit-transition: .2s;
+   -o-transition: .2s;
+   -moz-transition: .2s;
    transition: .2s;
 }
 
@@ -2354,6 +2392,8 @@ p.author_detail strong {
    list-style: none;
    display: inline-block;
    margin-right: 20px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
    border-radius: 30px;
 }
 
@@ -2431,6 +2471,8 @@ input.post_submit {
 }
 
 .single_team_box img {
+   -webkit-box-shadow: 0px 2px 8px #ddd;
+   -moz-box-shadow: 0px 2px 8px #ddd;
    box-shadow: 0px 2px 8px #ddd;
 }
 
@@ -2491,6 +2533,10 @@ input.post_submit {
    position: absolute;
    right: 0px;
    top: 50%;
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   -o-transform: translateY(-50%);
    transform: translateY(-50%);
    padding: 15px;
    font-size: 20px;
@@ -2505,6 +2551,8 @@ input.post_submit {
 .traffic_faq button:hover {
    color: #06D6A0;
    text-decoration: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
    box-shadow: none;
 }
 
@@ -2535,6 +2583,11 @@ input.post_submit {
    padding: 10px 10px 20px;
 }
 
+#gmap_canvas img {
+   max-width: none !important;
+   background: none !important
+}
+
 /************************************** 
          Google Map End
 ***************************************/
@@ -2545,13 +2598,33 @@ input.post_submit {
 ***************************************/
 .contact-wrap {
    margin-bottom: 20px;
+   display: -webkit-inline-box;
+   display: -webkit-inline-flex;
+   display: -moz-inline-box;
+   display: -ms-inline-flexbox;
    display: inline-flex;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
 }
 
 .contact-wrap span {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -moz-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -moz-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
    padding-right: 20px;
    color: #06d6a0;

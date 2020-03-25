@@ -750,6 +750,11 @@ a.case_study_more {
    transition: .1s;
 }
 
+.footer_area.service_details .social_links li a i {
+   padding-right: 10px !important;
+}
+
+
 .footer_area h4 {
    font-size: 1.25rem;
    margin-bottom: 1.5625rem;
@@ -786,12 +791,17 @@ a.case_study_more {
    transition: .2s;
 }
 
+.social_links ul li a {
+   transition: .1s;
+}
+
 .social_links ul li a i {
    padding-right: 0.625rem;
    color: #373737;
 }
 
-.social_links ul li:hover a {
+.social_links ul li:hover a,
+.footer_area li:hover a {
    color: #EF476F;
 }
 
@@ -810,6 +820,10 @@ a.case_study_more {
 
 .copyright_area a {
    color: #999;
+}
+
+.copyright_area a:hover {
+   color: #373737;
 }
 
 .bottom_to_top {
@@ -888,6 +902,11 @@ a.case_study_more {
 .hero_form input {
    width: 100%;
    margin-top: 15px;
+}
+
+.hero_form input:focus {
+   outline: none;
+   border: 1px solid #06d6a0;
 }
 
 .hero_form input[type="submit"] {
@@ -1767,6 +1786,7 @@ Home-3 About Traffic Section Start
 
 a.case_study_more_3 {
    font-size: 25px;
+   padding: 10px;
 }
 
 .single_case_study_3:hover .case_study_tablecell {
@@ -1842,10 +1862,6 @@ a.case_study_more_3 {
 /************************************** 
   Home-3 Footer Area Section Start
 ***************************************/
-.footer_area_2 a {
-   color: #888;
-}
-
 .footer_area_2 ul li:hover a,
 .copyright_area_3 li:hover a {
    color: #06d6a0;
@@ -1863,15 +1879,16 @@ a.case_study_more_3 {
 .footer_area_2 a {
    display: inline-block;
    padding: 10px;
+   color: #888;
 }
 
 .footer_area_2 {
    height: 100px;
+   margin-top: 20px;
 }
 
-.social_links_3 a {
-   padding-left: 7px;
-   padding-right: 8px;
+.social_links_3 a i {
+   padding-right: 10px;
 }
 
 /************************************** 
@@ -2417,6 +2434,10 @@ input.post_submit {
    box-shadow: 0px 2px 8px #ddd;
 }
 
+.single_team_box {
+   margin-bottom: 30px;
+}
+
 .single_team_box h4 {
    font-size: 18px;
    margin-top: 25px;
@@ -2424,6 +2445,12 @@ input.post_submit {
 
 .single_team_box span {
    font-size: 14px;
+   color: #999;
+}
+
+#case_study a:hover,
+.about a:hover {
+   text-decoration: none;
 }
 
 /************************************** 

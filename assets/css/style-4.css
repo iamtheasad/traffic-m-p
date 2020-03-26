@@ -100,7 +100,7 @@ button[type="submit"],
 
 .menu_area.scrolled {
    background: #073B4C;
-   padding: 0px;
+   padding: 5px;
    margin-top: 0px;
    margin-bottom: 0px;
 }
@@ -271,7 +271,7 @@ button[type="submit"],
 }
 
 .website_check_form input[type="submit"] {
-   width: 15%;
+   width: auto;
    background: #06D6A0;
 }
 

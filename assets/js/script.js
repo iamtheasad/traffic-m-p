@@ -39,13 +39,24 @@
 
         /* Home Page Company Logo Carousel Start */
         $('.logo_carousel').owlCarousel({
-            items: 5,
             loop: true,
             margin: 100,
             autoplay: true,
             autoplaySpeed: 1000,
             nav: false,
             dots: false,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                767: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+            
         });
         /* Home Page Company Logo Carousel End */
 

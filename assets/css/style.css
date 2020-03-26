@@ -246,6 +246,14 @@ button[type="submit"] {
    font-weight: 400;
 }
 
+.seo_btn {
+   position: absolute;
+   z-index: 10;
+   right: 0%;
+   top: 12px;
+   text-align: right;
+}
+
 /************************************** 
       Menu Section End
 ***************************************/
@@ -261,7 +269,7 @@ button[type="submit"] {
 }
 
 .seo.hero_area {
-   padding: 115px;
+   padding: 115px 0px;
    border-bottom: none;
 }
 
@@ -275,7 +283,8 @@ button[type="submit"] {
    -o-background-size: cover;
    background-size: cover;
    line-height: 1.9;
-   padding: 90px;
+   padding-top: 90px;
+   padding-bottom: 90px;
 }
 
 .hero_area.home_2 h1 {
@@ -862,7 +871,7 @@ a.case_study_more {
    border: none;
    position: fixed;
    bottom: 13%;
-   left: 95%;
+   left: 91%;
    font-size: 1.875rem;
    display: -webkit-box;
    display: -webkit-flex;
@@ -880,7 +889,7 @@ a.case_study_more {
    -ms-flex-align: center;
    align-items: center;
    color: #fff;
-   z-index: 10;
+   z-index: 9;
    -webkit-transition: .2s;
    -o-transition: .2s;
    -moz-transition: .2s;
@@ -1785,6 +1794,8 @@ Home-3 About Traffic Section Start
    align-items: center;
    position: relative;
    z-index: 1;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .single_case_study_3:after {
@@ -1921,7 +1932,6 @@ a.case_study_more_3 {
 }
 
 .footer_area_2 {
-   height: 100px;
    margin-top: 20px;
 }
 

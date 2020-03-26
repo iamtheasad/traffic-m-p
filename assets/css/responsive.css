@@ -1,6 +1,8 @@
 /* Larg Layout: 992px-1280px */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-   .menu_area a.boxed_btn {
+
+   .menu_area a.boxed_btn,
+   .seo_btn a.boxed_btn {
       padding: 10px 7px;
    }
 }
@@ -11,6 +13,16 @@
 @media only screen and (min-width: 992px) {}
 
 /* Large Layout: 992px End */
+
+
+/* Tablet Layout: 768px-991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .tile_gallery img:nth-child(1) {
+      width: 80%;
+   }
+}
+
+/* Tablet Layout: 768px-991px End */
 
 
 /* Tablet & Mobile Layout: 0px-991px */
@@ -47,13 +59,13 @@
    .about_slick .slicknav_menu {
       background: #06d6a0;
    }
-   
+
    .home_2 .slicknav_btn,
    .home_3 .slicknav_btn,
    .about_slick .slicknav_btn {
       background: #06d6a0;
    }
-   
+
    .home_2 .slicknav_menu .slicknav_icon,
    .home_3 .slicknav_menu .slicknav_icon,
    .home_2 .slicknav_menu .slicknav_icon {
@@ -117,27 +129,98 @@
 
    .logo {
       display: none;
-   } 
+   }
+
+   .seo_btn {
+      position: unset;
+      text-align: center;
+      margin-top: 50px;
+      z-index: 9;
+   }
+
+   .menu_area.scrolled {
+      padding: 0px;
+      background: transparent;
+   }
 
    /* Responsive Menu End */
 
    .menu_area a.boxed_btn {
       margin-top: 50px;
-  } 
-  
-  .menu_area.scrolled {
-     background: transparent;
-  }
+   }
+
+   /* Index */
+   .website_checker_form input[type="url"] {
+      margin-bottom: 30px;
+   }
+
+   .transparency a.boxed_btn {
+      margin-bottom: 50px;
+   }
+
+   .footer_margin {
+      margin-top: 50px;
+   }
+
+   .bottom_to_top {
+      width: 40px;
+      height: 40px;
+      bottom: 25%;
+      left: 90%;
+      font-size: 25px;
+   }
+
+   #pricing.section_padding {
+      padding-bottom: 0px;
+   }
+
+   #service .section_padding {
+      padding-top: 50px;
+   }
+
+   #service_2.section_padding {
+      padding-bottom: 0px;
+   }
+
+   .single_pricing_box.theme_2 {
+      margin-bottom: 50px;
+   }
+
+   /* Index End */
+
+   /* home-3 */
+   .website_check_form input[type="submit"] {
+      width: auto;
+   }
+
+   .home_3_blog .single_blog_box {
+      margin-bottom: 30px;
+   }
+
+   .section_padding.home_3_blog {
+      padding: 50px 0px;
+   }
+
+   /* home-3 end */
+
+   /* home-4 */
+   .website_check_form input[type="submit"] {
+      margin-top: 30px;
+   }
+
+   .service_section:after {
+      width: 100%;
+   }
+
+   .service_section:before {
+      display: none;
+   }
+
+   /* home-4 end */
 
 }
 
 /* Tablet & Mobile Layout: 0px-991px End */
-
-
-/* Tablet Layout: 768px-991px */
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
-
-/* Tablet Layout: 768px-991px End */
 
 
 /* Mobile Layout: 0px-767px */
@@ -146,6 +229,163 @@
       width: 100%;
       text-align: center;
    }
+
+   /* Index */
+
+   .footer_area h4 {
+      margin-top: 50px;
+   }
+
+   .bottom_to_top {
+      left: 82%;
+   }
+
+   /* Index end */
+
+   /* home-2 */
+   .hero_area.home_2 h1,
+   .cta_area.call_to_action_4 h2,
+   .single_slide_item h2,
+   .single_slide_item h1,
+   .cta_area.theme_4 h2 {
+      font-size: 30px;
+   }
+
+   .about_text {
+      padding-left: 0px;
+      padding-top: 50px;
+   }
+
+   .hero_form {
+      box-shadow: none;
+   }
+
+   /* home-2 end */
+
+   /* home-3 */
+   .footer_area_2 {
+      text-align: center;
+   }
+
+   .footer_area_2 ul {
+      margin-bottom: 20px;
+      margin-top: 20px;
+   }
+
+   .copyright_area_3 ul {
+      margin-top: 20px;
+   }
+
+   .single_slide_item h2 {
+      line-height: unset;
+   }
+
+   .website_check_form input {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   #service_3.section_padding {
+      padding-top: 0px;
+   }
+
+   /* home-3 end */
+
+   /* home-4 */
+   .single_slide_item h1 {
+      margin-top: 60px;
+   }
+
+   .homepage_4_slides {
+      height: auto;
+   }
+
+   .section_padding.theme_4 {
+      padding-bottom: 0px;
+   }
+
+   .section_padding.service_section {
+      padding-bottom: 0px;
+   }
+
+   .feature_content {
+      padding-top: 50px;
+   }
+
+   .feature.section_padding {
+      padding-bottom: 0px;
+   }
+
+   .feature_icon {
+      margin-bottom: 15px;
+      width: 100%;
+   }
+
+   .tile_gallery img:nth-child(1) {
+      position: unset;
+      width: 100%;
+      box-shadow: 0px 4px 10px 0px #bdaba5;
+   }
+
+   .tile_gallery img:nth-child(2) {
+      display: none;
+   }
+
+   .tile_gallery {
+      height: auto;
+   }
+
+   /* home-4 end */
+
+   /* service-details */
+   .section_padding.service_details {
+      padding-bottom: 0px;
+   }
+
+   /* service-details end */
+
+   /* contact-v1 */
+   .blog_single img {
+      width: 100%;
+      margin-bottom: 50px;
+   }
+
+   /* contact-v1 end */
+
+   /* contact-v2 */
+   .reply_form {
+      margin-bottom: 80px;
+   }
+
+   /* contact-v2 end */
+
+   /* faq */
+   .faq_content h3 {
+      margin-top: 80px;
+   }
+
+   /* faq end */
+
+   /* pricing table */
+   .section_title h2 {
+      margin-top: 80px;
+   }
+
+   /* pricing table end */
+
+   /* seo analysis */
+   .hero_form.seo {
+      box-shadow: none;
+   }
+
+   /* seo analysis end */
+
+   /* service-details */
+   .service_box_4 {
+      margin-top: 50px;
+   }
+
+   /* service-details end */
 
 }
 
@@ -164,14 +404,6 @@
       display: none;
    }
 
-
 }
 
 /* Small Devices: 0px-575px End */
-
-/* From Codur Trust */
-/* @media only screen and (min-width: 320px) {}
-@media only screen and (min-width: 480px) {}
-@media only screen and (min-width: 767px) {}
-@media only screen and (min-width: 991px) {}
-@media only screen and (min-width: 1200px) {} */

@@ -38,16 +38,16 @@ button[type="submit"] {
 }
 
 .single_slide_item h2 {
-   font-size: 64px;
+   font-size: 4rem;
    color: #fff;
-   margin-bottom: 15px;
-   line-height: 70px;
+   margin-bottom: 0.9375rem;
+   line-height: 4.375rem;
 }
 
 a.video_play_btn {
    color: #fff;
-   width: 60px;
-   height: 60px;
+   width: 3.75rem;
+   height: 3.75rem;
    background: #06D6A0;
    display: -webkit-inline-box;
    display: -webkit-inline-flex;
@@ -68,16 +68,16 @@ a.video_play_btn {
    -moz-border-radius: 50%;
    border-radius: 50%;
    text-decoration: none;
-   margin-top: 30px;
-   font-size: 20px;
+   margin-top: 1.875rem;
+   font-size: 1.25rem;
 }
 
 .homepage_3_slides.owl-carousel.owl-theme .owl-nav button {
    position: absolute;
    top: 50%;
-   left: 50px;
+   left: 3.125rem;
    color: #fff;
-   font-size: 30px;
+   font-size: 1.875rem;
    -webkit-transform: translateY(-50%);
    -moz-transform: translateY(-50%);
    -ms-transform: translateY(-50%);
@@ -92,7 +92,7 @@ a.video_play_btn {
 
 .homepage_3_slides.owl-carousel.owl-theme .owl-nav button.owl-next {
    left: auto;
-   right: 50px;
+   right: 3.125rem;
 }
 
 .homepage_3_slides.owl-theme .owl-nav [class*=owl-]:hover {

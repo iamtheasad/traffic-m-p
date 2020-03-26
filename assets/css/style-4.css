@@ -36,14 +36,14 @@ button[type="submit"],
 
 .off_canvas_menu {
    position: fixed;
-   width: 300px;
+   width: 18.75rem;
    height: 100%;
    background: #073b4c;
    z-index: 99;
-   left: -300px;
+   left: -18.75rem;
    top: 0;
    opacity: 0;
-   padding: 40px;
+   padding: 2.5rem;
    -webkit-transition: .3s;
    -o-transition: .3s;
    -moz-transition: .3s;
@@ -52,15 +52,15 @@ button[type="submit"],
 }
 
 .off_canvas_menu.show_off_canvas_menu {
-   left: 0px;
+   left: 0rem;
    opacity: 1;
 }
 
 .menu_close {
    position: absolute;
-   right: 0px;
-   top: 0px;
-   padding: 20px;
+   right: 0rem;
+   top: 0rem;
+   padding: 1.25rem;
    color: #fff;
    cursor: pointer;
 }
@@ -72,11 +72,11 @@ button[type="submit"],
 
 .menu_logo {
    text-transform: uppercase;
-   border: 1px solid #999;
+   border: 0.0625rem solid #999;
    display: inline-block;
-   padding: 10px 15px 1px;
-   margin-bottom: 20px;
-   margin-top: 20px;
+   padding: 0.625rem 0.9375rem 0.0625rem;
+   margin-bottom: 1.25rem;
+   margin-top: 1.25rem;
    font-weight: 700;
 }
 
@@ -100,23 +100,23 @@ button[type="submit"],
 
 .menu_area.scrolled {
    background: #073B4C;
-   padding: 5px;
-   margin-top: 0px;
-   margin-bottom: 0px;
+   padding: 0.3125rem;
+   margin-top: 0rem;
+   margin-bottom: 0rem;
 }
 
 .menu_area.scrolled .menu_trigger,
 .menu_area.scrolled .search_trigger {
-   padding: 7px 0px;
+   padding: 0.4375rem 0rem;
 }
 
 .menu_trigger,
 .search_trigger {
    color: #fff;
-   font-size: 25px;
-   padding: 20px 0px;
+   font-size: 1.5625rem;
+   padding: 1.25rem 0rem;
    cursor: pointer;
-   line-height: 51px;
+   line-height: 3.1875rem;
 }
 
 .off_canvas_menu_shade {
@@ -155,12 +155,12 @@ button[type="submit"],
       Home-4 Sarch Start
 ***************************************/
 .search_box {
-   padding: 10px;
+   padding: 0.625rem;
    width: 20%;
    display: inline-block;
    position: fixed;
    left: 58%;
-   border: 1px solid #999;
+   border: 0.0625rem solid #999;
    opacity: 0;
    z-index: -1;
    -webkit-transition: .3s;
@@ -191,11 +191,11 @@ button[type="submit"],
 }
 
 .search_bar_table {
-   max-width: 500px;
+   max-width: 31.25rem;
 }
 
 .search_bar_table p {
-   margin: 20px 0px;
+   margin: 1.25rem 0rem;
 }
 
 .search_bar_wrap h2 {
@@ -204,14 +204,14 @@ button[type="submit"],
 
 .search_bar_table input {
    border: none;
-   padding: 10px;
+   padding: 0.625rem;
 }
 
 .search_close {
    position: absolute;
-   top: 10px;
-   right: 10px;
-   padding: 20px;
+   top: 0.625rem;
+   right: 0.625rem;
+   padding: 1.25rem;
    display: inline-block;
    cursor: pointer;
 }
@@ -250,14 +250,14 @@ button[type="submit"],
 }
 
 .single_slide_item h1 {
-   font-size: 43px;
+   font-size: 2.6875rem;
    color: #fff;
    font-weight: 700;
 }
 
 .single_slide_item p {
-   line-height: 28px;
-   margin: 30px 0px;
+   line-height: 1.75rem;
+   margin: 1.875rem 0rem;
    font-weight: 300;
 }
 

@@ -58,8 +58,8 @@ img {
 }
 
 .menu_area {
-   margin-top: 20px;
-   margin-bottom: 20px;
+   margin-top: 1.25rem;
+   margin-bottom: 1.25rem;
 }
 
 .mainmenu {
@@ -113,7 +113,7 @@ ul.dropdown_header_menu {
    transition: .3s;
    top: 115%;
    text-align: left;
-   width: 150px;
+   width: 9.375rem;
 }
 
 ul.dropdown_header_menu li {
@@ -200,7 +200,7 @@ ul.mega_menu_1 {
 }
 
 ul.mega_menu_1 h4 {
-   font-size: 22px;
+   font-size: 1.375rem;
    color: #fff;
 }
 
@@ -210,7 +210,7 @@ ul.mega_menu_1 a.boxed_btn {
 
 ul.mega_menu_1 p {
    color: #fff;
-   margin: 20px 5px;
+   margin: 1.25rem 0.3125rem;
 }
 
 ul.mega_menu_1 a.boxed_btn:hover {
@@ -223,7 +223,7 @@ button[type="submit"] {
    color: #fff;
    background: #ef476f;
    display: inline-block;
-   padding: 15px 17px;
+   padding: 0.9375rem 1.0625rem;
    text-align: center;
    -webkit-border-radius: 0.20rem;
    -moz-border-radius: 0.20rem;
@@ -246,11 +246,16 @@ button[type="submit"] {
    font-weight: 400;
 }
 
+.website_checker_form input:focus {
+   outline: none;
+   border: 1px solid #ef476f;
+}
+
 .seo_btn {
    position: absolute;
    z-index: 10;
    right: 0%;
-   top: 12px;
+   top: 0.75rem;
    text-align: right;
 }
 
@@ -269,7 +274,7 @@ button[type="submit"] {
 }
 
 .seo.hero_area {
-   padding: 115px 0px;
+   padding: 7.1875rem 0rem;
    border-bottom: none;
 }
 
@@ -283,12 +288,12 @@ button[type="submit"] {
    -o-background-size: cover;
    background-size: cover;
    line-height: 1.9;
-   padding-top: 90px;
-   padding-bottom: 90px;
+   padding-top: 5.625rem;
+   padding-bottom: 5.625rem;
 }
 
 .hero_area.home_2 h1 {
-   font-size: 50px;
+   font-size: 3.125rem;
    color: #fff;
 }
 
@@ -458,11 +463,11 @@ textarea {
 a.load_more_btn {
    color: #06D6A0;
    font-weight: 600;
-   font-size: 14px;
+   font-size: 0.875rem;
 }
 
 a.load_more_btn i {
-   padding-left: 10px;
+   padding-left: 0.625rem;
 }
 
 .gray_bg {
@@ -589,6 +594,10 @@ a.case_study_more {
 /************************************** 
      Testimonial Section Start
 ***************************************/
+#testimonial .section_padding {
+   padding-top: 0rem;
+}
+
 .testimonial_content p {
    font-size: 1.5rem;
    color: #373737;
@@ -780,7 +789,7 @@ a.case_study_more {
 }
 
 .footer_area.service_details .social_links li a i {
-   padding-right: 10px !important;
+   padding-right: 0.625rem !important;
 }
 
 
@@ -911,48 +920,48 @@ a.case_study_more {
 ***************************************/
 .hero_form {
    background-color: #fff;
-   padding: 30px;
+   padding: 1.875rem;
    color: #999;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-   -webkit-box-shadow: 12px 12px 0px 0px #99bef6;
-   -moz-box-shadow: 12px 12px 0px 0px #99bef6;
-   box-shadow: 12px 12px 0px 0px #99bef6;
+   -webkit-border-radius: 0.3125rem;
+   -moz-border-radius: 0.3125rem;
+   border-radius: 0.3125rem;
+   -webkit-box-shadow: 0.75rem 0.75rem 0rem 0rem #99bef6;
+   -moz-box-shadow: 0.75rem 0.75rem 0rem 0rem #99bef6;
+   box-shadow: 0.75rem 0.75rem 0rem 0rem #99bef6;
 }
 
 .hero_form.seo {
-   -webkit-box-shadow: 12px 12px 0px 0px #f2f2f2;
-   -moz-box-shadow: 12px 12px 0px 0px #f2f2f2;
-   box-shadow: 12px 12px 0px 0px #f2f2f2;
+   -webkit-box-shadow: 0.75rem 0.75rem 0rem 0rem #f2f2f2;
+   -moz-box-shadow: 0.75rem 0.75rem 0rem 0rem #f2f2f2;
+   box-shadow: 0.75rem 0.75rem 0rem 0rem #f2f2f2;
 }
 
 .hero_form_header h3 {
-   font-size: 22px;
+   font-size: 1.375rem;
 }
 
 .hero_form_header p {
-   font-size: 14px;
-   margin-top: 10px;
+   font-size: 0.875rem;
+   margin-top: 0.625rem;
 }
 
 .hero_form_header {
-   margin-bottom: 35px;
+   margin-bottom: 2.1875rem;
 }
 
 .hero_form input {
    width: 100%;
-   margin-top: 15px;
+   margin-top: 0.9375rem;
 }
 
 .hero_form input:focus {
    outline: none;
-   border: 1px solid #06d6a0;
+   border: 0.0625rem solid #06d6a0;
 }
 
 .hero_form input[type="submit"] {
-   width: 200px;
-   margin-top: 35px;
+   width: 12.5rem;
+   margin-top: 2.1875rem;
    display: inline-block;
 }
 
@@ -1003,19 +1012,19 @@ a.case_study_more {
 }
 
 .cta_area.call_to_action_4 h2 {
-   font-size: 36px;
+   font-size: 2.25rem;
    color: #fff;
 }
 
 .cta_area.call_to_action_4 p {
-   font-size: 16px;
-   margin: 20px 0px;
+   font-size: 1rem;
+   margin: 1.25rem 0rem;
 }
 
 .cta_area.call_to_action_4 a.boxed_btn {
    background: #06D6A0;
    font-weight: 600;
-   letter-spacing: 1px;
+   letter-spacing: 0.0625rem;
 }
 
 /************************************** 
@@ -1028,7 +1037,7 @@ a.case_study_more {
 ***************************************/
 .cta_area.call_to_action_4.services_cta_v1.what_we_do {
    background-image: url(../img/services-v1/what_we_do_bg.jpg);
-   padding: 150px 0px;
+   padding: 9.375rem 0rem;
 }
 
 .cta_area.call_to_action_4.services_cta_v1.what_we_do:after {
@@ -1040,7 +1049,7 @@ a.case_study_more {
 }
 
 .cta_area.call_to_action_4.services_cta_v1.what_we_do p {
-   font-size: 22px;
+   font-size: 1.375rem;
    font-weight: 400;
 }
 
@@ -1109,7 +1118,7 @@ a.case_study_more {
    Serives v2 what we do for you Start
 ***************************************/
 .cta_area.call_to_action_4.services_cta_v2.what_we_do {
-   padding: 150px 0px;
+   padding: 9.375rem 0rem;
    background-image: url(../img/services-v2/what_we_do_bg.jpg);
 }
 
@@ -1143,16 +1152,16 @@ a.case_study_more {
 }
 
 .service_number {
-   font-size: 70px;
+   font-size: 4.375rem;
    color: #DCDCDC;
    font-weight: 400;
-   margin-bottom: -15px;
+   margin-bottom: -0.9375rem;
    display: block;
 }
 
 .all_services_v2 .singl_service_box {
-   border: 2px solid transparent;
-   margin-bottom: 0px;
+   border: 0.125rem solid transparent;
+   margin-bottom: 0rem;
 }
 
 /************************************** 
@@ -1164,7 +1173,7 @@ a.case_study_more {
    Service Details Pricing Box Start
 ***************************************/
 .cta_area.call_to_action_4.service_details.what_we_do {
-   padding: 150px 0px;
+   padding: 9.375rem 0rem;
    background-image: url(../img/Service-Details/service_details.jpg);
 }
 
@@ -1213,16 +1222,16 @@ a.case_study_more {
 }
 
 .service_details .service_section {
-   margin-top: 0px;
+   margin-top: 0rem;
 }
 
 .service_details .service_content {
-   padding-top: 0px;
-   padding-bottom: 0px;
+   padding-top: 0rem;
+   padding-bottom: 0rem;
 }
 
 .service_details .service_content .service_box_4:last-child {
-   margin-bottom: 0px;
+   margin-bottom: 0rem;
 }
 
 
@@ -1235,11 +1244,11 @@ a.case_study_more {
   Home-2 Team Member / Fastest Growing Start 
 ***************************************/
 .about_text h3 {
-   margin-bottom: 30px;
+   margin-bottom: 1.875rem;
 }
 
 .about_text .boxed_btn {
-   margin-top: 18px;
+   margin-top: 1.125rem;
 }
 
 /************************************** 
@@ -1253,7 +1262,7 @@ a.case_study_more {
 a.single_service_box_2 {
    background: #FBFBFB;
    width: 100%;
-   height: 250px;
+   height: 15.625rem;
    display: -webkit-box;
    display: -webkit-flex;
    display: -moz-box;
@@ -1313,15 +1322,15 @@ a.single_service_box_2 h3 {
     Home-2 Testimonial Start
 ***************************************/
 .padding-80 {
-   padding: 80px 0px;
+   padding: 5rem 0rem;
 }
 
 .testimonial_icon {
    background: #fff;
-   border: 1px solid #E8E8E8;
-   width: 60px;
-   height: 60px;
-   margin: 0px auto 40px;
+   border: 0.0625rem solid #E8E8E8;
+   width: 3.75rem;
+   height: 3.75rem;
+   margin: 0rem auto 2.5rem;
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
    border-radius: 50%;
@@ -1332,17 +1341,17 @@ a.single_service_box_2 h3 {
    color: #373737;
    line-height: 2;
    font-weight: 400;
-   font-size: 18px;
+   font-size: 1.125rem;
 }
 
 .single_testimonial_item.theme_2 h4 {
-   margin-top: 35px;
-   font-size: 18px;
+   margin-top: 2.1875rem;
+   font-size: 1.125rem;
 }
 
 .single_testimonial_item.theme_2 span {
    font-weight: 300;
-   font-size: 14px;
+   font-size: 0.875rem;
    display: block;
    line-height: 2;
 }
@@ -1397,7 +1406,7 @@ a.single_service_box_2 h3 {
 
 .case_study_preview {
    background-color: #ddd;
-   height: 300px;
+   height: 18.75rem;
    width: 100%;
    background-position: center;
    -webkit-background-size: cover;
@@ -1449,22 +1458,22 @@ a.single_service_box_2 h3 {
 .case_study_link_tablecell a {
    background: #fff;
    color: #373737;
-   font-size: 14px;
+   font-size: 0.875rem;
 }
 
 .case_study_link_tablecell a i {
-   padding-left: 10px;
+   padding-left: 0.625rem;
 }
 
 .case_study_box_style_2 h4 {
-   font-size: 18px;
-   margin-top: 30px;
+   font-size: 1.125rem;
+   margin-top: 1.875rem;
 }
 
 .case_study_box_style_2 p {
-   font-size: 14px;
+   font-size: 0.875rem;
    font-weight: 300;
-   margin-top: 5px;
+   margin-top: 0.3125rem;
 }
 
 .case_study_box_style_2 {
@@ -1500,18 +1509,18 @@ a.single_service_box_2 h3 {
 ***************************************/
 .single_pricing_box.theme_2 {
    border: none;
-   margin: 0px;
+   margin: 0rem;
 }
 
 .theme_2 .pricing_heading {
    background-color: #FBFBFB;
-   padding: 25px;
-   margin-bottom: 50px;
+   padding: 1.5625rem;
+   margin-bottom: 3.125rem;
    border: none;
 }
 
 .theme_2 .pricing_heading h4 {
-   margin: 0px 0px 15px;
+   margin: 0rem 0rem 0.9375rem;
 }
 
 .single_pricing_box.theme_2:hover .pricing_heading h4 {
@@ -1533,9 +1542,9 @@ a.single_service_box_2 h3 {
 
 .theme_2 .pricing_content a.boxed_btn {
    display: block;
-   -webkit-border-radius: 0px;
-   -moz-border-radius: 0px;
-   border-radius: 0px;
+   -webkit-border-radius: 0rem;
+   -moz-border-radius: 0rem;
+   border-radius: 0rem;
 }
 
 /************************************** 
@@ -1547,8 +1556,8 @@ a.single_service_box_2 h3 {
     Home-2 Blog Section Start
 ***************************************/
 .single_blog_box {
-   border: 1px solid #F3F3F3;
-   padding: 50px 25px;
+   border: 0.0625rem solid #F3F3F3;
+   padding: 3.125rem 1.5625rem;
    -webkit-transition: .2s;
    -moz-transition: .2s;
    -o-transition: .2s;
@@ -1561,13 +1570,13 @@ a.single_service_box_2 h3 {
 }
 
 .single_blog_box h3 {
-   font-size: 20px;
+   font-size: 1.25rem;
 }
 
 .single_blog_box p {
    font-weight: 300;
-   line-height: 24px;
-   margin: 20px 0px;
+   line-height: 1.5rem;
+   margin: 1.25rem 0rem;
 }
 
 a.blog_readmore_btn {
@@ -1577,7 +1586,7 @@ a.blog_readmore_btn {
 }
 
 a.blog_readmore_btn i {
-   padding-left: 5px;
+   padding-left: 0.3125rem;
 }
 
 /************************************** 
@@ -1642,18 +1651,18 @@ a.blog_readmore_btn i {
    text-decoration: none;
    line-height: 1.9;
    display: block;
-   -webkit-box-shadow: 1px 1px 5px 0px #EAEAEA;
-   -moz-box-shadow: 1px 1px 5px 0px #EAEAEA;
-   box-shadow: 1px 1px 5px 0px #EAEAEA;
-   padding: 0px;
+   -webkit-box-shadow: 0.0625rem 0.0625rem 0.3125rem 0rem #EAEAEA;
+   -moz-box-shadow: 0.0625rem 0.0625rem 0.3125rem 0rem #EAEAEA;
+   box-shadow: 0.0625rem 0.0625rem 0.3125rem 0rem #EAEAEA;
+   padding: 0rem;
 }
 
 .home_3_blog.main_blog a.single_blog_box {
-   margin-bottom: 30px;
+   margin-bottom: 1.875rem;
 }
 
 .home_3_blog .blog_thumb_wrapper {
-   height: 250px;
+   height: 15.625rem;
    background-position: center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -1662,12 +1671,12 @@ a.blog_readmore_btn i {
 }
 
 .home_3_blog .blog_3_content {
-   padding: 50px 30px;
+   padding: 3.125rem 1.875rem;
 }
 
 .home_3_blog .blog_3_content h4 {
-   margin: 10px 0px 15px;
-   font-size: 18px;
+   margin: 0.625rem 0rem 0.9375rem;
+   font-size: 1.125rem;
 }
 
 /************************************** 
@@ -1680,7 +1689,7 @@ a.blog_readmore_btn i {
 ***************************************/
 .cta_area.theme_2 h2 {
    color: #fff;
-   margin-bottom: 35px;
+   margin-bottom: 2.1875rem;
 }
 
 .cta_area.theme_2 {
@@ -1695,12 +1704,12 @@ a.blog_readmore_btn i {
 }
 
 .cta_area.theme_2 a.boxed_btn {
-   padding-left: 55px;
-   padding-right: 55px;
-   font-size: 14px;
+   padding-left: 3.4375rem;
+   padding-right: 3.4375rem;
+   font-size: 0.875rem;
    color: #333;
    font-weight: 400;
-   letter-spacing: 1px;
+   letter-spacing: 0.0625rem;
    background-color: #fff;
 }
 
@@ -1730,18 +1739,18 @@ a.blog_readmore_btn i {
 Home-3 About Traffic Section Start
 ***************************************/
 .theme_3 .about_text h3 {
-   font-size: 24px;
+   font-size: 1.5rem;
 }
 
 .theme_3 .about_text p {
    font-weight: 300;
-   margin: 30px 0px 25px;
+   margin: 1.875rem 0rem 1.5625rem;
 }
 
 .theme_3 .about_text a.boxed_btn {
-   font-size: 14px;
+   font-size: 0.875rem;
    font-weight: 600;
-   letter-spacing: 1px;
+   letter-spacing: 0.0625rem;
 }
 
 /************************************** 
@@ -1763,8 +1772,8 @@ Home-3 About Traffic Section Start
 }
 
 .theme_3 .singl_service_box {
-   border: 2px solid transparent;
-   margin-bottom: 0px;
+   border: 0.125rem solid transparent;
+   margin-bottom: 0rem;
 }
 
 /************************************** 
@@ -1776,7 +1785,7 @@ Home-3 About Traffic Section Start
   Home-3 Case Study Sectin Start
 ***************************************/
 .single_case_study_3 {
-   height: 300px;
+   height: 18.75rem;
    display: -webkit-box;
    display: -webkit-flex;
    display: -moz-box;
@@ -1819,7 +1828,7 @@ Home-3 About Traffic Section Start
 }
 
 .case_study_tablecell {
-   font-size: 20px;
+   font-size: 1.25rem;
    opacity: 0;
    -webkit-transition: .2s;
    -o-transition: .2s;
@@ -1829,13 +1838,13 @@ Home-3 About Traffic Section Start
 
 .case_study_tablecell p {
    font-weight: 300;
-   font-size: 14px;
-   margin: 10px 0px 15px;
+   font-size: 0.875rem;
+   margin: 0.625rem 0rem 0.9375rem;
 }
 
 a.case_study_more_3 {
-   font-size: 25px;
-   padding: 10px;
+   font-size: 1.5625rem;
+   padding: 0.625rem;
 }
 
 .single_case_study_3:hover .case_study_tablecell {
@@ -1847,11 +1856,11 @@ a.case_study_more_3 {
 }
 
 .case_study_1 .single_case_study_3 {
-   margin: 15px 0px;
+   margin: 0.9375rem 0rem;
 }
 
 .case_study_1 .case_study_tablecell {
-   margin-bottom: -15px;
+   margin-bottom: -0.9375rem;
 }
 
 /************************************** 
@@ -1886,19 +1895,19 @@ a.case_study_more_3 {
 }
 
 .cta_area.theme_3 h2 {
-   font-size: 40px;
+   font-size: 2.5rem;
    color: #fff;
 }
 
 .cta_area.theme_3 p {
-   font-size: 18px;
+   font-size: 1.125rem;
    color: #fff;
-   margin: 15px 0px 25px;
+   margin: 0.9375rem 0rem 1.5625rem;
 }
 
 .cta_area.theme_3 a.boxed_btn {
    font-weight: 600;
-   letter-spacing: 1px;
+   letter-spacing: 0.0625rem;
    background: #fff;
    color: #373737;
 }
@@ -1927,16 +1936,16 @@ a.case_study_more_3 {
 
 .footer_area_2 a {
    display: inline-block;
-   padding: 10px;
+   padding: 0.625rem;
    color: #888;
 }
 
 .footer_area_2 {
-   margin-top: 20px;
+   margin-top: 1.25rem;
 }
 
 .social_links_3 a i {
-   padding-right: 10px;
+   padding-right: 0.625rem;
 }
 
 /************************************** 
@@ -1952,7 +1961,7 @@ a.case_study_more_3 {
    -o-transition: .2s;
    -moz-transition: .2s;
    transition: .2s;
-   padding: 30px 0px;
+   padding: 1.875rem 0rem;
 }
 
 .copyright_area_3 li {
@@ -1965,7 +1974,7 @@ a.case_study_more_3 {
 }
 
 .copyright_area_3 ul li a {
-   padding: 15px;
+   padding: 0.9375rem;
    font-weight: 400;
 }
 
@@ -1990,39 +1999,39 @@ a.case_study_more_3 {
    How can traffic help my buisness grow Start
 **************************************************/
 .about_text {
-   padding-left: 50px;
+   padding-left: 3.125rem;
 }
 
 .about_text h3 {
-   font-size: 26px;
-   margin-bottom: 30px;
+   font-size: 1.625rem;
+   margin-bottom: 1.875rem;
 }
 
 a.inline_btn {
    font-weight: 600;
    color: #06d6a0;
-   margin-top: 25px;
+   margin-top: 1.5625rem;
    display: inline-block;
 }
 
 a.inline_btn i {
-   padding-left: 5px;
+   padding-left: 0.3125rem;
 }
 
 .tile_gallery img:nth-child(2) {
    position: absolute;
    right: 0%;
    top: 0%;
-   -webkit-box-shadow: -3px 10px 15px 0px #bdaba5;
-   -moz-box-shadow: -3px 10px 15px 0px #bdaba5;
-   box-shadow: -3px 10px 15px 0px #bdaba5;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
+   -webkit-box-shadow: -0.1875rem 0.625rem 0.9375rem 0rem #bdaba5;
+   -moz-box-shadow: -0.1875rem 0.625rem 0.9375rem 0rem #bdaba5;
+   box-shadow: -0.1875rem 0.625rem 0.9375rem 0rem #bdaba5;
+   -webkit-border-radius: 0.1875rem;
+   -moz-border-radius: 0.1875rem;
+   border-radius: 0.1875rem;
 }
 
 .tile_gallery {
-   height: 480px;
+   height: 30rem;
 }
 
 .tile_gallery img:nth-child(1) {
@@ -2030,12 +2039,12 @@ a.inline_btn i {
    bottom: 0%;
    left: 0%;
    z-index: 1;
-   -webkit-box-shadow: -3px 10px 15px 0px #bdaba5;
-   -moz-box-shadow: -3px 10px 15px 0px #bdaba5;
-   box-shadow: -3px 10px 15px 0px #bdaba5;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
+   -webkit-box-shadow: -0.1875rem 0.625rem 0.9375rem 0rem #bdaba5;
+   -moz-box-shadow: -0.1875rem 0.625rem 0.9375rem 0rem #bdaba5;
+   box-shadow: -0.1875rem 0.625rem 0.9375rem 0rem #bdaba5;
+   -webkit-border-radius: 0.1875rem;
+   -moz-border-radius: 0.1875rem;
+   border-radius: 0.1875rem;
 }
 
 /************************************************* 
@@ -2049,7 +2058,7 @@ a.inline_btn i {
 .service_section {
    position: relative;
    z-index: 1;
-   margin-top: 60px;
+   margin-top: 3.75rem;
 }
 
 .service_section:before {
@@ -2060,19 +2069,19 @@ a.inline_btn i {
    width: 50%;
    height: 100%;
    right: 0%;
-   top: -60px;
+   top: -3.75rem;
    background-repeat: no-repeat;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    background-position: center;
-   -webkit-box-shadow: 0px 4px 7px 1px #D2D2D2;
-   -moz-box-shadow: 0px 4px 7px 1px #D2D2D2;
-   box-shadow: 0px 4px 7px 1px #D2D2D2;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
+   -webkit-box-shadow: 0rem 0.25rem 0.4375rem 0.0625rem #D2D2D2;
+   -moz-box-shadow: 0rem 0.25rem 0.4375rem 0.0625rem #D2D2D2;
+   box-shadow: 0rem 0.25rem 0.4375rem 0.0625rem #D2D2D2;
+   -webkit-border-radius: 0.1875rem;
+   -moz-border-radius: 0.1875rem;
+   border-radius: 0.1875rem;
 }
 
 .service_section:after {
@@ -2084,12 +2093,12 @@ a.inline_btn i {
    left: 0;
    top: 0;
    z-index: -1;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
-   -webkit-box-shadow: 0px 0px 11px 2px #F2F2F2;
-   -moz-box-shadow: 0px 0px 11px 2px #F2F2F2;
-   box-shadow: 0px 0px 11px 2px #F2F2F2;
+   -webkit-border-radius: 0.1875rem;
+   -moz-border-radius: 0.1875rem;
+   border-radius: 0.1875rem;
+   -webkit-box-shadow: 0rem 0rem 0.6875rem 0.125rem #F2F2F2;
+   -moz-box-shadow: 0rem 0rem 0.6875rem 0.125rem #F2F2F2;
+   box-shadow: 0rem 0rem 0.6875rem 0.125rem #F2F2F2;
 }
 
 .service_details .service_section:after {
@@ -2101,22 +2110,22 @@ a.inline_btn i {
 }
 
 .service_content {
-   padding-top: 90px;
-   padding-bottom: 40px;
+   padding-top: 5.625rem;
+   padding-bottom: 2.5rem;
 }
 
 .service_box_4 {
-   margin-bottom: 50px;
+   margin-bottom: 3.125rem;
 }
 
 .service_box_4 h4 {
-   font-size: 18px;
-   margin: 10px 0px 25px;
+   font-size: 1.125rem;
+   margin: 0.625rem 0rem 1.5625rem;
 }
 
 .service_icon_4 {
    color: #06D6A0;
-   font-size: 40px;
+   font-size: 2.5rem;
 }
 
 /************************************** 
@@ -2131,7 +2140,7 @@ a.inline_btn i {
    position: relative;
    z-index: 1;
    color: #fff;
-   padding: 90px 0px;
+   padding: 5.625rem 0rem;
    background-image: url(../img/home-4/how_to_bg.jpg);
    background-color: #073b4c;
    background-position: center;
@@ -2155,19 +2164,19 @@ a.inline_btn i {
 }
 
 .cta_area.theme_4 h2 {
-   font-size: 36px;
+   font-size: 2.25rem;
    color: #fff;
 }
 
 .cta_area.theme_4 p {
-   margin: 25px 0px 20px;
+   margin: 1.5625rem 0rem 1.25rem;
 }
 
 .video_play_icon {
-   font-size: 20px;
+   font-size: 1.25rem;
    background: #06D6A0;
-   width: 70px;
-   height: 70px;
+   width: 4.375rem;
+   height: 4.375rem;
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
    border-radius: 50%;
@@ -2186,7 +2195,7 @@ a.inline_btn i {
    -moz-box-align: center;
    -ms-flex-align: center;
    align-items: center;
-   border: 1px solid transparent;
+   border: 0.0625rem solid transparent;
 }
 
 /************************************** 
@@ -2198,35 +2207,35 @@ a.inline_btn i {
    Feature Section Start
 ***************************************/
 .feature_content h2 {
-   font-size: 26px;
+   font-size: 1.625rem;
 }
 
 .feature_content span {
-   margin: 20px 0px;
+   margin: 1.25rem 0rem;
    display: block;
 }
 
 .single_feature_item h3 {
-   font-size: 18px;
+   font-size: 1.125rem;
 }
 
 .single_feature_item {
-   margin-top: 40px;
+   margin-top: 2.5rem;
 }
 
 .single_feature_item h3 {
-   margin-bottom: 30px;
+   margin-bottom: 1.875rem;
 }
 
 .feature_icon {
-   font-size: 35px;
+   font-size: 2.1875rem;
    color: #06D6A0;
 }
 
 .image_shadow {
-   -webkit-box-shadow: 0px 2px 15px 0px #ddd;
-   -moz-box-shadow: 0px 2px 15px 0px #ddd;
-   box-shadow: 0px 2px 15px 0px #ddd;
+   -webkit-box-shadow: 0rem 0.125rem 0.9375rem 0rem #ddd;
+   -moz-box-shadow: 0rem 0.125rem 0.9375rem 0rem #ddd;
+   box-shadow: 0rem 0.125rem 0.9375rem 0rem #ddd;
 }
 
 /************************************** 
@@ -2244,22 +2253,22 @@ a.inline_btn i {
 .testimonial_content_4 {
    position: relative;
    color: #cbcbcb;
-   padding: 28px 20px;
+   padding: 1.75rem 1.25rem;
 }
 
 .testimonial_content_4:after {
    content: '';
    position: absolute;
    background: #06d6a0;
-   width: 50px;
-   height: 50px;
+   width: 3.125rem;
+   height: 3.125rem;
    -webkit-transform: skew(21deg) rotate(47deg);
    -moz-transform: skew(21deg) rotate(47deg);
    -ms-transform: skew(21deg) rotate(47deg);
    -o-transform: skew(21deg) rotate(47deg);
    transform: skew(21deg) rotate(47deg);
-   left: -3px;
-   bottom: -15px;
+   left: -0.1875rem;
+   bottom: -0.9375rem;
    z-index: -1;
    opacity: 0;
 }
@@ -2274,13 +2283,13 @@ a.inline_btn i {
 }
 
 .testimonial_content_4 i {
-   font-size: 40px;
-   margin-bottom: 20px;
+   font-size: 2.5rem;
+   margin-bottom: 1.25rem;
 }
 
 p.author_detail {
-   padding-left: 25px;
-   font-size: 14px;
+   padding-left: 1.5625rem;
+   font-size: 0.875rem;
 }
 
 p.author_detail strong {
@@ -2289,7 +2298,7 @@ p.author_detail strong {
 }
 
 .testimonial_author {
-   margin-top: 50px;
+   margin-top: 3.125rem;
    display: -webkit-inline-box;
    display: -webkit-inline-flex;
    display: -moz-inline-box;
@@ -2315,7 +2324,7 @@ p.author_detail strong {
    -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
    border-radius: 50%;
-   width: 60px;
+   width: 3.75rem;
 }
 
 /************************************** 
@@ -2336,7 +2345,7 @@ p.author_detail strong {
 }
 
 .footer_area.theme_4 li a i {
-   padding-right: 10px;
+   padding-right: 0.625rem;
 }
 
 .footer_area.theme_4 li:hover a,
@@ -2352,7 +2361,7 @@ p.author_detail strong {
 }
 
 .footer_area.theme_4 h4 {
-   margin-bottom: 35px;
+   margin-bottom: 2.1875rem;
 }
 
 /************************************** 
@@ -2389,30 +2398,30 @@ p.author_detail strong {
       Single Blog Start
 ***************************************/
 .blog_single h3 {
-   font-size: 22px;
+   font-size: 1.375rem;
 }
 
 .single_blog_socials {
-   border-bottom: 1px solid #fafafa;
-   border-top: 1px solid #fafafa;
-   padding: 30px 0px;
+   border-bottom: 0.0625rem solid #fafafa;
+   border-top: 0.0625rem solid #fafafa;
+   padding: 1.875rem 0rem;
 }
 
 .single_blog_socials li {
    list-style: none;
    display: inline-block;
-   margin-right: 20px;
-   -webkit-border-radius: 30px;
-   -moz-border-radius: 30px;
-   border-radius: 30px;
+   margin-right: 1.25rem;
+   -webkit-border-radius: 1.875rem;
+   -moz-border-radius: 1.875rem;
+   border-radius: 1.875rem;
 }
 
 .single_blog_socials li i {
-   padding-right: 15px;
+   padding-right: 0.9375rem;
 }
 
 .single_blog_socials li a {
-   padding: 20px 30px;
+   padding: 1.25rem 1.875rem;
    color: #fff;
    text-decoration: none;
    display: block;
@@ -2432,23 +2441,23 @@ p.author_detail strong {
 }
 
 .post_author {
-   border-bottom: 1px solid #fafafa;
+   border-bottom: 0.0625rem solid #fafafa;
 }
 
 .post_author p {
-   padding: 20px 0px;
+   padding: 1.25rem 0rem;
 }
 
 .reply_form input {
    width: 100%;
-   margin-bottom: 30px;
+   margin-bottom: 1.875rem;
    border-color: #f9f9f9;
 }
 
 .reply_form textarea {
    width: 100%;
    border-color: #f9f9f9;
-   height: 120px;
+   height: 7.5rem;
 }
 
 .reply_form input:focus,
@@ -2460,8 +2469,8 @@ p.author_detail strong {
 input.post_submit {
    width: auto;
    display: inline-block;
-   margin-top: 30px;
-   margin-bottom: 0px;
+   margin-top: 1.875rem;
+   margin-bottom: 0rem;
 }
 
 /************************************** 
@@ -2473,30 +2482,30 @@ input.post_submit {
       About Start
 ***************************************/
 .logo_about {
-   padding: 60px 0px;
+   padding: 3.75rem 0rem;
 }
 
 .about .transparency {
-   padding-top: 115px;
+   padding-top: 7.1875rem;
 }
 
 .single_team_box img {
-   -webkit-box-shadow: 0px 2px 8px #ddd;
-   -moz-box-shadow: 0px 2px 8px #ddd;
-   box-shadow: 0px 2px 8px #ddd;
+   -webkit-box-shadow: 0rem 0.125rem 0.5rem #ddd;
+   -moz-box-shadow: 0rem 0.125rem 0.5rem #ddd;
+   box-shadow: 0rem 0.125rem 0.5rem #ddd;
 }
 
 .single_team_box {
-   margin-bottom: 30px;
+   margin-bottom: 1.875rem;
 }
 
 .single_team_box h4 {
-   font-size: 18px;
-   margin-top: 25px;
+   font-size: 1.125rem;
+   margin-top: 1.5625rem;
 }
 
 .single_team_box span {
-   font-size: 14px;
+   font-size: 0.875rem;
    color: #999;
 }
 
@@ -2514,23 +2523,23 @@ input.post_submit {
             FAQ Start
 ***************************************/
 .faq_content h3 {
-   font-size: 22px;
-   margin-bottom: 55px;
+   font-size: 1.375rem;
+   margin-bottom: 3.4375rem;
 }
 
 .traffic_faq .card-header {
    background: transparent;
-   border-bottom-width: 0px;
-   padding: 0px;
+   border-bottom-width: 0rem;
+   padding: 0rem;
 }
 
 .traffic_faq button {
    color: #373737;
-   font-size: 15px;
+   font-size: 0.9375rem;
    font-weight: 600;
    width: 100%;
    text-align: left;
-   padding: 15px 15px;
+   padding: 0.9375rem 0.9375rem;
    position: relative;
 }
 
@@ -2541,20 +2550,20 @@ input.post_submit {
 .traffic_faq button:after {
    content: '+';
    position: absolute;
-   right: 0px;
+   right: 0rem;
    top: 50%;
    -webkit-transform: translateY(-50%);
    -moz-transform: translateY(-50%);
    -ms-transform: translateY(-50%);
    -o-transform: translateY(-50%);
    transform: translateY(-50%);
-   padding: 15px;
-   font-size: 20px;
+   padding: 0.9375rem;
+   font-size: 1.25rem;
 }
 
 .traffic_faq button[aria-expanded="true"]:after {
    content: '-';
-   font-size: 30px;
+   font-size: 1.875rem;
 }
 
 
@@ -2581,7 +2590,7 @@ input.post_submit {
 .gm-style .gm-style-iw-c {
    background: #06d6a0;
    color: #fff;
-   font-size: 14px;
+   font-size: 0.875rem;
 }
 
 .gm-style .gm-style-iw-t::after {
@@ -2590,7 +2599,7 @@ input.post_submit {
 
 .gm-style-iw-d {
    overflow: hidden !important;
-   padding: 10px 10px 20px;
+   padding: 0.625rem 0.625rem 1.25rem;
 }
 
 #gmap_canvas img {
@@ -2607,7 +2616,7 @@ input.post_submit {
       Contact v2 Start
 ***************************************/
 .contact-wrap {
-   margin-bottom: 20px;
+   margin-bottom: 1.25rem;
    display: -webkit-inline-box;
    display: -webkit-inline-flex;
    display: -moz-inline-box;
@@ -2636,13 +2645,13 @@ input.post_submit {
    -moz-box-align: center;
    -ms-flex-align: center;
    align-items: center;
-   padding-right: 20px;
+   padding-right: 1.25rem;
    color: #06d6a0;
-   font-size: 35px;
+   font-size: 2.1875rem;
 }
 
 .contact-wrap h5 {
-   font-size: 15px;
+   font-size: 0.9375rem;
    color: #999;
 }
 

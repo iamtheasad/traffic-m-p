@@ -377,18 +377,12 @@
    /* contact-v2 end */
 
    /* faq */
-   .faq_content h3 {
-      margin-top: 5rem; /* 80px */
-   }
-
-   /* faq end */
-
-   /* pricing table */
+   .faq_content h3,
    .section_title h2 {
       margin-top: 5rem; /* 80px */
    }
 
-   /* pricing table end */
+   /* faq end */
 
    /* seo analysis */
    .hero_form.seo {

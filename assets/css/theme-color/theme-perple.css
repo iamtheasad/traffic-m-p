@@ -1,0 +1,56 @@
+
+/************************************** 
+      Layout Color Changes Start
+***************************************/
+.boxed_btn,
+input[type="submit"],
+button[type="submit"],
+ul.dropdown_header_menu,
+ul.mega_menu,
+.case_study_wrapper,
+.owl-theme .owl-dots .owl-dot.active span,
+.bottom_to_top {
+   background-color: #6c5ce7;
+}
+
+.mainmenu li:hover a,
+.singl_service_box:hover .service_icon,
+.singl_service_box:hover .service_readmore_btn,
+.singl_service_box:hover h3,
+.case_study_more:hover,
+.pricing_count,
+.social_links ul li:hover a,
+.footer_area li:hover a,
+.copyright_area a:hover {
+   color: #6c5ce7;
+}
+
+.boxed_btn:hover,
+input[type="submit"]:hover,
+button[type="submit"]:hover,
+.case_study_more:hover,
+.bottom_to_top:hover {
+   background-color: #373737;
+}
+
+.boxed_btn:hover,
+.bottom_to_top:hover,
+ul.mega_menu_1 .boxed_btn:hover {
+   color: #fff;
+}
+
+.website_checker_form input:focus,
+.email_subscribe_form input[type="email"]:focus {
+   border: 1px solid #6c5ce7;
+}
+
+.singl_service_box:hover,
+.single_pricing_box:hover,
+.single_pricing_box:hover .pricing_heading,
+.pricing_content ul li:hover {
+   border-color: #6c5ce7;
+}
+
+/************************************** 
+      Layout Color Changes End
+***************************************/

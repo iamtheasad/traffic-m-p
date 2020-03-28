@@ -159,6 +159,21 @@
         /* Home-3 Header End */
 
 
+        /* Theme Layout Changer Start */
+        $('.boxed_layout').on('click', function(){
+            $('body').addClass('boxed_layout').removeClass('wide_layout');
+            $('.layout_changer span').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $('.wide_layout').on('click', function(){
+            $('body').addClass('wide_layout').removeClass('boxed_layout');
+            $('.layout_changer span').removeClass('active');
+            $(this).addClass('active');
+        });
+        /* Theme Layout Changer End */
+
+
         /* Home-4 Canvas Menu Show and Off Start */
         $('.menu_trigger').on('click', function () {
             $('.off_canvas_menu').addClass('show_off_canvas_menu');

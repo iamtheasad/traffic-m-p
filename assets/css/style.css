@@ -58,8 +58,8 @@ img {
 }
 
 .menu_area {
-   margin-top: 1.25rem;
-   margin-bottom: 1.25rem;
+   padding-top: 1.25rem;
+   padding-bottom: 1.25rem;
 }
 
 .mainmenu {
@@ -458,7 +458,7 @@ textarea {
 }
 
 a.load_more_btn {
-   color: #06D6A0;
+   color: #EF476F;
    font-weight: 600;
    font-size: 0.875rem;
 }
@@ -578,10 +578,6 @@ a.case_study_more {
 }
 
 /* For Carousel Customization / */
-
-.bottom_to_top.case_study_1:hover {
-   color: #fff;
-}
 
 /************************************** 
      Case Study Section End
@@ -954,7 +950,7 @@ a.case_study_more {
 
 .hero_form input:focus {
    outline: none;
-   border: 0.0625rem solid #06d6a0;
+   border: 0.0625rem solid #EF476F;
 }
 
 .hero_form input[type="submit"] {
@@ -966,11 +962,6 @@ a.case_study_more {
 .seo .reply_form input,
 .seo .reply_form textarea {
    border-color: #ddd;
-   background: #f9f9f9;
-}
-
-.seo .reply_form input[type="submit"] {
-   background: #06D6A0;
 }
 
 /************************************** 
@@ -1020,7 +1011,6 @@ a.case_study_more {
 }
 
 .cta_area.call_to_action_4 a.boxed_btn {
-   background: #06D6A0;
    font-weight: 600;
    letter-spacing: 0.0625rem;
 }
@@ -1059,16 +1049,6 @@ a.case_study_more {
 /************************************** 
    All Services v1 Start
 ***************************************/
-.all_services_v1 .singl_service_box:hover {
-   border-color: #06d6a0;
-}
-
-.all_services_v1 .singl_service_box:hover .service_icon,
-.all_services_v1 .singl_service_box:hover .service_readmore_btn,
-.all_services_v1 .singl_service_box:hover h3 {
-   color: #06d6a0;
-}
-
 .all_services_v1 .service_icon,
 .all_services_v1 .service_readmore_btn,
 .all_services_v1 .singl_service_box {
@@ -1076,11 +1056,6 @@ a.case_study_more {
    -o-transition: .2s;
    -moz-transition: .2s;
    transition: .2s;
-}
-
-.footer_area.service_v1 li:hover a,
-.social_links.service_v1 ul li:hover a {
-   color: #06D6A0;
 }
 
 .all_services_v1 .service_icon {
@@ -1139,16 +1114,6 @@ a.case_study_more {
 /************************************** 
    Services v2 Section Start
 ***************************************/
-.all_services_v2 .singl_service_box:hover .service_icon,
-.all_services_v2 .singl_service_box:hover .service_readmore_btn,
-.all_services_v2 .singl_service_box:hover h3 {
-   color: #06D6A0;
-}
-
-.all_services_v2 .singl_service_box:hover {
-   border-color: #06D6A0;
-}
-
 .service_number {
    font-size: 4.375rem;
    color: #DCDCDC;
@@ -1197,18 +1162,6 @@ a.case_study_more {
 
 .cta_area.call_to_action_4.service_details.what_we_do.contact_1 {
    background-image: url(../img/contact/contact_1_brdc.jpg);
-}
-
-.service_details .single_pricing_box:hover {
-   border-color: #06D6A0;
-}
-
-.service_details .single_pricing_box:hover .pricing_heading {
-   border-color: #06D6A0;
-}
-
-.service_details .pricing_count {
-   color: #06D6A0;
 }
 
 .service_details .pricing_content ul li:hover {
@@ -1352,10 +1305,6 @@ a.single_service_box_2 h3 {
    font-size: 0.875rem;
    display: block;
    line-height: 2;
-}
-
-.home_2_testimonial_carousel.owl-theme .owl-dots .owl-dot.active span {
-   background-color: #06d6a0;
 }
 
 /************************************** 
@@ -1578,7 +1527,7 @@ a.single_service_box_2 h3 {
 }
 
 a.blog_readmore_btn {
-   color: #06d6a0;
+   color: #EF476F;
    font-weight: 400;
    text-decoration: none;
 }
@@ -1724,8 +1673,13 @@ a.blog_readmore_btn i {
    width: 23%;
 }
 
+.website_check_form input:focus {
+   outline: none;
+   border: 1px solid #EF476F;
+}
+
 .website_check_form input[type="submit"] {
-   width: 15%;
+   width: auto;
 }
 
 /************************************** 
@@ -1759,16 +1713,6 @@ Home-3 About Traffic Section Start
 /************************************** 
   Home-3 Service Section Start
 ***************************************/
-.theme_3 .singl_service_box:hover .service_icon,
-.theme_3 .singl_service_box:hover .service_readmore_btn,
-.theme_3 .singl_service_box:hover h3 {
-   color: #06D6A0;
-}
-
-.theme_3 .singl_service_box:hover {
-   border-color: #06D6A0;
-}
-
 .theme_3 .singl_service_box {
    border: 0.125rem solid transparent;
    margin-bottom: 0rem;
@@ -1808,7 +1752,7 @@ Home-3 About Traffic Section Start
 .single_case_study_3:after {
    content: '';
    position: absolute;
-   background: #06d6a0;
+   background: #EF476F;
    width: 100%;
    height: 100%;
    opacity: 0;
@@ -1920,7 +1864,7 @@ a.case_study_more_3 {
 ***************************************/
 .footer_area_2 ul li:hover a,
 .copyright_area_3 li:hover a {
-   color: #06d6a0;
+   color: #ef476f;
 }
 
 .footer_area_2 li {
@@ -1971,6 +1915,10 @@ a.case_study_more_3 {
    color: #999;
 }
 
+.copyright_area_3 a:hover {
+   color: #ef476f;
+}
+
 .copyright_area_3 ul li a {
    padding: 0.9375rem;
    font-weight: 400;
@@ -1978,14 +1926,6 @@ a.case_study_more_3 {
 
 .bottom_to_top button.btn.bottom_to_top {
    background: #1b1b1b !important;
-}
-
-.copyright_area_3 .bottom_to_top {
-   background: #06D6A0;
-}
-
-.copyright_area_3 .bottom_to_top:hover {
-   color: #2172cf;
 }
 
 /************************************** 
@@ -2007,7 +1947,7 @@ a.case_study_more_3 {
 
 a.inline_btn {
    font-weight: 600;
-   color: #06d6a0;
+   color: #ef476f;
    margin-top: 1.5625rem;
    display: inline-block;
 }
@@ -2172,7 +2112,7 @@ a.inline_btn i {
 
 .video_play_icon {
    font-size: 1.25rem;
-   background: #06D6A0;
+   background: #ef476f;
    width: 4.375rem;
    height: 4.375rem;
    -webkit-border-radius: 50%;
@@ -2194,6 +2134,10 @@ a.inline_btn i {
    -ms-flex-align: center;
    align-items: center;
    border: 0.0625rem solid transparent;
+}
+
+.video_play_icon:hover {
+   background-color: #373737;
 }
 
 /************************************** 
@@ -2276,7 +2220,7 @@ a.inline_btn i {
 }
 
 .active .testimonial_content_4 {
-   background: #06D6A0;
+   background: #ef476f;
    color: #fff;
 }
 
@@ -2344,11 +2288,6 @@ p.author_detail strong {
 
 .footer_area.theme_4 li a i {
    padding-right: 0.625rem;
-}
-
-.footer_area.theme_4 li:hover a,
-.service_details.footer_area li:hover a {
-   color: #06D6A0;
 }
 
 .footer_area.theme_4 li {
@@ -2460,7 +2399,7 @@ p.author_detail strong {
 
 .reply_form input:focus,
 .reply_form textarea:focus {
-   border-color: #06d6a0;
+   border: 1px solid #ef476f;
    outline: none;
 }
 
@@ -2566,7 +2505,7 @@ input.post_submit {
 
 
 .traffic_faq button:hover {
-   color: #06D6A0;
+   color: #ef476f;
    text-decoration: none;
    -webkit-box-shadow: none;
    -moz-box-shadow: none;
@@ -2574,7 +2513,7 @@ input.post_submit {
 }
 
 .traffic_faq .card {
-   border-color: #06D6A0;
+   border-color: #ef476f;
 }
 
 /************************************** 
@@ -2644,7 +2583,7 @@ input.post_submit {
    -ms-flex-align: center;
    align-items: center;
    padding-right: 1.25rem;
-   color: #06d6a0;
+   color: #ef476f;
    font-size: 2.1875rem;
 }
 
@@ -2660,7 +2599,7 @@ input.post_submit {
 
 
 /************************************** 
-      Layout Color Changes Start
+   Website Layout Color Changer Start
 ***************************************/
 .boxed_btn,
 input[type="submit"],
@@ -2710,13 +2649,22 @@ button[type="submit"]:hover,
    border-color: #ef476f;
 }
 
+.Switcher {
+   top: 24% !important;
+}
+
+.Credits iframe {
+   height: 20px;
+   border: none;
+}
+
 /************************************** 
-      Layout Color Changes End
+   Website Layout Color Changer
 ***************************************/
 
 
 /************************************** 
-      Theme Layout Changer Start
+Theme Boxed & Wide Layout Changer Start
 ***************************************/
 .layout_changer span {
    display: block;
@@ -2736,16 +2684,15 @@ button[type="submit"]:hover,
 }
 
 body.boxed_layout {
-   background: #ddd;
+   background: #2f3542;
+   max-width: 1170px;
+   margin: 20px auto;
 }
 
 .site {
-   max-width: 1170px;
-   margin: 20px auto;
-   overflow: hidden;
    background: #fff;
 }
 
 /************************************** 
-      Theme Layout Changer End
+Theme Boxed & Wide Layout Changer End
 ***************************************/

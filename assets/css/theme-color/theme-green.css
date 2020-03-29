@@ -1,4 +1,3 @@
-
 /************************************** 
       Layout Color Changes Start
 ***************************************/
@@ -9,7 +8,12 @@ ul.dropdown_header_menu,
 ul.mega_menu,
 .case_study_wrapper,
 .owl-theme .owl-dots .owl-dot.active span,
-.bottom_to_top {
+.bottom_to_top,
+a.video_play_btn,
+.single_case_study_3:after,
+.website_check_form input[type="submit"],
+.video_play_icon,
+.active .testimonial_content_4 {
    background-color: #06D6A0;
 }
 
@@ -21,7 +25,15 @@ ul.mega_menu,
 .pricing_count,
 .social_links ul li:hover a,
 .footer_area li:hover a,
-.copyright_area a:hover {
+.copyright_area a:hover,
+a.load_more_btn,
+.contact-wrap span,
+.traffic_faq button:hover,
+a.blog_readmore_btn,
+.footer_area_2 ul li:hover a,
+.copyright_area_3 li:hover a,
+.copyright_area_3 a:hover,
+a.inline_btn {
    color: #06D6A0;
 }
 
@@ -29,8 +41,15 @@ ul.mega_menu,
 input[type="submit"]:hover,
 button[type="submit"]:hover,
 .case_study_more:hover,
-.bottom_to_top:hover {
+.bottom_to_top:hover,
+a.video_play_btn:hover,
+.video_play_icon:hover,
+.active .testimonial_content_4:hover {
    background-color: #373737;
+}
+
+.website_check_form input[type="submit"]:hover {
+   background-color: #073B4C;
 }
 
 .boxed_btn:hover,
@@ -46,7 +65,12 @@ button[type="submit"]:hover,
 .singl_service_box:hover,
 .single_pricing_box:hover,
 .single_pricing_box:hover .pricing_heading,
-.pricing_content ul li:hover {
+.pricing_content ul li:hover,
+.reply_form input:focus,
+.reply_form textarea:focus,
+.traffic_faq .card,
+.hero_form input:focus,
+.website_check_form input:focus {
    border-color: #06D6A0;
 }
 

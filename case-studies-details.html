@@ -44,6 +44,11 @@
    <link rel="stylesheet" href="assets/css/style-4.css">
    <link rel="stylesheet" href="assets/css/style-3.css">
 
+   <!-- Color Switcher -->
+   <link rel="stylesheet" href="assets/css/colornip.min.css">
+   <link id="theme" rel="stylesheet" href="assets/css/theme-color/theme-red.css">
+
+
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -57,372 +62,416 @@
 
 <body>
 
-   <!-- Menu Start -->
-   <div class="menu_area service_details">
+   <!--  Website Layout Color Changer Start -->
+   <div class="Switcher">
+      <button id="Switcher__control" class="Switcher__control"> <i class="zmdi zmdi-flower"></i> </button>
+      <h5 style="margin-bottom: 5px">Change Color</h5>
+      <ul id="colors" data-dir="assets/css/theme-color/">
+         <li data-scheme="theme-red" data-color="#EF476F"></li>
+         <li data-scheme="theme-green" data-color="#06D6A0"></li>
+         <li data-scheme="theme-perple" data-color="#6c5ce7"></li>
+         <li data-scheme="theme-blue" data-color="#0984e3"></li>
+      </ul>
 
-      <div class="mobile_menu_wrap about_slick"></div>
+      <br />
 
-      <div class="container">
-         <div class="row d-flex align-items-center text-md-right">
-            <div class="col-lg-2 text-lg-left">
-               <div class="logo">
-                  <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
-               </div>
-            </div>
-            <div class="col-lg-8">
-               <div class="mainmenu">
-                  <ul id="main_nav">
-                     <li><a href="index.html">Home</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="index.html">Home 1</a></li>
-                           <li><a href="home-2.html">Home 2</a></li>
-                           <li><a href="home-3.html">Home 3</a></li>
-                           <li><a href="home-4.html">Home 4</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="service-details.html">Features</a></li>
-                     <li><a href="javascript:void(0)">Pages</a>
-                        <ul class="mega_menu">
-                           <li class="mega_menu_content">
-                              <h6>Main Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li>
-                                    <h4>Traffic is a <span>Awesoem</span> Template</h4>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, aspernatur
-                                       tempore velit suscipit ipsum harum voluptates quaerat dignissimos eaque
-                                       voluptatibus.</p>
+      <h5>Change Layout</h5>
 
-                                    <a href="#" class="boxed_btn">Purchase Now</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="mega_menu_content">
-                              <h6>Other Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li><a href="about.html">About</a></li>
-                                 <li><a href="faq.html">FAQ</a></li>
-                                 <li><a href="team.html">Team</a></li>
-                              </ul>
-                           </li>
-                           <li class="mega_menu_content">
-                              <h6>Bonus Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li><a href="case-study-v1.html">Case Study 1</a></li>
-                                 <li><a href="case-study-v1.html">Case Study 2</a></li>
-                                 <li><a href="services-v1.html">Services 1</a></li>
-                                 <li><a href="services-v2.html">Services 2</a></li>
-                                 <li><a href="contact-v1.html">Contact 1</a></li>
-                                 <li><a href="contact-v2.html">Contact 2</a></li>
-                                 <li><a href="seo-analysis.html">Seo Analysis</a></li>
-                                 <li><a href="pricing-table.html">Pricing Table</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><a href="services-v1.html">Services</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="services-v1.html">Services 1</a></li>
-                           <li><a href="services-v2.html">Service 2</a></li>
-                           <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="case-study-v1.html">Case Study</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="case-study-v1.html">Case Study 1</a></li>
-                           <li><a href="case-study-v2.html">Case Study 2</a></li>
-                           <li><a href="case-studies-details.html">Case Study Details</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="blog.html">Blog</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="blog.html">Blog</a></li>
-                           <li><a href="blog-single.html">Single Blog</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="contact-v1.html">Contact</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="contact-v1.html">Contact 1</a></li>
-                           <li><a href="contact-v2.html">Contact 2</a></li>
-                        </ul>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-            <div class="col-lg-2 d-flex justify-content-center">
-               <a href="seo-analysis.html" class="boxed_btn">Free SEO Analysis</a>
-            </div>
-         </div>
+      <div class="layout_changer">
+         <span class="boxed_layout">Boxed Layout</span>
+         <span class="wide_layout active">Wide Layout</span>
+      </div>
+
+      <div class="Credits">
+         <br />
+         2016 Colornip by <span><a href="http://zafree.github.io/" target="_blank">Zafree</a></span>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=star&count=true"
+            style="display:block; margin-bottom: 8px; margin-top: 15px"></iframe>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=fork&count=true"
+            style="display:block; margin-bottom: 8px"></iframe>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&type=follow&count=true"
+            style="display:block"></iframe>
       </div>
    </div>
-   <!-- Menu End -->
+   <!-- Website Layout Color Changer End -->
 
 
-   <!-- Case Study Details Promises Start -->
-   <section class="cta_area call_to_action_4 service_details what_we_do">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-7 offset-md-3 text-center">
-               <h2>Promise Insurance Website Project</h2>
-               <p>
-                  Everyday work is important, but it’s also time consuming.We can help.
-               </p>
+   <!-- site class added only for background-color on boxed_layout -->
+   <div class="site">
+      <!-- Menu Start -->
+      <div class="menu_area service_details">
+
+         <div class="mobile_menu_wrap about_slick"></div>
+
+         <div class="container">
+            <div class="row d-flex align-items-center text-md-right">
+               <div class="col-lg-2 text-lg-left">
+                  <div class="logo">
+                     <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                  </div>
+               </div>
+               <div class="col-lg-8">
+                  <div class="mainmenu">
+                     <ul id="main_nav">
+                        <li><a href="index.html">Home</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="index.html">Home 1</a></li>
+                              <li><a href="home-2.html">Home 2</a></li>
+                              <li><a href="home-3.html">Home 3</a></li>
+                              <li><a href="home-4.html">Home 4</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="service-details.html">Features</a></li>
+                        <li><a href="javascript:void(0)">Pages</a>
+                           <ul class="mega_menu">
+                              <li class="mega_menu_content">
+                                 <h6>About</h6>
+                                 <ul class="mega_menu_1">
+                                    <li>
+                                       <h4>Traffic is a <span>Awesoem</span> Template</h4>
+                                       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium,
+                                          aspernatur
+                                          tempore velit suscipit ipsum harum voluptates quaerat dignissimos eaque
+                                          voluptatibus.</p>
+
+                                       <a href="#" class="boxed_btn">Purchase Now</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="mega_menu_content">
+                                 <h6>Other Pages</h6>
+                                 <ul class="mega_menu_1">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="seo-analysis.html">Seo Analysis</a></li>
+                                    <li><a href="pricing-table.html">Pricing Table</a></li>
+                                 </ul>
+                              </li>
+                              <li class="mega_menu_content">
+                                 <h6>Bonus Pages</h6>
+                                 <ul class="mega_menu_1">
+                                    <li><a href="home-2.html">Home 2</a></li>
+                                    <li><a href="home-3.html">Home 3</a></li>
+                                    <li><a href="home-4.html">Home 4</a></li>
+                                    <li><a href="case-study-v2.html">Case Study 2</a></li>
+                                    <li><a href="case-studies-details.html">Case Study Details</a></li>
+                                    <li><a href="services-v2.html">Services 2</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                    <li><a href="contact-v2.html">Contact 2</a></li>
+                                    <li><a href="blog-single.html">Single Blog</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li><a href="services-v1.html">Services</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="services-v1.html">Services 1</a></li>
+                              <li><a href="services-v2.html">Services 2</a></li>
+                              <li><a href="service-details.html">Service Details</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="case-study-v1.html">Case Study</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="case-study-v1.html">Case Study 1</a></li>
+                              <li><a href="case-study-v2.html">Case Study 2</a></li>
+                              <li><a href="case-studies-details.html">Case Study Details</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="blog-single.html">Single Blog</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="contact-v1.html">Contact</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="contact-v1.html">Contact 1</a></li>
+                              <li><a href="contact-v2.html">Contact 2</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-2 d-flex justify-content-center">
+                  <a href="seo-analysis.html" class="boxed_btn">Free SEO Analysis</a>
+               </div>
             </div>
          </div>
       </div>
-   </section>
-   <!-- Case Study Details Promises End -->
+      <!-- Menu End -->
 
 
-   <!-- Case Study Details Start -->
-   <div class="section_padding theme_4 case_study_details">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-6">
-               <div class="case_study_thumb_1">
-                  <img class="image_shadow" src="assets/img/case-study/case_study_details_thumnail_1.jpg"
-                     alt="Case Study Background">
-               </div>
-            </div>
-            <div class="col-md-6">
-               <div class="about_text">
-                  <h3>Promise Insurance Website Case Study</h3>
+      <!-- Case Study Details Promises Start -->
+      <section class="cta_area call_to_action_4 service_details what_we_do">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-7 offset-md-3 text-center">
+                  <h2>Promise Insurance Website Project</h2>
                   <p>
-                     As a better-safe-than-sorry precaution, the spacecraft was pointed with its big radio facing
-                     forward, like a shield. Not only was there nothing catastrophic, there was hardly anything at all.
-                     The few clicking sounds were generated by dust the size of cigarette smoke particles about a
-                     micron, or one-25,000th of an inch, in diameter. To be clear Cassini did not actually hear.
-                  </p>
-                  <br />
-                  <p>
-                     Found patter was likely oscillations of charged particles in the upper part of Saturn’s sphere
-                     where atoms are broken apart by solar and cosmic radiation. The louder tone were almost certainly
-                     "whistler mode emissions” when the charged.
+                     Everyday work is important, but it’s also time consuming.We can help.
                   </p>
                </div>
             </div>
          </div>
-      </div>
-   </div>
+      </section>
+      <!-- Case Study Details Promises End -->
 
 
-   <div class="section_padding service_details pt-0">
-      <div class="service_section">
+      <!-- Case Study Details Start -->
+      <div class="section_padding theme_4 case_study_details">
          <div class="container">
             <div class="row d-flex align-items-center">
                <div class="col-md-6">
-                  <div class="service_content">
-                     <div class="service_box_4">
-                        <h4>Challege of this project</h4>
-                        <p>
-                           As a better-safe-than-sorry precaution, the spacecraft was pointed with its big radio
-                           facing forward, like a shield. Not only was there nothing catastrophic, there was hardly
-                           anything at all. The few clicking sounds were generated by dust the size of cigarette
-                           smoke particles about a micron, or one-25,000th of an inch, in diameter. To be clear
-                           Cassini did not actually hear.
-                        </p>
-                     </div>
-
-                     <div class="service_box_4">
-                        <h4>Great Solution</h4>
-                        <p>
-                           As a better-safe-than-sorry precaution, the spacecraft was pointed with its big radio
-                           facing forward, like a shield. Not only was there nothing catastrophic, there was hardly
-                           anything at all. The few clicking sounds were generated by dust the size of cigarette
-                           smoke particles about a micron, or one-25,000th of an inch, in diameter. To be clear
-                           Cassini did not actually hear.
-                        </p>
-                     </div>
+                  <div class="case_study_thumb_1">
+                     <img class="image_shadow" src="assets/img/case-study/case_study_details_thumnail_1.jpg"
+                        alt="Case Study Background">
                   </div>
                </div>
                <div class="col-md-6">
-                  <img class="image_shadow" src="assets/img/case-study/case_study_details_thumnail_2.jpg"
-                     alt="Case Study Background">
+                  <div class="about_text">
+                     <h3>Promise Insurance Website Case Study</h3>
+                     <p>
+                        As a better-safe-than-sorry precaution, the spacecraft was pointed with its big radio facing
+                        forward, like a shield. Not only was there nothing catastrophic, there was hardly anything at
+                        all.
+                        The few clicking sounds were generated by dust the size of cigarette smoke particles about a
+                        micron, or one-25,000th of an inch, in diameter. To be clear Cassini did not actually hear.
+                     </p>
+                     <br />
+                     <p>
+                        Found patter was likely oscillations of charged particles in the upper part of Saturn’s sphere
+                        where atoms are broken apart by solar and cosmic radiation. The louder tone were almost
+                        certainly
+                        "whistler mode emissions” when the charged.
+                     </p>
+                  </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
-   <!-- Case Study Details End -->
 
 
-   <!-- Testimonial Section Start -->
-   <section id="testimonial">
-      <div class="section_padding">
+      <div class="section_padding service_details pt-0">
+         <div class="service_section">
+            <div class="container">
+               <div class="row d-flex align-items-center">
+                  <div class="col-md-6">
+                     <div class="service_content">
+                        <div class="service_box_4">
+                           <h4>Challege of this project</h4>
+                           <p>
+                              As a better-safe-than-sorry precaution, the spacecraft was pointed with its big radio
+                              facing forward, like a shield. Not only was there nothing catastrophic, there was hardly
+                              anything at all. The few clicking sounds were generated by dust the size of cigarette
+                              smoke particles about a micron, or one-25,000th of an inch, in diameter. To be clear
+                              Cassini did not actually hear.
+                           </p>
+                        </div>
+
+                        <div class="service_box_4">
+                           <h4>Great Solution</h4>
+                           <p>
+                              As a better-safe-than-sorry precaution, the spacecraft was pointed with its big radio
+                              facing forward, like a shield. Not only was there nothing catastrophic, there was hardly
+                              anything at all. The few clicking sounds were generated by dust the size of cigarette
+                              smoke particles about a micron, or one-25,000th of an inch, in diameter. To be clear
+                              Cassini did not actually hear.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <img class="image_shadow" src="assets/img/case-study/case_study_details_thumnail_2.jpg"
+                        alt="Case Study Background">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Case Study Details End -->
+
+
+      <!-- Testimonial Section Start -->
+      <section id="testimonial">
+         <div class="section_padding">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6 offset-lg-3 text-center">
+                     <div class="testimonial_carousel owl-theme owl-carousel">
+                        <div class="single_testimonial_item">
+                           <div class="testimonial_content">
+                              <p>
+                                 “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
+                                 while and this is just what we needed. ”
+                              </p>
+                           </div>
+
+                           <div class="testimonial_meta">
+                              <img src="assets/img/home/testimonial_author_2.jpg" alt="Testimonial Image">
+                              <h4>Md. Asaduzzaman Rana</h4>
+                              <p>Senior &amp; Executive Director, VML</p>
+                           </div>
+                        </div>
+                        <div class="single_testimonial_item">
+                           <div class="testimonial_content">
+                              <p>
+                                 “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
+                                 while and this is just what we needed. ”
+                              </p>
+                           </div>
+
+                           <div class="testimonial_meta">
+                              <img src="assets/img/home/testimonial_author_1.jpg" alt="Testimonial Image">
+                              <h4>Mark McClendon</h4>
+                              <p>Partner &amp; Executive Director, VML</p>
+                           </div>
+                        </div>
+                        <div class="single_testimonial_item">
+                           <div class="testimonial_content">
+                              <p>
+                                 “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
+                                 while and this is just what we needed. ”
+                              </p>
+                           </div>
+
+                           <div class="testimonial_meta">
+                              <img src="assets/img/home/testimonial_author_2.jpg" alt="Testimonial Image">
+                              <h4>Md. Asaduzzaman Rana</h4>
+                              <p>React &amp; Developer, VML</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div><!-- row / -->
+            </div>
+         </div>
+      </section>
+      <!-- Testimonial Section End -->
+
+
+      <!-- Service Details Call to Action Section Start -->
+      <section class="cta_area call_to_action_4">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-8 offset-md-2 text-center">
+                  <h2>Create your own markeitng website</h2>
+                  <p>
+                     Writers and stars of Veep have responded incredulously to the news an Australian politician
+                     required
+                     stitches
+                     Graham Perrett, a federal Labor MP in Queensland, was eating
+                  </p>
+
+                  <a href="contact-v1.html" class="boxed_btn">Buy Now</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Service Details Call to Action Section End -->
+
+
+      <!-- Footer Area Start -->
+      <section class="footer_area service_details">
          <div class="container">
             <div class="row">
-               <div class="col-lg-6 offset-lg-3 text-center">
-                  <div class="testimonial_carousel owl-theme owl-carousel">
-                     <div class="single_testimonial_item">
-                        <div class="testimonial_content">
-                           <p>
-                              “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
-                              while and this is just what we needed. ”
-                           </p>
-                        </div>
-
-                        <div class="testimonial_meta">
-                           <img src="assets/img/home/testimonial_author_2.jpg" alt="Testimonial Image">
-                           <h4>Md. Asaduzzaman Rana</h4>
-                           <p>Senior &amp; Executive Director, VML</p>
-                        </div>
+               <div class="col-lg-8 col-md-12">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <h4>Product</h4>
+                        <ul>
+                           <li><a href="services-v1.html">Features</a></li>
+                           <li><a href="pricing-table.html">Pricing</a></li>
+                           <li><a href="service-details.html">Customers</a></li>
+                           <li><a href="service-details.html">Page Builder</a></li>
+                           <li><a href="services-v2.html">What's new</a></li>
+                        </ul>
                      </div>
-                     <div class="single_testimonial_item">
-                        <div class="testimonial_content">
-                           <p>
-                              “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
-                              while and this is just what we needed. ”
-                           </p>
-                        </div>
 
-                        <div class="testimonial_meta">
-                           <img src="assets/img/home/testimonial_author_1.jpg" alt="Testimonial Image">
-                           <h4>Mark McClendon</h4>
-                           <p>Partner &amp; Executive Director, VML</p>
-                        </div>
+                     <div class="col-md-4">
+                        <h4>Company</h4>
+                        <ul>
+                           <li><a href="about.html">About us</a></li>
+                           <li><a href="service-details.html">Try Demo</a></li>
+                           <li><a href="case-study-v1.html">Terms of service</a></li>
+                           <li><a href="service-details.html">Page Builder</a></li>
+                           <li><a href="blog-single.html">Privacy policy</a></li>
+                        </ul>
                      </div>
-                     <div class="single_testimonial_item">
-                        <div class="testimonial_content">
-                           <p>
-                              “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
-                              while and this is just what we needed. ”
-                           </p>
-                        </div>
 
-                        <div class="testimonial_meta">
-                           <img src="assets/img/home/testimonial_author_2.jpg" alt="Testimonial Image">
-                           <h4>Md. Asaduzzaman Rana</h4>
-                           <p>React &amp; Developer, VML</p>
-                        </div>
+                     <div class="col-md-4">
+                        <h4>Help Center</h4>
+                        <ul>
+                           <li><a href="blog-single.html">Help centre</a></li>
+                           <li><a href="contact-v1.html">Email Us</a></li>
+                           <li><a href="contact-v2.html">Message Us</a></li>
+                           <li><a href="blog.html">Blog</a></li>
+                        </ul>
                      </div>
                   </div>
-               </div>
+               </div><!-- col / -->
+
+               <div class="col-lg-4 col-md-12">
+                  <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
+
+                  <div class="email_subscribe_form">
+                     <form action="index.html">
+                        <input type="email" name="email" placeholder="Email Addresss" id="email">
+                        <input type="submit" value="Sign Up">
+                     </form>
+                  </div>
+
+                  <div class="social_links">
+                     <h4>Social</h4>
+
+                     <ul>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-facebook"></i>Facebook</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-twitter"></i>Twitter</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-pinterest"></i>Pinterest</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-linkedin"></i>Linkedin</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-instagram"></i>Instagram</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div><!-- col / -->
             </div><!-- row / -->
          </div>
-      </div>
-   </section>
-   <!-- Testimonial Section End -->
+      </section>
+      <!-- Footer Area End -->
 
 
-   <!-- Service Details Call to Action Section Start -->
-   <section class="cta_area call_to_action_4">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-8 offset-md-2 text-center">
-               <h2>Create your own markeitng website</h2>
-               <p>
-                  Writers and stars of Veep have responded incredulously to the news an Australian politician required
-                  stitches
-                  Graham Perrett, a federal Labor MP in Queensland, was eating
-               </p>
-
-               <a href="contact-v1.html" class="boxed_btn">Buy Now</a>
+      <!-- Copy Right Area Start -->
+      <div class="copyright_area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  &copy; Traffic 2020. All rights reserved . Powered By <a
+                     href="https://www.linkedin.com/in/iamtheasad/" target="_blank">Rana</a>.
+               </div>
             </div>
          </div>
+
+         <!-- Bottom to Top -->
+         <button class="btn bottom_to_top case_study_1 d-flex justify-content-center align-items-center">
+            <i class="zmdi zmdi-chevron-up"></i>
+         </button>
       </div>
-   </section>
-   <!-- Service Details Call to Action Section End -->
-
-
-   <!-- Footer Area Start -->
-   <section class="footer_area service_details">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-8 col-md-12">
-               <div class="row">
-                  <div class="col-md-4">
-                     <h4>Product</h4>
-                     <ul>
-                        <li><a href="services-v1.html">Features</a></li>
-                        <li><a href="pricing-table.html">Pricing</a></li>
-                        <li><a href="service-details.html">Customers</a></li>
-                        <li><a href="service-details.html">Page Builder</a></li>
-                        <li><a href="services-v2.html">What's new</a></li>
-                     </ul>
-                  </div>
-
-                  <div class="col-md-4">
-                     <h4>Company</h4>
-                     <ul>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="service-details.html">Try Demo</a></li>
-                        <li><a href="case-study-v1.html">Terms of service</a></li>
-                        <li><a href="service-details.html">Page Builder</a></li>
-                        <li><a href="blog-single.html">Privacy policy</a></li>
-                     </ul>
-                  </div>
-
-                  <div class="col-md-4">
-                     <h4>Help Center</h4>
-                     <ul>
-                        <li><a href="blog-single.html">Help centre</a></li>
-                        <li><a href="contact-v1.html">Email Us</a></li>
-                        <li><a href="contact-v2.html">Message Us</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div><!-- col / -->
-
-            <div class="col-lg-4 col-md-12">
-               <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
-
-               <div class="email_subscribe_form">
-                  <form action="index.html">
-                     <input type="email" name="email" placeholder="Email Addresss" id="email">
-                     <input type="submit" value="Sign Up">
-                  </form>
-               </div>
-
-               <div class="social_links">
-                  <h4>Social</h4>
-
-                  <ul>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-facebook"></i>Facebook</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-twitter"></i>Twitter</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-pinterest"></i>Pinterest</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-linkedin"></i>Linkedin</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-instagram"></i>Instagram</a>
-                     </li>
-                  </ul>
-               </div>
-            </div><!-- col / -->
-         </div><!-- row / -->
-      </div>
-   </section>
-   <!-- Footer Area End -->
-
-
-   <!-- Copy Right Area Start -->
-   <div class="copyright_area">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 text-center">
-               &copy; Traffic 2020. All rights reserved . Powered By <a href="https://www.linkedin.com/in/iamtheasad/"
-                  target="_blank">Rana</a>.
-            </div>
-         </div>
-      </div>
-
-      <!-- Bottom to Top -->
-      <button class="btn bottom_to_top case_study_1 d-flex justify-content-center align-items-center">
-         <i class="zmdi zmdi-chevron-up"></i>
-      </button>
+      <!-- Copy Right Area End -->
    </div>
-   <!-- Copy Right Area End -->
 
 
    <!-- Javascript Links -->
@@ -457,6 +506,9 @@
 
    <!-- Slick Nav For Responsive Menu -->
    <script src="assets/js/jquery.slicknav.min.js"></script>
+
+   <!-- Color Swithcer -->
+   <script src="assets/js/colornip.min.js"></script>
 
    <!-- Defualt JS -->
    <script src="assets/js/script.js"></script>

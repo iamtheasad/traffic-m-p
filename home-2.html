@@ -45,6 +45,10 @@
     <!-- For Home-2 Page CSS -->
     <link rel="stylesheet" href="assets/css/style-2.css" />
 
+    <!-- Color Switcher -->
+    <link rel="stylesheet" href="assets/css/colornip.min.css">
+    <link id="theme" rel="stylesheet" href="assets/css/theme-color/theme-red.css">
+
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
@@ -58,618 +62,663 @@
 
 <body>
 
-    <!-- Menu Start -->
-    <div class="menu_area service_details">
+    <!--  Website Layout Color Changer Start -->
+    <div class="Switcher">
+        <button id="Switcher__control" class="Switcher__control"> <i class="zmdi zmdi-flower"></i> </button>
+        <h5 style="margin-bottom: 5px">Change Color</h5>
+        <ul id="colors" data-dir="assets/css/theme-color/">
+            <li data-scheme="theme-red" data-color="#EF476F"></li>
+            <li data-scheme="theme-green" data-color="#06D6A0"></li>
+            <li data-scheme="theme-perple" data-color="#6c5ce7"></li>
+            <li data-scheme="theme-blue" data-color="#0984e3"></li>
+        </ul>
 
-        <div class="mobile_menu_wrap home_2"></div>
+        <br />
 
-        <div class="container">
-            <div class="row d-flex align-items-center text-md-right">
-                <div class="col-lg-2 text-lg-left">
-                    <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="mainmenu">
-                        <ul id="main_nav">
-                            <li><a href="index.html">Home</a>
-                                <ul class="dropdown_header_menu">
-                                    <li><a href="index.html">Home 1</a></li>
-                                    <li><a href="home-2.html">Home 2</a></li>
-                                    <li><a href="home-3.html">Home 3</a></li>
-                                    <li><a href="home-4.html">Home 4</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="service-details.html">Features</a></li>
-                            <li><a href="javascript:void(0)">Pages</a>
-                                <ul class="mega_menu">
-                                    <li class="mega_menu_content">
-                                        <h6>Main Pages</h6>
-                                        <ul class="mega_menu_1">
-                                            <li>
-                                                <h4>Traffic is a <span>Awesoem</span> Template</h4>
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Praesentium, aspernatur
-                                                    tempore velit suscipit ipsum harum voluptates quaerat dignissimos
-                                                    eaque
-                                                    voluptatibus.</p>
+        <h5>Change Layout</h5>
 
-                                                <a href="#" class="boxed_btn">Purchase Now</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="mega_menu_content">
-                                        <h6>Other Pages</h6>
-                                        <ul class="mega_menu_1">
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mega_menu_content">
-                                        <h6>Bonus Pages</h6>
-                                        <ul class="mega_menu_1">
-                                            <li><a href="case-study-v1.html">Case Study 1</a></li>
-                                            <li><a href="case-study-v1.html">Case Study 2</a></li>
-                                            <li><a href="services-v1.html">Services 1</a></li>
-                                            <li><a href="services-v2.html">Services 2</a></li>
-                                            <li><a href="contact-v1.html">Contact 1</a></li>
-                                            <li><a href="contact-v2.html">Contact 2</a></li>
-                                            <li><a href="seo-analysis.html">Seo Analysis</a></li>
-                                            <li><a href="pricing-table.html">Pricing Table</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="services-v1.html">Services</a>
-                                <ul class="dropdown_header_menu">
-                                    <li><a href="services-v1.html">Services 1</a></li>
-                                    <li><a href="services-v2.html">Service 2</a></li>
-                                    <li><a href="service-details.html">Service Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="case-study-v1.html">Case Study</a>
-                                <ul class="dropdown_header_menu">
-                                    <li><a href="case-study-v1.html">Case Study 1</a></li>
-                                    <li><a href="case-study-v2.html">Case Study 2</a></li>
-                                    <li><a href="case-studies-details.html">Case Study Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog.html">Blog</a>
-                                <ul class="dropdown_header_menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-single.html">Single Blog</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact-v1.html">Contact</a>
-                                <ul class="dropdown_header_menu">
-                                    <li><a href="contact-v1.html">Contact 1</a></li>
-                                    <li><a href="contact-v2.html">Contact 2</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 d-flex justify-content-center">
-                    <a href="seo-analysis.html" class="boxed_btn">Free SEO Analysis</a>
-                </div>
-            </div>
+        <div class="layout_changer">
+            <span class="boxed_layout">Boxed Layout</span>
+            <span class="wide_layout active">Wide Layout</span>
+        </div>
+
+        <div class="Credits">
+            <br />
+            2016 Colornip by <span><a href="http://zafree.github.io/" target="_blank">Zafree</a></span>
+            <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=star&count=true"
+                style="display:block; margin-bottom: 8px; margin-top: 15px"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=fork&count=true"
+                style="display:block; margin-bottom: 8px"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=zafree&type=follow&count=true"
+                style="display:block"></iframe>
         </div>
     </div>
-    <!-- Menu End -->
+    <!-- Website Layout Color Changer End -->
 
 
-    <!-- Hero Area Start -->
-    <header class="hero_area home_2">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-5 col-md-6">
-                    <h1>Great things in business are never done by one person.</h1>
-                    <p>Traffic is a great platform to stand out your website. So try now. Distinct
-                        mesh timely systems after best-of-breed strategic theme</p>
-                </div>
-                <div class="col-lg-4 col-md-6 offset-lg-3 text-center">
-                    <div class="hero_form">
-                        <div class="hero_form_header">
-                            <h3>Get Your SEO Score</h3>
-                            <p>Grab your website seo score now</p>
+    <!-- site class added only for background-color on boxed_layout -->
+    <div class="site">
+        <!-- Menu Start -->
+        <div class="menu_area service_details">
+
+            <div class="mobile_menu_wrap home_2"></div>
+
+            <div class="container">
+                <div class="row d-flex align-items-center text-md-right">
+                    <div class="col-lg-2 text-lg-left">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
                         </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="mainmenu">
+                            <ul id="main_nav">
+                                <li><a href="index.html">Home</a>
+                                    <ul class="dropdown_header_menu">
+                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="home-2.html">Home 2</a></li>
+                                        <li><a href="home-3.html">Home 3</a></li>
+                                        <li><a href="home-4.html">Home 4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="service-details.html">Features</a></li>
+                                <li><a href="javascript:void(0)">Pages</a>
+                                    <ul class="mega_menu">
+                                        <li class="mega_menu_content">
+                                            <h6>About</h6>
+                                            <ul class="mega_menu_1">
+                                                <li>
+                                                    <h4>Traffic is a <span>Awesoem</span> Template</h4>
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                        Praesentium,
+                                                        aspernatur
+                                                        tempore velit suscipit ipsum harum voluptates quaerat
+                                                        dignissimos eaque
+                                                        voluptatibus.</p>
 
-                        <div class="hero_form_wrapper">
-                            <form action="index.html">
-                                <input type="text" name="text" placeholder="Your Name" />
-                                <input type="url" name="url" placeholder="Your Website link" />
-                                <input type="text" name="Keywords" placeholder="Keywords" />
-                                <input type="email" name="email" placeholder="Your Email" />
-                                <input type="submit" value="Get Your Score" />
-                            </form>
+                                                    <a href="#" class="boxed_btn">Purchase Now</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mega_menu_content">
+                                            <h6>Other Pages</h6>
+                                            <ul class="mega_menu_1">
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="faq.html">FAQ</a></li>
+                                                <li><a href="team.html">Team</a></li>
+                                                <li><a href="seo-analysis.html">Seo Analysis</a></li>
+                                                <li><a href="pricing-table.html">Pricing Table</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mega_menu_content">
+                                            <h6>Bonus Pages</h6>
+                                            <ul class="mega_menu_1">
+                                                <li><a href="home-2.html">Home 2</a></li>
+                                                <li><a href="home-3.html">Home 3</a></li>
+                                                <li><a href="home-4.html">Home 4</a></li>
+                                                <li><a href="case-study-v2.html">Case Study 2</a></li>
+                                                <li><a href="case-studies-details.html">Case Study Details</a></li>
+                                                <li><a href="services-v2.html">Services 2</a></li>
+                                                <li><a href="service-details.html">Service Details</a></li>
+                                                <li><a href="contact-v2.html">Contact 2</a></li>
+                                                <li><a href="blog-single.html">Single Blog</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="services-v1.html">Services</a>
+                                    <ul class="dropdown_header_menu">
+                                        <li><a href="services-v1.html">Services 1</a></li>
+                                        <li><a href="services-v2.html">Services 2</a></li>
+                                        <li><a href="service-details.html">Service Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="case-study-v1.html">Case Study</a>
+                                    <ul class="dropdown_header_menu">
+                                        <li><a href="case-study-v1.html">Case Study 1</a></li>
+                                        <li><a href="case-study-v2.html">Case Study 2</a></li>
+                                        <li><a href="case-studies-details.html">Case Study Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog.html">Blog</a>
+                                    <ul class="dropdown_header_menu">
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-single.html">Single Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact-v1.html">Contact</a>
+                                    <ul class="dropdown_header_menu">
+                                        <li><a href="contact-v1.html">Contact 1</a></li>
+                                        <li><a href="contact-v2.html">Contact 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
+                    </div>
+                    <div class="col-lg-2 d-flex justify-content-center">
+                        <a href="seo-analysis.html" class="boxed_btn">Free SEO Analysis</a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- Hero Area End -->
+        <!-- Menu End -->
 
 
-    <!-- Team Member / Fastest Growing Start -->
-    <div class="section_padding">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-6">
-                    <img src="assets/img/home-2/peoples.png" alt="Team Member">
-                </div>
-                <div class="col-md-5 offset-md-1">
-                    <div class="about_text">
-                        <h3>The Fastest Growing Digital Marketing Agency</h3>
-                        <p>
-                            I take great pride in owning a company that has received the level of success accolades that
-                            have
-                            been
-                            bestowed upon WebiMax.grow tactical strategic them areas with customer directed ideas.
-                            Distinctively
-                            productivate transparent core etencies rather than prospective e-services.
-                        </p>
+        <!-- Hero Area Start -->
+        <header class="hero_area home_2">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>Great things in business are never done by one person.</h1>
+                        <p>Traffic is a great platform to stand out your website. So try now. Distinct
+                            mesh timely systems after best-of-breed strategic theme</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-lg-3 text-center">
+                        <div class="hero_form">
+                            <div class="hero_form_header">
+                                <h3>Get Your SEO Score</h3>
+                                <p>Grab your website seo score now</p>
+                            </div>
 
-                        <a href="seo-analysis.html" class="boxed_btn">Know More</a>
+                            <div class="hero_form_wrapper">
+                                <form action="index.html">
+                                    <input type="text" name="text" placeholder="Your Name" />
+                                    <input type="url" name="url" placeholder="Your Website link" />
+                                    <input type="text" name="Keywords" placeholder="Keywords" />
+                                    <input type="email" name="email" placeholder="Your Email" />
+                                    <input type="submit" value="Get Your Score" />
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Team Member / Fastest Growing End -->
+        </header>
+        <!-- Hero Area End -->
 
 
-    <!-- Home-2 Service Section Start -->
-    <section id="service_2" class="section_padding pt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <div class="section_title">
-                        <h2>Grab Our Awesome Services</h2>
-                        <p>
-                            Whiteboard ubiquitous niche markets and accurate collaboration.
-                            Holisticly supply client-focused models B2B processes.
-                        </p>
+        <!-- Team Member / Fastest Growing Start -->
+        <div class="section_padding">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <img src="assets/img/home-2/peoples.png" alt="Team Member">
                     </div>
-                </div>
-            </div><!-- row / -->
-
-            <div class="row">
-                <div class="col-lg-3 col-md-4">
-                    <a href="seo-analysis.html" class="single_service_box_2">
-                        <div class="service_box_tablecell">
-                            <div class="service_icon">
-                                <i class="zmdi zmdi-run"></i>
-                            </div>
-
-                            <h3>Content marketing</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <a href="seo-analysis.html" class="single_service_box_2">
-                        <div class="service_box_tablecell">
-                            <div class="service_icon">
-                                <i class="zmdi zmdi-scanner"></i>
-                            </div>
-
-                            <h3>Web Analytics</h3>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4">
-                    <a href="seo-analysis.html" class="single_service_box_2">
-                        <div class="service_box_tablecell">
-                            <div class="service_icon">
-                                <i class="zmdi zmdi-file"></i>
-                            </div>
-
-                            <h3>Virtual Marketing</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4">
-                    <a href="seo-analysis.html" class="single_service_box_2">
-                        <div class="service_box_tablecell">
-                            <div class="service_icon">
-                                <i class="zmdi zmdi-plus-box"></i>
-                            </div>
-
-                            <h3>Inbound Marketing</h3>
-                        </div>
-                    </a>
-                </div>
-            </div> <!-- row -->
-        </div>
-    </section>
-    <!-- Home-2 Service Section End -->
-
-
-    <!-- Home-2 Testimonial Section Start -->
-    <section id="testimonial_2" class="section_padding gray_bg padding-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <div class="home_2_testimonial_carousel owl-carousel owl-theme">
-                        <div class="single_testimonial_item theme_2">
-                            <div class="testimonial_icon d-flex j align-items-center justify-content-center">
-                                <i class="zmdi zmdi-quote"></i>
-                            </div>
-                            <p>Quickly productize technically sound best practices before integrated outsourcing.
-                                Dynamically brand rather than resource-leveling methods of empowerment. Appropriately
-                                deliver B2C infomediaries impact granular applications without parallel communities.
+                    <div class="col-md-5 offset-md-1">
+                        <div class="about_text">
+                            <h3>The Fastest Growing Digital Marketing Agency</h3>
+                            <p>
+                                I take great pride in owning a company that has received the level of success accolades
+                                that
+                                have
+                                been
+                                bestowed upon WebiMax.grow tactical strategic them areas with customer directed ideas.
+                                Distinctively
+                                productivate transparent core etencies rather than prospective e-services.
                             </p>
 
-                            <h4>Md. Asaduzzaman Rana</h4>
-                            <span>Founder at Odolbodol</span>
-                        </div><!-- single_testimonial_item / -->
-
-                        <div class="single_testimonial_item theme_2">
-                            <div class="testimonial_icon d-flex align-items-center justify-content-center">
-                                <i class="zmdi zmdi-quote"></i>
-                            </div>
-                            <p>Quickly productize technically sound best practices before integrated outsourcing.
-                                Dynamically brand rather than resource-leveling methods of empowerment. Appropriately
-                                deliver B2C infomediaries impact granular applications without parallel communities.
-                            </p>
-
-                            <h4>Md. Asaduzzaman Rana</h4>
-                            <span>Founder at Odolbodol</span>
-                        </div><!-- single_testimonial_item / -->
-
-                        <div class="single_testimonial_item theme_2">
-                            <div class="testimonial_icon d-flex align-items-center justify-content-center">
-                                <i class="zmdi zmdi-quote"></i>
-                            </div>
-                            <p>Quickly productize technically sound best practices before integrated outsourcing.
-                                Dynamically brand rather than resource-leveling methods of empowerment. Appropriately
-                                deliver B2C infomediaries impact granular applications without parallel communities.
-                            </p>
-
-                            <h4>Md. Asaduzzaman Rana</h4>
-                            <span>Founder at Odolbodol</span>
-                        </div><!-- single_testimonial_item / -->
+                            <a href="seo-analysis.html" class="boxed_btn">Know More</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Home-2 Testimonial Section End -->
+        <!-- Team Member / Fastest Growing End -->
 
 
-    <!-- Home-2 Case Study Start -->
-    <section id="case_study_2" class="section_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <div class="section_title">
-                        <h2>Our Awesome Case Study</h2>
-                        <p>
-                            Whiteboard ubiquitous niche markets and accurate collaboration.
-                            Holisticly supply client-focused models B2B processes.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="case_study_box_style_2">
-                        <div class="case_study_preview case_study_preview_1">
-                            <div class="case_study_link_tablecell">
-                                <a href="case-studies-details.html" class="boxed_btn">See Case Study <i
-                                        class="zmdi zmdi-arrow-right"></i></a>
-                            </div>
-                        </div>
-
-                        <h4>Project Alibaba UX</h4>
-                        <p>UI & UX Design</p>
-                    </div>
-                </div><!-- col / -->
-
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="case_study_box_style_2">
-                        <div class="case_study_preview case_study_preview_2">
-                            <div class="case_study_link_tablecell">
-                                <a href="case-studies-details.html" class="boxed_btn">See Case Study <i
-                                        class="zmdi zmdi-arrow-right"></i></a>
-                            </div>
-                        </div>
-
-                        <h4>Project Alibaba UX</h4>
-                        <p>UI & UX Design</p>
-                    </div>
-                </div><!-- col / -->
-
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="case_study_box_style_2">
-                        <div class="case_study_preview case_study_preview_3">
-                            <div class="case_study_link_tablecell">
-                                <a href="case-studies-details.html" class="boxed_btn">See Case Study <i
-                                        class="zmdi zmdi-arrow-right"></i></a>
-                            </div>
-                        </div>
-
-                        <h4>Project Alibaba UX</h4>
-                        <p>UI & UX Design</p>
-                    </div>
-                </div><!-- col / -->
-            </div><!-- row / -->
-        </div>
-    </section>
-    <!-- Home-2 Case Study End  -->
-
-
-    <!-- Home-2 Pricing Section Start -->
-    <section id="pricing" class="section_padding pt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <div class="section_title">
-                        <h2>Check Our Awesome Pricing</h2>
-                        <p>
-                            Whiteboard ubiquitous niche markets and accurate collaboration.
-                            Holisticly supply client-focused models B2B processes.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-6 mx-md-auto">
-                    <div class="single_pricing_box theme_2 p-0">
-                        <div class="pricing_heading">
-                            <h4>Basic</h4>
-                            <p class="pricing_count">$69.99</p>
-                            <span>per month</span>
-                        </div>
-
-                        <div class="pricing_content">
-                            <ul>
-                                <li>Limited marketing & growth hacks</li>
-                                <li>5 Analytics Campaigns</li>
-                                <li>300 Keywords</li>
-                                <li>250,000 Crawled Pages</li>
-                                <li>Unlimited updates</li>
-                            </ul>
-
-                            <a href="#" class="boxed_btn">Purchase Plan</a>
-                        </div>
-                    </div>
-                </div><!-- col / -->
-
-                <div class="col-lg-4 col-md-6 mx-md-auto">
-                    <div class="single_pricing_box theme_2 p-0">
-                        <div class="pricing_heading">
-                            <h4>Pro</h4>
-                            <p class="pricing_count">$169.99</p>
-                            <span>per month</span>
-                        </div>
-
-                        <div class="pricing_content">
-                            <ul>
-                                <li>Limited marketing & growth hacks</li>
-                                <li>5 Analytics Campaigns</li>
-                                <li>300 Keywords</li>
-                                <li>250,000 Crawled Pages</li>
-                                <li>Unlimited updates</li>
-                            </ul>
-
-                            <a href="#" class="boxed_btn">Purchase Plan</a>
-                        </div>
-                    </div>
-                </div><!-- col / -->
-
-                <div class="col-lg-4 col-md-6 mx-md-auto">
-                    <div class="single_pricing_box theme_2 p-0">
-                        <div class="pricing_heading">
-                            <h4>Advance</h4>
-                            <p class="pricing_count">$269.99</p>
-                            <span>per month</span>
-                        </div>
-
-                        <div class="pricing_content">
-                            <ul>
-                                <li>Limited marketing & growth hacks</li>
-                                <li>5 Analytics Campaigns</li>
-                                <li>300 Keywords</li>
-                                <li>250,000 Crawled Pages</li>
-                                <li>Unlimited updates</li>
-                            </ul>
-
-                            <a href="#" class="boxed_btn">Purchase Plan</a>
-                        </div>
-                    </div>
-                </div><!-- col / -->
-            </div><!-- row / -->
-        </div>
-    </section>
-    <!-- Home-2 Pricing Section End -->
-
-
-    <!-- Home-2 Blog Section Start -->
-    <section id="blog_2" class="section_padding pt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <div class="section_title">
-                        <h2>Check Our Awesome Blog</h2>
-                        <p>
-                            Whiteboard ubiquitous niche markets and accurate collaboration.
-                            Holisticly supply client-focused models B2B processes.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="blog_content">
+        <!-- Home-2 Service Section Start -->
+        <section id="service_2" class="section_padding pt-0">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="single_blog_box">
-                            <h3>Credibly maintain client-centric distributed partnerships. </h3>
+                    <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="section_title">
+                            <h2>Grab Our Awesome Services</h2>
                             <p>
-                                Data before unique human capital. Energistically stand-alone quality vectors after
-                                open-source inter Energistically actualize global method..
+                                Whiteboard ubiquitous niche markets and accurate collaboration.
+                                Holisticly supply client-focused models B2B processes.
                             </p>
+                        </div>
+                    </div>
+                </div><!-- row / -->
 
-                            <a href="blog-single.html" class="blog_readmore_btn">Read More <i
-                                    class="zmdi zmdi-arrow-right"></i></a>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <a href="seo-analysis.html" class="single_service_box_2">
+                            <div class="service_box_tablecell">
+                                <div class="service_icon">
+                                    <i class="zmdi zmdi-run"></i>
+                                </div>
+
+                                <h3>Content marketing</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <a href="seo-analysis.html" class="single_service_box_2">
+                            <div class="service_box_tablecell">
+                                <div class="service_icon">
+                                    <i class="zmdi zmdi-scanner"></i>
+                                </div>
+
+                                <h3>Web Analytics</h3>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-4">
+                        <a href="seo-analysis.html" class="single_service_box_2">
+                            <div class="service_box_tablecell">
+                                <div class="service_icon">
+                                    <i class="zmdi zmdi-file"></i>
+                                </div>
+
+                                <h3>Virtual Marketing</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <a href="seo-analysis.html" class="single_service_box_2">
+                            <div class="service_box_tablecell">
+                                <div class="service_icon">
+                                    <i class="zmdi zmdi-plus-box"></i>
+                                </div>
+
+                                <h3>Inbound Marketing</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div> <!-- row -->
+            </div>
+        </section>
+        <!-- Home-2 Service Section End -->
+
+
+        <!-- Home-2 Testimonial Section Start -->
+        <section id="testimonial_2" class="section_padding gray_bg padding-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                        <div class="home_2_testimonial_carousel owl-carousel owl-theme">
+                            <div class="single_testimonial_item theme_2">
+                                <div class="testimonial_icon d-flex j align-items-center justify-content-center">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                                <p>Quickly productize technically sound best practices before integrated outsourcing.
+                                    Dynamically brand rather than resource-leveling methods of empowerment.
+                                    Appropriately
+                                    deliver B2C infomediaries impact granular applications without parallel communities.
+                                </p>
+
+                                <h4>Md. Asaduzzaman Rana</h4>
+                                <span>Founder at Odolbodol</span>
+                            </div><!-- single_testimonial_item / -->
+
+                            <div class="single_testimonial_item theme_2">
+                                <div class="testimonial_icon d-flex align-items-center justify-content-center">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                                <p>Quickly productize technically sound best practices before integrated outsourcing.
+                                    Dynamically brand rather than resource-leveling methods of empowerment.
+                                    Appropriately
+                                    deliver B2C infomediaries impact granular applications without parallel communities.
+                                </p>
+
+                                <h4>Md. Asaduzzaman Rana</h4>
+                                <span>Founder at Odolbodol</span>
+                            </div><!-- single_testimonial_item / -->
+
+                            <div class="single_testimonial_item theme_2">
+                                <div class="testimonial_icon d-flex align-items-center justify-content-center">
+                                    <i class="zmdi zmdi-quote"></i>
+                                </div>
+                                <p>Quickly productize technically sound best practices before integrated outsourcing.
+                                    Dynamically brand rather than resource-leveling methods of empowerment.
+                                    Appropriately
+                                    deliver B2C infomediaries impact granular applications without parallel communities.
+                                </p>
+
+                                <h4>Md. Asaduzzaman Rana</h4>
+                                <span>Founder at Odolbodol</span>
+                            </div><!-- single_testimonial_item / -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home-2 Testimonial Section End -->
+
+
+        <!-- Home-2 Case Study Start -->
+        <section id="case_study_2" class="section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="section_title">
+                            <h2>Our Awesome Case Study</h2>
+                            <p>
+                                Whiteboard ubiquitous niche markets and accurate collaboration.
+                                Holisticly supply client-focused models B2B processes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="case_study_box_style_2">
+                            <div class="case_study_preview case_study_preview_1">
+                                <div class="case_study_link_tablecell">
+                                    <a href="case-studies-details.html" class="boxed_btn">See Case Study <i
+                                            class="zmdi zmdi-arrow-right"></i></a>
+                                </div>
+                            </div>
+
+                            <h4>Project Alibaba UX</h4>
+                            <p>UI & UX Design</p>
                         </div>
                     </div><!-- col / -->
 
-                    <div class="col-lg-4">
-                        <div class="single_blog_box">
-                            <h3>Intrinsicly enhance team driven total linkage premier. </h3>
-                            <p>
-                                Data before unique human capital. Energistically stand-alone quality vectors after
-                                open-source inter Energistically actualize global method..
-                            </p>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="case_study_box_style_2">
+                            <div class="case_study_preview case_study_preview_2">
+                                <div class="case_study_link_tablecell">
+                                    <a href="case-studies-details.html" class="boxed_btn">See Case Study <i
+                                            class="zmdi zmdi-arrow-right"></i></a>
+                                </div>
+                            </div>
 
-                            <a href="blog-single.html" class="blog_readmore_btn">Read More <i
-                                    class="zmdi zmdi-arrow-right"></i></a>
+                            <h4>Project Alibaba UX</h4>
+                            <p>UI & UX Design</p>
                         </div>
                     </div><!-- col / -->
 
-                    <div class="col-lg-4">
-                        <div class="single_blog_box">
-                            <h3>Intrinsicly innovate pandemic mater after error-free. </h3>
-                            <p>
-                                Data before unique human capital. Energistically stand-alone quality vectors after
-                                open-source inter Energistically actualize global method..
-                            </p>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="case_study_box_style_2">
+                            <div class="case_study_preview case_study_preview_3">
+                                <div class="case_study_link_tablecell">
+                                    <a href="case-studies-details.html" class="boxed_btn">See Case Study <i
+                                            class="zmdi zmdi-arrow-right"></i></a>
+                                </div>
+                            </div>
 
-                            <a href="blog-single.html" class="blog_readmore_btn">Read More <i
-                                    class="zmdi zmdi-arrow-right"></i></a>
+                            <h4>Project Alibaba UX</h4>
+                            <p>UI & UX Design</p>
                         </div>
                     </div><!-- col / -->
                 </div><!-- row / -->
             </div>
-        </div>
-    </section>
-    <!-- Home-2 Blog Section End -->
+        </section>
+        <!-- Home-2 Case Study End  -->
 
 
-    <!-- Home-2 Call to Action Section Start -->
-    <section class="cta_area theme_2">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-12 text-center">
-                    <h2>Ready to improve your digital marketing efforts?</h2>
-
-                    <a href="contact-v1.html" class="boxed_btn">Contact Us</a>
+        <!-- Home-2 Pricing Section Start -->
+        <section id="pricing" class="section_padding pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="section_title">
+                            <h2>Check Our Awesome Pricing</h2>
+                            <p>
+                                Whiteboard ubiquitous niche markets and accurate collaboration.
+                                Holisticly supply client-focused models B2B processes.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-6 mx-md-auto">
+                        <div class="single_pricing_box theme_2 p-0">
+                            <div class="pricing_heading">
+                                <h4>Basic</h4>
+                                <p class="pricing_count">$69.99</p>
+                                <span>per month</span>
+                            </div>
+
+                            <div class="pricing_content">
+                                <ul>
+                                    <li>Limited marketing & growth hacks</li>
+                                    <li>5 Analytics Campaigns</li>
+                                    <li>300 Keywords</li>
+                                    <li>250,000 Crawled Pages</li>
+                                    <li>Unlimited updates</li>
+                                </ul>
+
+                                <a href="#" class="boxed_btn">Purchase Plan</a>
+                            </div>
+                        </div>
+                    </div><!-- col / -->
+
+                    <div class="col-lg-4 col-md-6 mx-md-auto">
+                        <div class="single_pricing_box theme_2 p-0">
+                            <div class="pricing_heading">
+                                <h4>Pro</h4>
+                                <p class="pricing_count">$169.99</p>
+                                <span>per month</span>
+                            </div>
+
+                            <div class="pricing_content">
+                                <ul>
+                                    <li>Limited marketing & growth hacks</li>
+                                    <li>5 Analytics Campaigns</li>
+                                    <li>300 Keywords</li>
+                                    <li>250,000 Crawled Pages</li>
+                                    <li>Unlimited updates</li>
+                                </ul>
+
+                                <a href="#" class="boxed_btn">Purchase Plan</a>
+                            </div>
+                        </div>
+                    </div><!-- col / -->
+
+                    <div class="col-lg-4 col-md-6 mx-md-auto">
+                        <div class="single_pricing_box theme_2 p-0">
+                            <div class="pricing_heading">
+                                <h4>Advance</h4>
+                                <p class="pricing_count">$269.99</p>
+                                <span>per month</span>
+                            </div>
+
+                            <div class="pricing_content">
+                                <ul>
+                                    <li>Limited marketing & growth hacks</li>
+                                    <li>5 Analytics Campaigns</li>
+                                    <li>300 Keywords</li>
+                                    <li>250,000 Crawled Pages</li>
+                                    <li>Unlimited updates</li>
+                                </ul>
+
+                                <a href="#" class="boxed_btn">Purchase Plan</a>
+                            </div>
+                        </div>
+                    </div><!-- col / -->
+                </div><!-- row / -->
             </div>
-        </div>
-    </section>
-    <!-- Home-2 Call to Action Section End -->
+        </section>
+        <!-- Home-2 Pricing Section End -->
 
 
-    <!-- Footer Area Start -->
-    <footer class="footer_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-12">
+        <!-- Home-2 Blog Section Start -->
+        <section id="blog_2" class="section_padding pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="section_title">
+                            <h2>Check Our Awesome Blog</h2>
+                            <p>
+                                Whiteboard ubiquitous niche markets and accurate collaboration.
+                                Holisticly supply client-focused models B2B processes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog_content">
                     <div class="row">
-                        <div class="col-md-4">
-                            <h4>Product</h4>
-                            <ul>
-                                <li><a href="services-v1.html">Features</a></li>
-                                <li><a href="pricing-table.html">Pricing</a></li>
-                                <li><a href="service-details.html">Customers</a></li>
-                                <li><a href="service-details.html">Page Builder</a></li>
-                                <li><a href="services-v2.html">What's new</a></li>
-                            </ul>
-                        </div>
+                        <div class="col-lg-4">
+                            <div class="single_blog_box">
+                                <h3>Credibly maintain client-centric distributed partnerships. </h3>
+                                <p>
+                                    Data before unique human capital. Energistically stand-alone quality vectors after
+                                    open-source inter Energistically actualize global method..
+                                </p>
 
-                        <div class="col-md-4">
-                            <h4>Company</h4>
-                            <ul>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="service-details.html">Try Demo</a></li>
-                                <li><a href="case-study-v1.html">Terms of service</a></li>
-                                <li><a href="service-details.html">Page Builder</a></li>
-                                <li><a href="blog-single.html">Privacy policy</a></li>
-                            </ul>
-                        </div>
+                                <a href="blog-single.html" class="blog_readmore_btn">Read More <i
+                                        class="zmdi zmdi-arrow-right"></i></a>
+                            </div>
+                        </div><!-- col / -->
 
-                        <div class="col-md-4">
-                            <h4>Help Center</h4>
-                            <ul>
-                                <li><a href="blog-single.html">Help centre</a></li>
-                                <li><a href="contact-v1.html">Email Us</a></li>
-                                <li><a href="contact-v2.html">Message Us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div><!-- col / -->
+                        <div class="col-lg-4">
+                            <div class="single_blog_box">
+                                <h3>Intrinsicly enhance team driven total linkage premier. </h3>
+                                <p>
+                                    Data before unique human capital. Energistically stand-alone quality vectors after
+                                    open-source inter Energistically actualize global method..
+                                </p>
 
-                <div class="col-lg-4 col-md-12">
-                    <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
+                                <a href="blog-single.html" class="blog_readmore_btn">Read More <i
+                                        class="zmdi zmdi-arrow-right"></i></a>
+                            </div>
+                        </div><!-- col / -->
 
-                    <div class="email_subscribe_form">
-                        <form action="index.html">
-                            <input type="email" name="email" placeholder="Email Addresss" id="email">
-                            <input type="submit" value="Sign Up">
-                        </form>
-                    </div>
+                        <div class="col-lg-4">
+                            <div class="single_blog_box">
+                                <h3>Intrinsicly innovate pandemic mater after error-free. </h3>
+                                <p>
+                                    Data before unique human capital. Energistically stand-alone quality vectors after
+                                    open-source inter Energistically actualize global method..
+                                </p>
 
-                    <div class="social_links">
-                        <h4>Social</h4>
-
-                        <ul>
-                            <li>
-                                <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                        class="zmdi zmdi-facebook"></i>Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                        class="zmdi zmdi-twitter"></i>Twitter</a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                        class="zmdi zmdi-pinterest"></i>Pinterest</a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                        class="zmdi zmdi-linkedin"></i>Linkedin</a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                        class="zmdi zmdi-instagram"></i>Instagram</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div><!-- col / -->
-            </div><!-- row / -->
-        </div>
-    </footer>
-    <!-- Footer Area End -->
-
-
-    <!-- Copy Right Area Start -->
-    <div class="copyright_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    &copy; Traffic 2020. All rights reserved . Powered By <a
-                        href="https://www.linkedin.com/in/iamtheasad/" target="_blank">Rana</a>.
+                                <a href="blog-single.html" class="blog_readmore_btn">Read More <i
+                                        class="zmdi zmdi-arrow-right"></i></a>
+                            </div>
+                        </div><!-- col / -->
+                    </div><!-- row / -->
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Home-2 Blog Section End -->
 
-        <!-- Bottom to Top -->
-        <button class="btn bottom_to_top d-flex justify-content-center align-items-center">
-            <i class="zmdi zmdi-chevron-up"></i>
-        </button>
+
+        <!-- Home-2 Call to Action Section Start -->
+        <section class="cta_area theme_2">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-12 text-center">
+                        <h2>Ready to improve your digital marketing efforts?</h2>
+
+                        <a href="contact-v1.html" class="boxed_btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home-2 Call to Action Section End -->
+
+
+        <!-- Footer Area Start -->
+        <footer class="footer_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4>Product</h4>
+                                <ul>
+                                    <li><a href="services-v1.html">Features</a></li>
+                                    <li><a href="pricing-table.html">Pricing</a></li>
+                                    <li><a href="service-details.html">Customers</a></li>
+                                    <li><a href="service-details.html">Page Builder</a></li>
+                                    <li><a href="services-v2.html">What's new</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4>Company</h4>
+                                <ul>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="service-details.html">Try Demo</a></li>
+                                    <li><a href="case-study-v1.html">Terms of service</a></li>
+                                    <li><a href="service-details.html">Page Builder</a></li>
+                                    <li><a href="blog-single.html">Privacy policy</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4>Help Center</h4>
+                                <ul>
+                                    <li><a href="blog-single.html">Help centre</a></li>
+                                    <li><a href="contact-v1.html">Email Us</a></li>
+                                    <li><a href="contact-v2.html">Message Us</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- col / -->
+
+                    <div class="col-lg-4 col-md-12">
+                        <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
+
+                        <div class="email_subscribe_form">
+                            <form action="index.html">
+                                <input type="email" name="email" placeholder="Email Addresss" id="email">
+                                <input type="submit" value="Sign Up">
+                            </form>
+                        </div>
+
+                        <div class="social_links">
+                            <h4>Social</h4>
+
+                            <ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                            class="zmdi zmdi-facebook"></i>Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                            class="zmdi zmdi-twitter"></i>Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                            class="zmdi zmdi-pinterest"></i>Pinterest</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                            class="zmdi zmdi-linkedin"></i>Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                            class="zmdi zmdi-instagram"></i>Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- col / -->
+                </div><!-- row / -->
+            </div>
+        </footer>
+        <!-- Footer Area End -->
+
+
+        <!-- Copy Right Area Start -->
+        <div class="copyright_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        &copy; Traffic 2020. All rights reserved . Powered By <a
+                            href="https://www.linkedin.com/in/iamtheasad/" target="_blank">Rana</a>.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom to Top -->
+            <button class="btn bottom_to_top d-flex justify-content-center align-items-center">
+                <i class="zmdi zmdi-chevron-up"></i>
+            </button>
+        </div>
+        <!-- Copy Right Area End -->
     </div>
-    <!-- Copy Right Area End -->
 
 
     <!-- Javascript Links -->
@@ -700,6 +749,9 @@ crossorigin="anonymous"></script> -->
 
     <!-- Slick Nav For Responsive Menu -->
     <script src="assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Color Swithcer -->
+    <script src="assets/js/colornip.min.js"></script>
 
     <!-- Defualt JS -->
     <script src="assets/js/script.js"></script>

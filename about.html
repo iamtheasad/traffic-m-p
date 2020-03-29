@@ -44,6 +44,11 @@
    <link rel="stylesheet" href="assets/css/style-4.css">
    <link rel="stylesheet" href="assets/css/style-3.css">
 
+   <!-- Color Switcher -->
+   <link rel="stylesheet" href="assets/css/colornip.min.css">
+   <link id="theme" rel="stylesheet" href="assets/css/theme-color/theme-red.css">
+
+
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -57,466 +62,508 @@
 
 <body>
 
-   <!-- Menu Start -->
-   <div class="menu_area header_absolute">
+   <!--  Website Layout Color Changer Start -->
+   <div class="Switcher">
+      <button id="Switcher__control" class="Switcher__control"> <i class="zmdi zmdi-flower"></i> </button>
+      <h5 style="margin-bottom: 5px">Change Color</h5>
+      <ul id="colors" data-dir="assets/css/theme-color/">
+         <li data-scheme="theme-red" data-color="#EF476F"></li>
+         <li data-scheme="theme-green" data-color="#06D6A0"></li>
+         <li data-scheme="theme-perple" data-color="#6c5ce7"></li>
+         <li data-scheme="theme-blue" data-color="#0984e3"></li>
+      </ul>
 
-      <div class="mobile_menu_wrap about_slick"></div>
+      <br />
 
-      <div class="container">
-         <div class="row d-flex align-items-center text-md-right">
-            <div class="col-lg-2 text-lg-left">
-               <div class="logo">
-                  <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
-               </div>
-            </div>
-            <div class="col-lg-8">
-               <div class="mainmenu">
-                  <ul id="main_nav">
-                     <li><a href="index.html">Home</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="index.html">Home 1</a></li>
-                           <li><a href="home-2.html">Home 2</a></li>
-                           <li><a href="home-3.html">Home 3</a></li>
-                           <li><a href="home-4.html">Home 4</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="service-details.html">Features</a></li>
-                     <li><a href="javascript:void(0)">Pages</a>
-                        <ul class="mega_menu">
-                           <li class="mega_menu_content">
-                              <h6>Main Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li>
-                                    <h4>Traffic is a <span>Awesoem</span> Template</h4>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, aspernatur
-                                       tempore velit suscipit ipsum harum voluptates quaerat dignissimos eaque
-                                       voluptatibus.</p>
+      <h5>Change Layout</h5>
 
-                                    <a href="#" class="boxed_btn">Purchase Now</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="mega_menu_content">
-                              <h6>Other Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li><a href="about.html">About</a></li>
-                                 <li><a href="faq.html">FAQ</a></li>
-                                 <li><a href="team.html">Team</a></li>
-                              </ul>
-                           </li>
-                           <li class="mega_menu_content">
-                              <h6>Bonus Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li><a href="case-study-v1.html">Case Study 1</a></li>
-                                 <li><a href="case-study-v1.html">Case Study 2</a></li>
-                                 <li><a href="services-v1.html">Services 1</a></li>
-                                 <li><a href="services-v2.html">Services 2</a></li>
-                                 <li><a href="contact-v1.html">Contact 1</a></li>
-                                 <li><a href="contact-v2.html">Contact 2</a></li>
-                                 <li><a href="seo-analysis.html">Seo Analysis</a></li>
-                                 <li><a href="pricing-table.html">Pricing Table</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><a href="services-v1.html">Services</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="services-v1.html">Services 1</a></li>
-                           <li><a href="services-v2.html">Service 2</a></li>
-                           <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="case-study-v1.html">Case Study</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="case-study-v1.html">Case Study 1</a></li>
-                           <li><a href="case-study-v2.html">Case Study 2</a></li>
-                           <li><a href="case-studies-details.html">Case Study Details</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="blog.html">Blog</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="blog.html">Blog</a></li>
-                           <li><a href="blog-single.html">Single Blog</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="contact-v1.html">Contact</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="contact-v1.html">Contact 1</a></li>
-                           <li><a href="contact-v2.html">Contact 2</a></li>
-                        </ul>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
+      <div class="layout_changer">
+         <span class="boxed_layout">Boxed Layout</span>
+         <span class="wide_layout active">Wide Layout</span>
+      </div>
+
+      <div class="Credits">
+         <br />
+         2016 Colornip by <span><a href="http://zafree.github.io/" target="_blank">Zafree</a></span>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=star&count=true"
+            style="display:block; margin-bottom: 8px; margin-top: 15px"></iframe>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=fork&count=true"
+            style="display:block; margin-bottom: 8px"></iframe>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&type=follow&count=true"
+            style="display:block"></iframe>
       </div>
    </div>
-   <!-- Menu End -->
+   <!-- Website Layout Color Changer End -->
 
 
-   <!-- Case Study Details Promises Start -->
-   <section class="cta_area call_to_action_4 service_details what_we_do about">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-7 offset-md-3 text-center">
-               <h2>Promise Insurance Website Project</h2>
-               <p>
-                  Everyday work is important, but it’s also time consuming.We can help.
-               </p>
+   <!-- site class added only for background-color on boxed_layout -->
+   <div class="site">
+      <!-- Menu Start -->
+      <div class="menu_area header_absolute">
+
+         <div class="mobile_menu_wrap about_slick"></div>
+
+         <div class="container">
+            <div class="row d-flex align-items-center text-md-right">
+               <div class="col-lg-2 text-lg-left">
+                  <div class="logo">
+                     <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                  </div>
+               </div>
+               <div class="col-lg-8">
+                  <div class="mainmenu">
+                     <ul id="main_nav">
+                        <li><a href="index.html">Home</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="index.html">Home 1</a></li>
+                              <li><a href="home-2.html">Home 2</a></li>
+                              <li><a href="home-3.html">Home 3</a></li>
+                              <li><a href="home-4.html">Home 4</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="service-details.html">Features</a></li>
+                        <li><a href="javascript:void(0)">Pages</a>
+                           <ul class="mega_menu">
+                              <li class="mega_menu_content">
+                                 <h6>About</h6>
+                                 <ul class="mega_menu_1">
+                                    <li>
+                                       <h4>Traffic is a <span>Awesoem</span> Template</h4>
+                                       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium,
+                                          aspernatur
+                                          tempore velit suscipit ipsum harum voluptates quaerat dignissimos eaque
+                                          voluptatibus.</p>
+
+                                       <a href="#" class="boxed_btn">Purchase Now</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="mega_menu_content">
+                                 <h6>Other Pages</h6>
+                                 <ul class="mega_menu_1">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="seo-analysis.html">Seo Analysis</a></li>
+                                    <li><a href="pricing-table.html">Pricing Table</a></li>
+                                 </ul>
+                              </li>
+                              <li class="mega_menu_content">
+                                 <h6>Bonus Pages</h6>
+                                 <ul class="mega_menu_1">
+                                    <li><a href="home-2.html">Home 2</a></li>
+                                    <li><a href="home-3.html">Home 3</a></li>
+                                    <li><a href="home-4.html">Home 4</a></li>
+                                    <li><a href="case-study-v2.html">Case Study 2</a></li>
+                                    <li><a href="case-studies-details.html">Case Study Details</a></li>
+                                    <li><a href="services-v2.html">Services 2</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                    <li><a href="contact-v2.html">Contact 2</a></li>
+                                    <li><a href="blog-single.html">Single Blog</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li><a href="services-v1.html">Services</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="services-v1.html">Services 1</a></li>
+                              <li><a href="services-v2.html">Services 2</a></li>
+                              <li><a href="service-details.html">Service Details</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="case-study-v1.html">Case Study</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="case-study-v1.html">Case Study 1</a></li>
+                              <li><a href="case-study-v2.html">Case Study 2</a></li>
+                              <li><a href="case-studies-details.html">Case Study Details</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="blog-single.html">Single Blog</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="contact-v1.html">Contact</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="contact-v1.html">Contact 1</a></li>
+                              <li><a href="contact-v2.html">Contact 2</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
-   </section>
-   <!-- Case Study Details Promises End -->
+      <!-- Menu End -->
 
 
-   <!-- SEO Button -->
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-2 seo_btn">
-            <a href="seo-analysis.html" class="boxed_btn">Free SEO Analysis</a>
-         </div>
-      </div>
-   </div>
-
-
-   <!-- About Traffic Section Start -->
-   <div class="section_padding pb-0 about">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-6">
-               <img src="assets/img/home-3/seo_analysis_bg.png" alt="Seo Analysisi Background">
-            </div>
-            <div class="col-md-5 offset-md-1">
-               <div class="about_text">
-                  <h3>Welcome to the world's biggest digital agency</h3>
+      <!-- Case Study Details Promises Start -->
+      <section class="cta_area call_to_action_4 service_details what_we_do about">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-7 offset-md-3 text-center">
+                  <h2>Promise Insurance Website Project</h2>
                   <p>
-                     We’re about making our customers’ businesses great by delivering a digital up
-                     that works as hard and affordably as possible. ‘Our people, your team’ wraps
-                     how we do it. Like our customers’ own team of experts next door, capable of
-                     complete unbiased digital service under.
+                     Everyday work is important, but it’s also time consuming.We can help.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Case Study Details Promises End -->
+
+
+      <!-- SEO Button -->
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-2 seo_btn">
+               <a href="seo-analysis.html" class="boxed_btn">Free SEO Analysis</a>
+            </div>
+         </div>
+      </div>
+
+
+      <!-- About Traffic Section Start -->
+      <div class="section_padding pb-0 about">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-6">
+                  <img src="assets/img/home-3/seo_analysis_bg.png" alt="Seo Analysisi Background">
+               </div>
+               <div class="col-md-5 offset-md-1">
+                  <div class="about_text">
+                     <h3>Welcome to the world's biggest digital agency</h3>
+                     <p>
+                        We’re about making our customers’ businesses great by delivering a digital up
+                        that works as hard and affordably as possible. ‘Our people, your team’ wraps
+                        how we do it. Like our customers’ own team of experts next door, capable of
+                        complete unbiased digital service under.
+                     </p>
+
+                     <a href="about.html" class="boxed_btn">About Traffic</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="transparency">
+               <div class="row d-flex align-items-center">
+                  <div class="col-lg-5">
+                     <h2>Transparency of Online Marketing Efforts from us</h2>
+                     <p>Conveniently whiteboard ubiquitous niche markets and accurate collaboration and idea-sharing.
+                        Holisticly supply client-focused models vis-a-vis B2B processes. </p>
+
+                     <a href="services-v1.html" class="boxed_btn">How it works</a>
+                  </div>
+                  <div class="col-lg-7">
+                     <img src="assets/img/home/devices.png" alt="Device Image">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- About Traffic Section End -->
+
+
+      <!--Team Member Section Start -->
+      <section class="about">
+         <div class="section_padding pb-0">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6 offset-lg-3 text-center">
+                     <div class="section_title">
+                        <h2>Meet With Our Team</h2>
+                        <p>
+                           Conveniently whiteboard ubiquitous niche markets and accurate collaboration.
+                           Holisticly supply client-focused models B2B processes.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row text-center">
+                  <div class="col-md-3">
+                     <a href="https://www.linkedin.com/in/iamtheasad/">
+                        <div class="single_team_box">
+                           <img src="assets/img/team/team_member_1.jpg" alt="Team Memeber">
+                           <h4>Fred Ebert</h4>
+                           <span>Creative Designer</span>
+                        </div>
+                     </a>
+                  </div>
+
+                  <div class="col-md-3">
+                     <a href="https://www.linkedin.com/in/iamtheasad/">
+                        <div class="single_team_box">
+                           <img src="assets/img/team/team_member_2.jpg" alt="Team Memeber">
+                           <h4>Fred Ebert</h4>
+                           <span>Creative Designer</span>
+                        </div>
+                     </a>
+                  </div>
+
+                  <div class="col-md-3">
+                     <a href="https://www.linkedin.com/in/iamtheasad/">
+                        <div class="single_team_box">
+                           <img src="assets/img/team/team_member_3.jpg" alt="Team Memeber">
+                           <h4>Fred Ebert</h4>
+                           <span>Creative Designer</span>
+                        </div>
+                     </a>
+                  </div>
+
+                  <div class="col-md-3">
+                     <a href="https://www.linkedin.com/in/iamtheasad/">
+                        <div class="single_team_box">
+                           <img src="assets/img/team/team_member_4.jpg" alt="Team Memeber">
+                           <h4>Fred Ebert</h4>
+                           <span>Creative Designer</span>
+                        </div>
+                     </a>
+                  </div>
+               </div><!-- row / -->
+            </div>
+         </div>
+      </section>
+      <!-- Team Member Section End -->
+
+
+      <!-- Testimonial Section Start -->
+      <section id="testimonial">
+         <div class="section_padding">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6 offset-lg-3 text-center">
+                     <div class="testimonial_carousel owl-theme owl-carousel">
+                        <div class="single_testimonial_item">
+                           <div class="testimonial_content">
+                              <p>
+                                 “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
+                                 while and this is just what we needed. ”
+                              </p>
+                           </div>
+
+                           <div class="testimonial_meta">
+                              <img src="assets/img/home/testimonial_author_2.jpg" alt="Testimonial Image">
+                              <h4>Md. Asaduzzaman Rana</h4>
+                              <p>Senior &amp; Executive Director, VML</p>
+                           </div>
+                        </div>
+                        <div class="single_testimonial_item">
+                           <div class="testimonial_content">
+                              <p>
+                                 “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
+                                 while and this is just what we needed. ”
+                              </p>
+                           </div>
+
+                           <div class="testimonial_meta">
+                              <img src="assets/img/home/testimonial_author_1.jpg" alt="Testimonial Image">
+                              <h4>Mark McClendon</h4>
+                              <p>Partner &amp; Executive Director, VML</p>
+                           </div>
+                        </div>
+                        <div class="single_testimonial_item">
+                           <div class="testimonial_content">
+                              <p>
+                                 “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
+                                 while and this is just what we needed. ”
+                              </p>
+                           </div>
+
+                           <div class="testimonial_meta">
+                              <img src="assets/img/home/testimonial_author_2.jpg" alt="Testimonial Image">
+                              <h4>Md. Asaduzzaman Rana</h4>
+                              <p>React &amp; Developer, VML</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div><!-- row / -->
+            </div>
+         </div>
+      </section>
+      <!-- Testimonial Section End -->
+
+
+      <!-- Logo Carousel Start -->
+      <div class="logo_about">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="logo_carousel owl-carousel owl-theme">
+                     <div class="single_logo_item">
+                        <div class="logo_item_inner">
+                           <img src="assets//img/home/company-logo/company_logo_1.png" alt="Company Logo">
+                        </div>
+                     </div><!-- single_logo_item / -->
+
+                     <div class="single_logo_item">
+                        <div class="logo_item_inner">
+                           <img src="assets//img/home/company-logo/company_logo_2.png" alt="Company Logo">
+                        </div>
+                     </div><!-- single_logo_item / -->
+
+                     <div class="single_logo_item">
+                        <div class="logo_item_inner">
+                           <img src="assets//img/home/company-logo/company_logo_3.png" alt="Company Logo">
+                        </div>
+                     </div><!-- single_logo_item / -->
+
+                     <div class="single_logo_item">
+                        <div class="logo_item_inner">
+                           <img src="assets//img/home/company-logo/company_logo_4.png" alt="Company Logo">
+                        </div>
+                     </div><!-- single_logo_item / -->
+
+                     <div class="single_logo_item">
+                        <div class="logo_item_inner">
+                           <img src="assets//img/home/company-logo/company_logo_5.png" alt="Company Logo">
+                        </div>
+                     </div><!-- single_logo_item / -->
+
+                     <div class="single_logo_item">
+                        <div class="logo_item_inner">
+                           <img src="assets//img/home/company-logo/company_logo_6.png" alt="Company Logo">
+                        </div>
+                     </div><!-- single_logo_item / -->
+
+                     <div class="single_logo_item">
+                        <div class="logo_item_inner">
+                           <img src="assets//img/home/company-logo/company_logo_1.png" alt="Company Logo">
+                        </div>
+                     </div><!-- single_logo_item / -->
+                  </div>
+               </div>
+            </div><!-- row / -->
+         </div>
+      </div>
+      <!-- Logo Carousel End -->
+
+
+      <!-- Service Details Call to Action Section Start -->
+      <section class="cta_area call_to_action_4">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-8 offset-md-2 text-center">
+                  <h2>Create your own markeitng website</h2>
+                  <p>
+                     Writers and stars of Veep have responded incredulously to the news an Australian politician
+                     required
+                     stitches
+                     Graham Perrett, a federal Labor MP in Queensland, was eating
                   </p>
 
-                  <a href="about.html" class="boxed_btn">About Traffic</a>
+                  <a href="contact-v1.html" class="boxed_btn">Buy Now</a>
                </div>
             </div>
          </div>
-
-         <div class="transparency">
-            <div class="row d-flex align-items-center">
-               <div class="col-lg-5">
-                  <h2>Transparency of Online Marketing Efforts from us</h2>
-                  <p>Conveniently whiteboard ubiquitous niche markets and accurate collaboration and idea-sharing.
-                     Holisticly supply client-focused models vis-a-vis B2B processes. </p>
-
-                  <a href="services-v1.html" class="boxed_btn">How it works</a>
-               </div>
-               <div class="col-lg-7">
-                  <img src="assets/img/home/devices.png" alt="Device Image">
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- About Traffic Section End -->
+      </section>
+      <!-- Service Details Call to Action Section End -->
 
 
-   <!--Team Member Section Start -->
-   <section class="about">
-      <div class="section_padding pb-0">
+      <!-- Footer Area Start -->
+      <section class="footer_area service_details">
          <div class="container">
             <div class="row">
-               <div class="col-lg-6 offset-lg-3 text-center">
-                  <div class="section_title">
-                     <h2>Meet With Our Team</h2>
-                     <p>
-                        Conveniently whiteboard ubiquitous niche markets and accurate collaboration.
-                        Holisticly supply client-focused models B2B processes.
-                     </p>
+               <div class="col-lg-8 col-md-12">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <h4>Product</h4>
+                        <ul>
+                           <li><a href="services-v1.html">Features</a></li>
+                           <li><a href="pricing-table.html">Pricing</a></li>
+                           <li><a href="service-details.html">Customers</a></li>
+                           <li><a href="service-details.html">Page Builder</a></li>
+                           <li><a href="services-v2.html">What's new</a></li>
+                        </ul>
+                     </div>
+
+                     <div class="col-md-4">
+                        <h4>Company</h4>
+                        <ul>
+                           <li><a href="about.html">About us</a></li>
+                           <li><a href="service-details.html">Try Demo</a></li>
+                           <li><a href="case-study-v1.html">Terms of service</a></li>
+                           <li><a href="service-details.html">Page Builder</a></li>
+                           <li><a href="blog-single.html">Privacy policy</a></li>
+                        </ul>
+                     </div>
+
+                     <div class="col-md-4">
+                        <h4>Help Center</h4>
+                        <ul>
+                           <li><a href="blog-single.html">Help centre</a></li>
+                           <li><a href="contact-v1.html">Email Us</a></li>
+                           <li><a href="contact-v2.html">Message Us</a></li>
+                           <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                     </div>
                   </div>
-               </div>
-            </div>
+               </div><!-- col / -->
 
-            <div class="row text-center">
-               <div class="col-md-3">
-                  <a href="https://www.linkedin.com/in/iamtheasad/">
-                     <div class="single_team_box">
-                        <img src="assets/img/team/team_member_1.jpg" alt="Team Memeber">
-                        <h4>Fred Ebert</h4>
-                        <span>Creative Designer</span>
-                     </div>
-                  </a>
-               </div>
+               <div class="col-lg-4 col-md-12">
+                  <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
 
-               <div class="col-md-3">
-                  <a href="https://www.linkedin.com/in/iamtheasad/">
-                     <div class="single_team_box">
-                        <img src="assets/img/team/team_member_2.jpg" alt="Team Memeber">
-                        <h4>Fred Ebert</h4>
-                        <span>Creative Designer</span>
-                     </div>
-                  </a>
-               </div>
+                  <div class="email_subscribe_form">
+                     <form action="index.html">
+                        <input type="email" name="email" placeholder="Email Addresss" id="email">
+                        <input type="submit" value="Sign Up">
+                     </form>
+                  </div>
 
-               <div class="col-md-3">
-                  <a href="https://www.linkedin.com/in/iamtheasad/">
-                     <div class="single_team_box">
-                        <img src="assets/img/team/team_member_3.jpg" alt="Team Memeber">
-                        <h4>Fred Ebert</h4>
-                        <span>Creative Designer</span>
-                     </div>
-                  </a>
-               </div>
+                  <div class="social_links">
+                     <h4>Social</h4>
 
-               <div class="col-md-3">
-                  <a href="https://www.linkedin.com/in/iamtheasad/">
-                     <div class="single_team_box">
-                        <img src="assets/img/team/team_member_4.jpg" alt="Team Memeber">
-                        <h4>Fred Ebert</h4>
-                        <span>Creative Designer</span>
-                     </div>
-                  </a>
-               </div>
+                     <ul>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-facebook"></i>Facebook</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-twitter"></i>Twitter</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-pinterest"></i>Pinterest</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-linkedin"></i>Linkedin</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-instagram"></i>Instagram</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div><!-- col / -->
             </div><!-- row / -->
          </div>
-      </div>
-   </section>
-   <!-- Team Member Section End -->
+      </section>
+      <!-- Footer Area End -->
 
 
-   <!-- Testimonial Section Start -->
-   <section id="testimonial">
-      <div class="section_padding">
+      <!-- Copy Right Area Start -->
+      <div class="copyright_area">
          <div class="container">
             <div class="row">
-               <div class="col-lg-6 offset-lg-3 text-center">
-                  <div class="testimonial_carousel owl-theme owl-carousel">
-                     <div class="single_testimonial_item">
-                        <div class="testimonial_content">
-                           <p>
-                              “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
-                              while and this is just what we needed. ”
-                           </p>
-                        </div>
-
-                        <div class="testimonial_meta">
-                           <img src="assets/img/home/testimonial_author_2.jpg" alt="Testimonial Image">
-                           <h4>Md. Asaduzzaman Rana</h4>
-                           <p>Senior &amp; Executive Director, VML</p>
-                        </div>
-                     </div>
-                     <div class="single_testimonial_item">
-                        <div class="testimonial_content">
-                           <p>
-                              “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
-                              while and this is just what we needed. ”
-                           </p>
-                        </div>
-
-                        <div class="testimonial_meta">
-                           <img src="assets/img/home/testimonial_author_1.jpg" alt="Testimonial Image">
-                           <h4>Mark McClendon</h4>
-                           <p>Partner &amp; Executive Director, VML</p>
-                        </div>
-                     </div>
-                     <div class="single_testimonial_item">
-                        <div class="testimonial_content">
-                           <p>
-                              “ Ridiculously easy to use. We have been looking for an intuitive tool like this for a
-                              while and this is just what we needed. ”
-                           </p>
-                        </div>
-
-                        <div class="testimonial_meta">
-                           <img src="assets/img/home/testimonial_author_2.jpg" alt="Testimonial Image">
-                           <h4>Md. Asaduzzaman Rana</h4>
-                           <p>React &amp; Developer, VML</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div><!-- row / -->
-         </div>
-      </div>
-   </section>
-   <!-- Testimonial Section End -->
-
-
-   <!-- Logo Carousel Start -->
-   <div class="logo_about">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12">
-               <div class="logo_carousel owl-carousel owl-theme">
-                  <div class="single_logo_item">
-                     <div class="logo_item_inner">
-                        <img src="assets//img/home/company-logo/company_logo_1.png" alt="Company Logo">
-                     </div>
-                  </div><!-- single_logo_item / -->
-
-                  <div class="single_logo_item">
-                     <div class="logo_item_inner">
-                        <img src="assets//img/home/company-logo/company_logo_2.png" alt="Company Logo">
-                     </div>
-                  </div><!-- single_logo_item / -->
-
-                  <div class="single_logo_item">
-                     <div class="logo_item_inner">
-                        <img src="assets//img/home/company-logo/company_logo_3.png" alt="Company Logo">
-                     </div>
-                  </div><!-- single_logo_item / -->
-
-                  <div class="single_logo_item">
-                     <div class="logo_item_inner">
-                        <img src="assets//img/home/company-logo/company_logo_4.png" alt="Company Logo">
-                     </div>
-                  </div><!-- single_logo_item / -->
-
-                  <div class="single_logo_item">
-                     <div class="logo_item_inner">
-                        <img src="assets//img/home/company-logo/company_logo_5.png" alt="Company Logo">
-                     </div>
-                  </div><!-- single_logo_item / -->
-
-                  <div class="single_logo_item">
-                     <div class="logo_item_inner">
-                        <img src="assets//img/home/company-logo/company_logo_6.png" alt="Company Logo">
-                     </div>
-                  </div><!-- single_logo_item / -->
-
-                  <div class="single_logo_item">
-                     <div class="logo_item_inner">
-                        <img src="assets//img/home/company-logo/company_logo_1.png" alt="Company Logo">
-                     </div>
-                  </div><!-- single_logo_item / -->
+               <div class="col-lg-12 text-center">
+                  &copy; Traffic 2020. All rights reserved . Powered By <a
+                     href="https://www.linkedin.com/in/iamtheasad/" target="_blank">Rana</a>.
                </div>
             </div>
-         </div><!-- row / -->
+         </div>
+
+         <!-- Bottom to Top -->
+         <button class="btn bottom_to_top case_study_1 d-flex justify-content-center align-items-center">
+            <i class="zmdi zmdi-chevron-up"></i>
+         </button>
       </div>
+      <!-- Copy Right Area End -->
    </div>
-   <!-- Logo Carousel End -->
-
-
-   <!-- Service Details Call to Action Section Start -->
-   <section class="cta_area call_to_action_4">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-8 offset-md-2 text-center">
-               <h2>Create your own markeitng website</h2>
-               <p>
-                  Writers and stars of Veep have responded incredulously to the news an Australian politician required
-                  stitches
-                  Graham Perrett, a federal Labor MP in Queensland, was eating
-               </p>
-
-               <a href="contact-v1.html" class="boxed_btn">Buy Now</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- Service Details Call to Action Section End -->
-
-
-   <!-- Footer Area Start -->
-   <section class="footer_area service_details">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-8 col-md-12">
-               <div class="row">
-                  <div class="col-md-4">
-                     <h4>Product</h4>
-                     <ul>
-                        <li><a href="services-v1.html">Features</a></li>
-                        <li><a href="pricing-table.html">Pricing</a></li>
-                        <li><a href="service-details.html">Customers</a></li>
-                        <li><a href="service-details.html">Page Builder</a></li>
-                        <li><a href="services-v2.html">What's new</a></li>
-                     </ul>
-                  </div>
-
-                  <div class="col-md-4">
-                     <h4>Company</h4>
-                     <ul>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="service-details.html">Try Demo</a></li>
-                        <li><a href="case-study-v1.html">Terms of service</a></li>
-                        <li><a href="service-details.html">Page Builder</a></li>
-                        <li><a href="blog-single.html">Privacy policy</a></li>
-                     </ul>
-                  </div>
-
-                  <div class="col-md-4">
-                     <h4>Help Center</h4>
-                     <ul>
-                        <li><a href="blog-single.html">Help centre</a></li>
-                        <li><a href="contact-v1.html">Email Us</a></li>
-                        <li><a href="contact-v2.html">Message Us</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div><!-- col / -->
-
-            <div class="col-lg-4 col-md-12">
-               <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
-
-               <div class="email_subscribe_form">
-                  <form action="index.html">
-                     <input type="email" name="email" placeholder="Email Addresss" id="email">
-                     <input type="submit" value="Sign Up">
-                  </form>
-               </div>
-
-               <div class="social_links">
-                  <h4>Social</h4>
-
-                  <ul>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-facebook"></i>Facebook</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-twitter"></i>Twitter</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-pinterest"></i>Pinterest</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-linkedin"></i>Linkedin</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-instagram"></i>Instagram</a>
-                     </li>
-                  </ul>
-               </div>
-            </div><!-- col / -->
-         </div><!-- row / -->
-      </div>
-   </section>
-   <!-- Footer Area End -->
-
-
-   <!-- Copy Right Area Start -->
-   <div class="copyright_area">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 text-center">
-               &copy; Traffic 2020. All rights reserved . Powered By <a href="https://www.linkedin.com/in/iamtheasad/"
-                  target="_blank">Rana</a>.
-            </div>
-         </div>
-      </div>
-
-      <!-- Bottom to Top -->
-      <button class="btn bottom_to_top case_study_1 d-flex justify-content-center align-items-center">
-         <i class="zmdi zmdi-chevron-up"></i>
-      </button>
-   </div>
-   <!-- Copy Right Area End -->
 
 
    <!-- Javascript Links -->
@@ -551,6 +598,9 @@
 
    <!-- Slick Nav For Responsive Menu -->
    <script src="assets/js/jquery.slicknav.min.js"></script>
+
+   <!-- Color Swithcer -->
+   <script src="assets/js/colornip.min.js"></script>
 
    <!-- Defualt JS -->
    <script src="assets/js/script.js"></script>

@@ -56,7 +56,7 @@
                     items: 5
                 }
             }
-            
+
         });
         /* Home Page Company Logo Carousel End */
 
@@ -159,19 +159,19 @@
         /* Home-3 Header End */
 
 
-        /* Theme Layout Changer Start */
-        $('.boxed_layout').on('click', function(){
+        /* Theme Boxed & Wide Layout Changer Start */
+        $('.boxed_layout').on('click', function () {
             $('body').addClass('boxed_layout').removeClass('wide_layout');
             $('.layout_changer span').removeClass('active');
             $(this).addClass('active');
         });
 
-        $('.wide_layout').on('click', function(){
+        $('.wide_layout').on('click', function () {
             $('body').addClass('wide_layout').removeClass('boxed_layout');
             $('.layout_changer span').removeClass('active');
             $(this).addClass('active');
         });
-        /* Theme Layout Changer End */
+        /* Theme Boxed & Wide Layout Changer End */
 
 
         /* Home-4 Canvas Menu Show and Off Start */
@@ -232,14 +232,10 @@
                 patterns: {
                     youtube: {
                         index: 'youtube.com/',
-
                         id: 'v=',
-
                         src: 'https://www.youtube.com/embed/%id%?autoplay=1' // https: added in the url
                     }
-
                 },
-
                 srcAction: 'iframe_src',
             }
         });

@@ -43,6 +43,11 @@
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/style-2.css">
 
+   <!-- Color Switcher -->
+   <link rel="stylesheet" href="assets/css/colornip.min.css">
+   <link id="theme" rel="stylesheet" href="assets/css/theme-color/theme-red.css">
+
+
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -56,293 +61,335 @@
 
 <body>
 
-   <!-- Menu Start -->
-   <div class="menu_area service_details">
+   <!--  Website Layout Color Changer Start -->
+   <div class="Switcher">
+      <button id="Switcher__control" class="Switcher__control"> <i class="zmdi zmdi-flower"></i> </button>
+      <h5 style="margin-bottom: 5px">Change Color</h5>
+      <ul id="colors" data-dir="assets/css/theme-color/">
+         <li data-scheme="theme-red" data-color="#EF476F"></li>
+         <li data-scheme="theme-green" data-color="#06D6A0"></li>
+         <li data-scheme="theme-perple" data-color="#6c5ce7"></li>
+         <li data-scheme="theme-blue" data-color="#0984e3"></li>
+      </ul>
 
-      <div class="mobile_menu_wrap about_slick"></div>
+      <br />
 
-      <div class="container">
-         <div class="row d-flex align-items-center text-md-right">
-            <div class="col-lg-2 text-lg-left">
-               <div class="logo">
-                  <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
-               </div>
-            </div>
-            <div class="col-lg-8">
-               <div class="mainmenu">
-                  <ul id="main_nav">
-                     <li><a href="index.html">Home</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="index.html">Home 1</a></li>
-                           <li><a href="home-2.html">Home 2</a></li>
-                           <li><a href="home-3.html">Home 3</a></li>
-                           <li><a href="home-4.html">Home 4</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="service-details.html">Features</a></li>
-                     <li><a href="javascript:void(0)">Pages</a>
-                        <ul class="mega_menu">
-                           <li class="mega_menu_content">
-                              <h6>Main Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li>
-                                    <h4>Traffic is a <span>Awesoem</span> Template</h4>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, aspernatur
-                                       tempore velit suscipit ipsum harum voluptates quaerat dignissimos eaque
-                                       voluptatibus.</p>
+      <h5>Change Layout</h5>
 
-                                    <a href="#" class="boxed_btn">Purchase Now</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="mega_menu_content">
-                              <h6>Other Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li><a href="about.html">About</a></li>
-                                 <li><a href="faq.html">FAQ</a></li>
-                                 <li><a href="team.html">Team</a></li>
-                              </ul>
-                           </li>
-                           <li class="mega_menu_content">
-                              <h6>Bonus Pages</h6>
-                              <ul class="mega_menu_1">
-                                 <li><a href="case-study-v1.html">Case Study 1</a></li>
-                                 <li><a href="case-study-v1.html">Case Study 2</a></li>
-                                 <li><a href="services-v1.html">Services 1</a></li>
-                                 <li><a href="services-v2.html">Services 2</a></li>
-                                 <li><a href="contact-v1.html">Contact 1</a></li>
-                                 <li><a href="contact-v2.html">Contact 2</a></li>
-                                 <li><a href="seo-analysis.html">Seo Analysis</a></li>
-                                 <li><a href="pricing-table.html">Pricing Table</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><a href="services-v1.html">Services</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="services-v1.html">Services 1</a></li>
-                           <li><a href="services-v2.html">Service 2</a></li>
-                           <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="case-study-v1.html">Case Study</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="case-study-v1.html">Case Study 1</a></li>
-                           <li><a href="case-study-v2.html">Case Study 2</a></li>
-                           <li><a href="case-studies-details.html">Case Study Details</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="blog.html">Blog</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="blog.html">Blog</a></li>
-                           <li><a href="blog-single.html">Single Blog</a></li>
-                        </ul>
-                     </li>
-                     <li><a href="contact-v1.html">Contact</a>
-                        <ul class="dropdown_header_menu">
-                           <li><a href="contact-v1.html">Contact 1</a></li>
-                           <li><a href="contact-v2.html">Contact 2</a></li>
-                        </ul>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-            <div class="col-lg-2 d-flex justify-content-center">
-               <a href="seo-analysis.html" class="boxed_btn">Free SEO Analysis</a>
-            </div>
-         </div>
+      <div class="layout_changer">
+         <span class="boxed_layout">Boxed Layout</span>
+         <span class="wide_layout active">Wide Layout</span>
+      </div>
+
+      <div class="Credits">
+         <br />
+         2016 Colornip by <span><a href="http://zafree.github.io/" target="_blank">Zafree</a></span>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=star&count=true"
+            style="display:block; margin-bottom: 8px; margin-top: 15px"></iframe>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=fork&count=true"
+            style="display:block; margin-bottom: 8px"></iframe>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&type=follow&count=true"
+            style="display:block"></iframe>
       </div>
    </div>
-   <!-- Menu End -->
+   <!-- Website Layout Color Changer End -->
 
 
-   <!-- Service Details what we do for you Start -->
-   <section class="cta_area call_to_action_4 service_details what_we_do contact_1">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-6 offset-md-3 text-center">
-               <h2>Contact With Us</h2>
-               <p>
-                  Everyday work is important, but it’s also time consuming.
-                  We can help.
-               </p>
+   <!-- site class added only for background-color on boxed_layout -->
+   <div class="site">
+      <!-- Menu Start -->
+      <div class="menu_area service_details">
+
+         <div class="mobile_menu_wrap about_slick"></div>
+
+         <div class="container">
+            <div class="row d-flex align-items-center text-md-right">
+               <div class="col-lg-2 text-lg-left">
+                  <div class="logo">
+                     <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                  </div>
+               </div>
+               <div class="col-lg-8">
+                  <div class="mainmenu">
+                     <ul id="main_nav">
+                        <li><a href="index.html">Home</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="index.html">Home 1</a></li>
+                              <li><a href="home-2.html">Home 2</a></li>
+                              <li><a href="home-3.html">Home 3</a></li>
+                              <li><a href="home-4.html">Home 4</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="service-details.html">Features</a></li>
+                        <li><a href="javascript:void(0)">Pages</a>
+                           <ul class="mega_menu">
+                              <li class="mega_menu_content">
+                                 <h6>About</h6>
+                                 <ul class="mega_menu_1">
+                                    <li>
+                                       <h4>Traffic is a <span>Awesoem</span> Template</h4>
+                                       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium,
+                                          aspernatur
+                                          tempore velit suscipit ipsum harum voluptates quaerat dignissimos eaque
+                                          voluptatibus.</p>
+
+                                       <a href="#" class="boxed_btn">Purchase Now</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="mega_menu_content">
+                                 <h6>Other Pages</h6>
+                                 <ul class="mega_menu_1">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="seo-analysis.html">Seo Analysis</a></li>
+                                    <li><a href="pricing-table.html">Pricing Table</a></li>
+                                 </ul>
+                              </li>
+                              <li class="mega_menu_content">
+                                 <h6>Bonus Pages</h6>
+                                 <ul class="mega_menu_1">
+                                    <li><a href="home-2.html">Home 2</a></li>
+                                    <li><a href="home-3.html">Home 3</a></li>
+                                    <li><a href="home-4.html">Home 4</a></li>
+                                    <li><a href="case-study-v2.html">Case Study 2</a></li>
+                                    <li><a href="case-studies-details.html">Case Study Details</a></li>
+                                    <li><a href="services-v2.html">Services 2</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                    <li><a href="contact-v2.html">Contact 2</a></li>
+                                    <li><a href="blog-single.html">Single Blog</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                        <li><a href="services-v1.html">Services</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="services-v1.html">Services 1</a></li>
+                              <li><a href="services-v2.html">Services 2</a></li>
+                              <li><a href="service-details.html">Service Details</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="case-study-v1.html">Case Study</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="case-study-v1.html">Case Study 1</a></li>
+                              <li><a href="case-study-v2.html">Case Study 2</a></li>
+                              <li><a href="case-studies-details.html">Case Study Details</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="blog-single.html">Single Blog</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="contact-v1.html">Contact</a>
+                           <ul class="dropdown_header_menu">
+                              <li><a href="contact-v1.html">Contact 1</a></li>
+                              <li><a href="contact-v2.html">Contact 2</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-2 d-flex justify-content-center">
+                  <a href="seo-analysis.html" class="boxed_btn">Free SEO Analysis</a>
+               </div>
             </div>
          </div>
       </div>
-   </section>
-   <!-- Service Details what we do for you End -->
+      <!-- Menu End -->
 
 
-   <!-- Blog Single Post Start -->
-   <section class="blog_single section_padding seo">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-5">
-               <img src="assets/img/seo/seo-bg.jpg" alt="SEO Bg">
-            </div>
-            <div class="col-md-7">
-               <div class="reply_form">
-                  <h3 class="mb-3">Drop Us a line</h3>
+      <!-- Service Details what we do for you Start -->
+      <section class="cta_area call_to_action_4 service_details what_we_do contact_1">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-6 offset-md-3 text-center">
+                  <h2>Contact With Us</h2>
                   <p>
-                     Sifting through teaspoons of clay and sand scraped from the floors of caves, German researchers
-                     have to be
-                     managed to isolate ancient human DNA without turning up a single bone.
+                     Everyday work is important, but it’s also time consuming.
+                     We can help.
                   </p>
-                  <br />
-                  <form action="index.thml">
-                     <div class="row">
-                        <div class="col-md-6">
-                           <input type="text" name="name" placeholder="Your Name" />
-                        </div>
-                        <div class="col-md-6">
-                           <input type="tel" name="phone" placeholder="Your Phone" />
-                        </div>
-                        <div class="col-md-12">
-                           <input type="email" name="email" placeholder="Your Email" />
-                        </div>
-                        <div class="col-md-12">
-                           <textarea name="textarea" id="single_blog_textarea" placeholder="Write a Replay" cols="30"
-                              rows="10"></textarea>
-                        </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Service Details what we do for you End -->
 
-                        <div class="col-md-12">
-                           <input class="post_submit" type="submit" value="Send Message" />
+
+      <!-- Blog Single Post Start -->
+      <section class="blog_single section_padding seo">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-5">
+                  <img src="assets/img/seo/seo-bg.jpg" alt="SEO Bg">
+               </div>
+               <div class="col-md-7">
+                  <div class="reply_form">
+                     <h3 class="mb-3">Drop Us a line</h3>
+                     <p>
+                        Sifting through teaspoons of clay and sand scraped from the floors of caves, German researchers
+                        have to be
+                        managed to isolate ancient human DNA without turning up a single bone.
+                     </p>
+                     <br />
+                     <form action="index.thml">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <input type="text" name="name" placeholder="Your Name" />
+                           </div>
+                           <div class="col-md-6">
+                              <input type="tel" name="phone" placeholder="Your Phone" />
+                           </div>
+                           <div class="col-md-12">
+                              <input type="email" name="email" placeholder="Your Email" />
+                           </div>
+                           <div class="col-md-12">
+                              <textarea name="textarea" id="single_blog_textarea" placeholder="Write a Replay" cols="30"
+                                 rows="10"></textarea>
+                           </div>
+
+                           <div class="col-md-12">
+                              <input class="post_submit" type="submit" value="Send Message" />
+                           </div>
                         </div>
+                     </form>
+                  </div>
+               </div>
+            </div><!-- row / -->
+         </div>
+      </section>
+      <!-- Blog Single Post End -->
+
+
+      <!-- Map Start -->
+      <div style='overflow:hidden;height:400px;width:100%;'>
+         <div id='gmap_canvas' style='height:400px;width:100%;'></div>
+      </div> <a href='http://maps-generator.com/'>google maps widget</a>
+      <!-- Map End-->
+
+
+      <!-- Service Details Call to Action Section Start -->
+      <section class="cta_area call_to_action_4">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-8 offset-md-2 text-center">
+                  <h2>Ready to Build your own marketing site? </h2>
+                  <p>Writers and stars of Veep have responded incredulously to the news an Australian politician
+                     required
+                     stitches
+                     Graham Perrett, a federal Labor MP in Queensland, was eating </p>
+
+                  <a href="contact-v1.html" class="boxed_btn">Contact Us</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Service Details Call to Action Section End -->
+
+
+      <!-- Footer Area Start -->
+      <section class="footer_area service_details">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 col-md-12">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <h4>Product</h4>
+                        <ul>
+                           <li><a href="services-v1.html">Features</a></li>
+                           <li><a href="pricing-table.html">Pricing</a></li>
+                           <li><a href="service-details.html">Customers</a></li>
+                           <li><a href="service-details.html">Page Builder</a></li>
+                           <li><a href="services-v2.html">What's new</a></li>
+                        </ul>
                      </div>
-                  </form>
+
+                     <div class="col-md-4">
+                        <h4>Company</h4>
+                        <ul>
+                           <li><a href="about.html">About us</a></li>
+                           <li><a href="service-details.html">Try Demo</a></li>
+                           <li><a href="case-study-v1.html">Terms of service</a></li>
+                           <li><a href="service-details.html">Page Builder</a></li>
+                           <li><a href="blog-single.html">Privacy policy</a></li>
+                        </ul>
+                     </div>
+
+                     <div class="col-md-4">
+                        <h4>Help Center</h4>
+                        <ul>
+                           <li><a href="blog-single.html">Help centre</a></li>
+                           <li><a href="contact-v1.html">Email Us</a></li>
+                           <li><a href="contact-v2.html">Message Us</a></li>
+                           <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div><!-- col / -->
+
+               <div class="col-lg-4 col-md-12">
+                  <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
+
+                  <div class="email_subscribe_form">
+                     <form action="index.html">
+                        <input type="email" name="email" placeholder="Email Addresss" id="email">
+                        <input type="submit" value="Sign Up">
+                     </form>
+                  </div>
+
+                  <div class="social_links">
+                     <h4>Social</h4>
+
+                     <ul>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-facebook"></i>Facebook</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-twitter"></i>Twitter</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-pinterest"></i>Pinterest</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-linkedin"></i>Linkedin</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                 class="zmdi zmdi-instagram"></i>Instagram</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div><!-- col / -->
+            </div><!-- row / -->
+         </div>
+      </section>
+      <!-- Footer Area End -->
+
+
+      <!-- Copy Right Area Start -->
+      <div class="copyright_area">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  &copy; Traffic 2020. All rights reserved . Powered By <a
+                     href="https://www.linkedin.com/in/iamtheasad/" target="_blank">Rana</a>.
                </div>
-            </div>
-         </div><!-- row / -->
-      </div>
-   </section>
-   <!-- Blog Single Post End -->
-
-
-   <!-- Map Start -->
-   <div style='overflow:hidden;height:400px;width:100%;'>
-      <div id='gmap_canvas' style='height:400px;width:100%;'></div>
-   </div> <a href='http://maps-generator.com/'>google maps widget</a>
-   <!-- Map End-->
-
-
-   <!-- Service Details Call to Action Section Start -->
-   <section class="cta_area call_to_action_4">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-8 offset-md-2 text-center">
-               <h2>Ready to Build your own marketing site? </h2>
-               <p>Writers and stars of Veep have responded incredulously to the news an Australian politician required
-                  stitches
-                  Graham Perrett, a federal Labor MP in Queensland, was eating </p>
-
-               <a href="contact-v1.html" class="boxed_btn">Contact Us</a>
             </div>
          </div>
+
+         <!-- Bottom to Top -->
+         <button class="btn bottom_to_top case_study_1 d-flex justify-content-center align-items-center">
+            <i class="zmdi zmdi-chevron-up"></i>
+         </button>
       </div>
-   </section>
-   <!-- Service Details Call to Action Section End -->
-
-
-   <!-- Footer Area Start -->
-   <section class="footer_area service_details">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-8 col-md-12">
-               <div class="row">
-                  <div class="col-md-4">
-                     <h4>Product</h4>
-                     <ul>
-                        <li><a href="services-v1.html">Features</a></li>
-                        <li><a href="pricing-table.html">Pricing</a></li>
-                        <li><a href="service-details.html">Customers</a></li>
-                        <li><a href="service-details.html">Page Builder</a></li>
-                        <li><a href="services-v2.html">What's new</a></li>
-                     </ul>
-                  </div>
-
-                  <div class="col-md-4">
-                     <h4>Company</h4>
-                     <ul>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="service-details.html">Try Demo</a></li>
-                        <li><a href="case-study-v1.html">Terms of service</a></li>
-                        <li><a href="service-details.html">Page Builder</a></li>
-                        <li><a href="blog-single.html">Privacy policy</a></li>
-                     </ul>
-                  </div>
-
-                  <div class="col-md-4">
-                     <h4>Help Center</h4>
-                     <ul>
-                        <li><a href="blog-single.html">Help centre</a></li>
-                        <li><a href="contact-v1.html">Email Us</a></li>
-                        <li><a href="contact-v2.html">Message Us</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div><!-- col / -->
-
-            <div class="col-lg-4 col-md-12">
-               <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
-
-               <div class="email_subscribe_form">
-                  <form action="index.html">
-                     <input type="email" name="email" placeholder="Email Addresss" id="email">
-                     <input type="submit" value="Sign Up">
-                  </form>
-               </div>
-
-               <div class="social_links">
-                  <h4>Social</h4>
-
-                  <ul>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-facebook"></i>Facebook</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-twitter"></i>Twitter</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-pinterest"></i>Pinterest</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-linkedin"></i>Linkedin</a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                              class="zmdi zmdi-instagram"></i>Instagram</a>
-                     </li>
-                  </ul>
-               </div>
-            </div><!-- col / -->
-         </div><!-- row / -->
-      </div>
-   </section>
-   <!-- Footer Area End -->
-
-
-   <!-- Copy Right Area Start -->
-   <div class="copyright_area">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 text-center">
-               &copy; Traffic 2020. All rights reserved . Powered By <a href="https://www.linkedin.com/in/iamtheasad/"
-                  target="_blank">Rana</a>.
-            </div>
-         </div>
-      </div>
-
-      <!-- Bottom to Top -->
-      <button class="btn bottom_to_top case_study_1 d-flex justify-content-center align-items-center">
-         <i class="zmdi zmdi-chevron-up"></i>
-      </button>
+      <!-- Copy Right Area End -->
    </div>
-   <!-- Copy Right Area End -->
 
 
    <!-- Javascript Links -->
@@ -383,6 +430,9 @@
    <script
       src='https://embedmaps.com/google-maps-authorization/script.js?id=1508e7bf738648248ea68cc556015c46acfbbe9e'></script>
    <script src="assets/js/map.js"></script>
+
+   <!-- Color Swithcer -->
+   <script src="assets/js/colornip.min.js"></script>
 
    <!-- Defualt JS -->
    <script src="assets/js/script.js"></script>

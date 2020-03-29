@@ -41,6 +41,11 @@
    <!-- For Home-3 Page CSS -->
    <link rel="stylesheet" href="assets/css/style-4.css" />
 
+   <!-- Color Switcher -->
+   <link rel="stylesheet" href="assets/css/colornip.min.css">
+   <link id="theme" rel="stylesheet" href="assets/css/theme-color/theme-red.css">
+
+
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="assets/css/responsive.css" />
 
@@ -54,492 +59,538 @@
 
 <body>
 
-   <!-- Off Canvus Menu -->
-   <div class="off_canvas_menu_shade"></div>
-
-   <div class="off_canvas_menu">
-      <span class="menu_close"><i class="zmdi zmdi-close"></i></span>
-
-      <h2 class="menu_logo"><a href="home-4.html">Traffic</a></h2>
-
-      <ul>
-         <li><a href="index.html">Home 1</a></li>
-         <li><a href="home-2.html">Home 2</a></li>
-         <li><a href="home-3.html">Home 3</a></li>
-         <li><a href="home-4.html">Home 4</a></li>
-         <li><a href="case-study-v1.html">Case Study 1</a></li>
-         <li><a href="case-study-v1.html">Case Study 2</a></li>
-         <li><a href="services-v1.html">Services 1</a></li>
-         <li><a href="services-v2.html">Services 2</a></li>
-         <li><a href="service-details.html">Service Details</a></li>
-         <li><a href="blog.html">Blog</a></li>
-         <li><a href="blog-single.html">Single Blog</a></li>
-         <li><a href="contact-v1.html">Contact</a>
-            <ul class="dropdown_header_menu">
-               <li><a href="contact-v1.html">Contact 1</a></li>
-               <li><a href="contact-v2.html">Contact 2</a></li>
-            </ul>
-         </li>
-         <li><a href="about.html">About</a></li>
-         <li><a href="faq.html">FAQ</a></li>
-         <li><a href="team.html">Team</a></li>
-         <li><a href="contact-v1.html">Contact 1</a></li>
-         <li><a href="contact-v2.html">Contact 2</a></li>
-         <li><a href="seo-analysis.html">Seo Analysis</a></li>
-         <li><a href="pricing-table.html">Pricing Table</a></li>
+   <!--  Website Layout Color Changer Start -->
+   <div class="Switcher">
+      <button id="Switcher__control" class="Switcher__control"> <i class="zmdi zmdi-flower"></i> </button>
+      <h5 style="margin-bottom: 5px">Change Color</h5>
+      <ul id="colors" data-dir="assets/css/theme-color/">
+         <li data-scheme="theme-red" data-color="#EF476F"></li>
+         <li data-scheme="theme-green" data-color="#06D6A0"></li>
+         <li data-scheme="theme-perple" data-color="#6c5ce7"></li>
+         <li data-scheme="theme-blue" data-color="#0984e3"></li>
       </ul>
-   </div>
 
-   <div class="search_bar_wrap d-flex justify-content-center align-items-center">
-      <span class="search_close"><i class="zmdi zmdi-close"></i></span>
-      <div class="search_bar_table">
-         <h2>Search</h2>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum iusto porro totam excepturi, mollitia sint
-            dolorum quas repudiandae molestias odio. Quod molestias aut debitis repellendus magnam corrupti ab obcaecati
-            reiciendis.</p>
+      <br />
 
-         <form action="home-4.html">
-            <input type="search" name="search" id="search" placeholder="Type Keywords" />
-            <button type="submit">Search <i class="zmdi zmdi-arrow-right"></i></button>
-         </form>
+      <h5>Change Layout</h5>
+
+      <div class="layout_changer">
+         <span class="boxed_layout">Boxed Layout</span>
+         <span class="wide_layout active">Wide Layout</span>
+      </div>
+
+      <div class="Credits">
+         <br />
+         2016 Colornip by <span><a href="http://zafree.github.io/" target="_blank">Zafree</a></span>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=star&count=true"
+            style="display:block; margin-bottom: 8px; margin-top: 15px"></iframe>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&repo=colornip&type=fork&count=true"
+            style="display:block; margin-bottom: 8px"></iframe>
+         <iframe src="https://ghbtns.com/github-btn.html?user=zafree&type=follow&count=true"
+            style="display:block"></iframe>
       </div>
    </div>
+   <!-- Website Layout Color Changer End -->
 
-   <!-- Menu Area Start-->
-   <div class="menu_area_4">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-2  d-flex align-items-center">
-               <span class="menu_trigger"><i class="zmdi zmdi-view-week"></i></span>
-            </div>
-            <div class="col-lg-8 text-center  d-flex align-items-center justify-content-center">
-               <div class="logo">
-                  <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
-               </div>
-            </div>
-            <div class="col-lg-2 text-right  d-flex align-items-center">
-               <form action="home-4.html">
-                  <input type="search" name="Search" placeholder="Search" class="search_box">
-                  <span class="search_trigger"><i class="zmdi zmdi-search"></i></span>
-               </form>
-            </div>
+
+   <!-- site class added only for background-color on boxed_layout -->
+   <div class="site">
+      <!-- Off Canvus Menu -->
+      <div class="off_canvas_menu_shade"></div>
+
+      <div class="off_canvas_menu">
+         <span class="menu_close"><i class="zmdi zmdi-close"></i></span>
+
+         <h2 class="menu_logo"><a href="home-4.html">Traffic</a></h2>
+
+         <ul>
+            <li><a href="index.html">Home 1</a></li>
+            <li><a href="home-2.html">Home 2</a></li>
+            <li><a href="home-3.html">Home 3</a></li>
+            <li><a href="home-4.html">Home 4</a></li>
+            <li><a href="case-study-v1.html">Case Study 1</a></li>
+            <li><a href="case-study-v1.html">Case Study 2</a></li>
+            <li><a href="services-v1.html">Services 1</a></li>
+            <li><a href="services-v2.html">Services 2</a></li>
+            <li><a href="service-details.html">Service Details</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="blog-single.html">Single Blog</a></li>
+            <li><a href="contact-v1.html">Contact</a>
+               <ul class="dropdown_header_menu">
+                  <li><a href="contact-v1.html">Contact 1</a></li>
+                  <li><a href="contact-v2.html">Contact 2</a></li>
+               </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact-v1.html">Contact 1</a></li>
+            <li><a href="contact-v2.html">Contact 2</a></li>
+            <li><a href="seo-analysis.html">Seo Analysis</a></li>
+            <li><a href="pricing-table.html">Pricing Table</a></li>
+         </ul>
+      </div>
+
+      <div class="search_bar_wrap d-flex justify-content-center align-items-center">
+         <span class="search_close"><i class="zmdi zmdi-close"></i></span>
+         <div class="search_bar_table">
+            <h2>Search</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum iusto porro totam excepturi, mollitia
+               sint
+               dolorum quas repudiandae molestias odio. Quod molestias aut debitis repellendus magnam corrupti ab
+               obcaecati
+               reiciendis.</p>
+
+            <form action="home-4.html">
+               <input type="search" name="search" id="search" placeholder="Type Keywords" />
+               <button type="submit">Search <i class="zmdi zmdi-arrow-right"></i></button>
+            </form>
          </div>
       </div>
-   </div>
-   <!-- Menu Area End -->
 
-
-   <!-- Home-4 Header Section Start -->
-   <header class="homepage_4_slides d-flex justify-content-center align-items-center">
-      <div class="single_slide_item">
+      <!-- Menu Area Start-->
+      <div class="menu_area_4">
          <div class="container">
             <div class="row">
-               <div class="col-md-8 offset-md-2 text-center">
-                  <h1>Before you create any great content figure out to market it first.</h1>
-                  <P>
-                     Traffic is a great platform to stand out your website. Credibly leverage existing web-enabled
-                     change rather than leading-edge collaboration and idea-sharing.
-                  </P>
+               <div class="col-lg-2  d-flex align-items-center">
+                  <span class="menu_trigger"><i class="zmdi zmdi-view-week"></i></span>
+               </div>
+               <div class="col-lg-8 text-center  d-flex align-items-center justify-content-center">
+                  <div class="logo">
+                     <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                  </div>
+               </div>
+               <div class="col-lg-2 text-right  d-flex align-items-center">
+                  <form action="home-4.html">
+                     <input type="search" name="Search" placeholder="Search" class="search_box">
+                     <span class="search_trigger"><i class="zmdi zmdi-search"></i></span>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Menu Area End -->
+
+
+      <!-- Home-4 Header Section Start -->
+      <header class="homepage_4_slides d-flex justify-content-center align-items-center">
+         <div class="single_slide_item">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 offset-md-2 text-center">
+                     <h1>Before you create any great content figure out to market it first.</h1>
+                     <P>
+                        Traffic is a great platform to stand out your website. Credibly leverage existing web-enabled
+                        change rather than leading-edge collaboration and idea-sharing.
+                     </P>
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="col-md-10 offset-md-1 text-center">
+                     <div class="website_check_form">
+                        <form action="home-3.html">
+                           <input type="url" name="website" placeholder="Your Website Link" required />
+                           <input type="text" name="keywords" placeholder="Keyword" required />
+                           <input type="email" name="website" placeholder="Your Email" required />
+                           <input type="submit" value="Get Result" />
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Home-4 Header Section End -->
+
+
+      <!-- Home-4 How can traffic help my buisness grow Start -->
+      <div class="section_padding theme_4">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-5">
+                  <div class="tile_gallery">
+                     <img src="assets/img/home-4/business_report_1.jpg" alt="Buisness Report">
+                     <img src="assets/img/home-4/business_report_2.jpg" alt="Buisness Report">
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="about_text">
+                     <h3>How can traffic <br />
+                        help my buisness grow?</h3>
+                     <p>
+                        The Greenpeace activist, said the sandstorm was reminiscent of those witnessed about two
+                        ago before a large-scale reforestation campaign in northern China helped reduce the number
+                        sandstorms reaching the capital.We have had a lucky few years recently. Sandstorms have tradi
+                        been a problem for Beijing and for the northern .
+                     </p>
+                     <br />
+                     <p>
+                        The Greenpeace activist, said the sandstorm was reminiscent of those witnessed about two
+                        ago before a large-scale reforestation campaign in northern China helped reduce the number
+                        sandstorms reaching the capital.We have had a lucky.
+                     </p>
+
+                     <a href="about.html" class="inline_btn">About Traffic <i
+                           class="zmdi zmdi-long-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Home-4 How can traffic help my buisness grow End -->
+
+
+      <!-- Home-4 Service Section Start -->
+      <div class="section_padding service_section pt-0">
+         <div class="container">
+            <div class="row text-center">
+               <div class="col-lg-6">
+                  <div class="service_content">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="service_box_4">
+                              <div class="service_icon_4">
+                                 <img src="assets/img/home-4/service_icon_1.png" alt="Service Icon">
+                              </div>
+                              <h4>Web Analytics</h4>
+                              <p>
+                                 Li said Beijing’s latest would amet consectetur adipisicing elit. Deleniti, fugiat!
+                                 Harum incidunt repellat, expedita illum eveniet.
+                              </p>
+                           </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <div class="service_box_4">
+                              <div class="service_icon_4">
+                                 <img src="assets/img/home-4/service_icon_2.png" alt="Service Icon">
+                              </div>
+                              <h4>Inbound Markeitng</h4>
+                              <p>
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit minus quaerat
+                                 veniam ut. Dolore fugit dolorem in quod enim illo architecto.
+                              </p>
+                           </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <div class="service_box_4">
+                              <div class="service_icon_4">
+                                 <img src="assets/img/home-4/service_icon_3.png" alt="Service Icon">
+                              </div>
+                              <h4>Ads on Target</h4>
+                              <p>
+                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem, eveniet
+                                 quas illo cupiditate quos eos excepturi adipisci harum cumque!
+                              </p>
+                           </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                           <div class="service_box_4">
+                              <div class="service_icon_4">
+                                 <i class="zmdi zmdi-globe"></i>
+                              </div>
+                              <h4>PPC Management</h4>
+                              <p>
+                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto exercitationem
+                                 veniam suscipit autem numquam? Provident error quaerat incidunt ducimus minima!
+                              </p>
+                           </div>
+                        </div>
+                     </div><!-- row / -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Home-4 Service Section End -->
+
+
+      <!-- Home-4 How traffic work Start -->
+      <section class="cta_area theme_4">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5 offset-md-6 text-center">
+                  <h2>How traffic work ?</h2>
+                  <p>When the guidelines were agreed, it was clear that this was more than
+                     rhetoric. EU governments have essentially committed</p>
+
+                  <a href="https://www.youtube.com/watch?v=P-jCuxfJNeU" class="btn video_play_icon"><img
+                        src="assets/img/home-4/video_paly_icon.png" alt="Video Play Button"></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Home-4 How traffic work End -->
+
+
+      <!-- Home-4 Feature Start -->
+      <section class="feature section_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <img class="image_shadow" src="assets/img/home-4/feature_bg.jpg" alt="Feature Image Background">
+               </div>
+               <div class="col-md-6 d-flex align-items-center">
+                  <div class="feature_content">
+                     <h2>How traffic work ?</h2>
+                     <span>Latest air pollution crisis would also remind the public that while industrial smog remained
+                        a
+                        pressing issue.</span>
+
+                     <div class="single_feature_item">
+                        <div class="row no-gutters">
+                           <div class="col-md-1 d-flex justify-content-center align-items-center">
+                              <div class="feature_icon">
+                                 <img src="assets/img/home-4/feature_icon_1.png" alt="Feature Icon">
+                              </div>
+                           </div>
+                           <div class="col-md-11 pl-md-4">
+                              <h3>Unique & Creative Design</h3>
+                              <p>
+                                 Writers and stars of Veep have responded incredulously to the new
+                                 Australian politician required stitches after knocking himself uncon
+                                 while laughing at the new season.
+                              </p>
+                           </div>
+                        </div>
+                     </div><!-- single_feature_item / -->
+
+                     <div class="single_feature_item">
+                        <div class="row no-gutters">
+                           <div class="col-md-1 d-flex justify-content-center align-items-center">
+                              <div class="feature_icon">
+                                 <img src="assets/img/home-4/feature_icon_2.png" alt="Feature Icon">
+                              </div>
+                           </div>
+                           <div class="col-md-11 pl-md-4">
+                              <h3>Targeted Niche</h3>
+                              <p>
+                                 Writers and stars of Veep have responded incredulously to the new
+                                 Australian politician required stitches after knocking himself uncon
+                                 while laughing at the new season.
+                              </p>
+                           </div>
+                        </div>
+                     </div><!-- single_feature_item / -->
+                     <div class="single_feature_item">
+                        <div class="row no-gutters">
+                           <div class="col-md-1 d-flex justify-content-center align-items-center">
+                              <div class="feature_icon">
+                                 <img src="assets/img/home-4/feature_icon_3.png" alt="Feature Icon">
+                              </div>
+                           </div>
+                           <div class="col-md-11 pl-md-4">
+                              <h3>Secure Support</h3>
+                              <p>
+                                 Writers and stars of Veep have responded incredulously to the new
+                                 Australian politician required stitches after knocking himself uncons
+                                 while laughing at the new season.
+                              </p>
+                           </div>
+                        </div>
+                     </div><!-- single_feature_item / -->
+                     <div class="single_feature_item">
+                        <div class="row no-gutters">
+                           <div class="col-md-1 d-flex justify-content-center align-items-center">
+                              <div class="feature_icon">
+                                 <i class="zmdi zmdi-home"></i>
+                              </div>
+                           </div>
+                           <div class="col-md-11 pl-md-4">
+                              <h3>Easy to Customise</h3>
+                              <p>
+                                 Writers and stars of Veep have responded incredulously to the new
+                                 Australian politician required stitches after knocking himself uncon
+                                 while laughing at the new season.
+                              </p>
+                           </div>
+                        </div>
+                     </div><!-- single_feature_item / -->
+                  </div>
+               </div><!-- col / -->
+            </div>
+         </div>
+      </section>
+      <!-- Home-4 Feature End -->
+
+
+      <!-- Home-4 Testimonial Section Start -->
+      <section id="testimonial_4" class="section_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 offset-lg-3 text-center">
+                  <div class="section_title">
+                     <h2>Our Testimonial</h2>
+                     <p> Jonah Ryan is caught shaving his head to fake having cancer. I was laughing
+                        rice went down the wrong way Perrett told BuzzFeed News. </p>
+                  </div>
                </div>
             </div>
 
             <div class="row">
-               <div class="col-md-10 offset-md-1 text-center">
-                  <div class="website_check_form">
-                     <form action="home-3.html">
-                        <input type="url" name="website" placeholder="Your Website Link" required />
-                        <input type="text" name="keywords" placeholder="Keyword" required />
-                        <input type="email" name="website" placeholder="Your Email" required />
-                        <input type="submit" value="Get Result" />
+               <div class="col-md-4">
+                  <div class="single_testimial_box_4">
+                     <div class="testimonial_content_4">
+                        <i class="zmdi zmdi-quote"></i>
+                        <p>His wife found him unconscious on the ground, with blood everywhere must have been out for
+                           only
+                           a few seconds because, when I came to again, I was still laughing at Jonah.</p>
+                     </div>
+                     <div class="testimonial_author">
+                        <img src="assets/img/home-4/testimonial_author_2.jpg" alt="Testimonial Author Image">
+                        <p class="author_detail"><strong>Alva Dickinson</strong> <br /> CEO, Craftytheem</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="single_testimial_box_4 active">
+                     <div class="testimonial_content_4">
+                        <i class="zmdi zmdi-quote"></i>
+                        <p>His wife found him unconscious on the ground, with blood everywhere must have been out for
+                           only
+                           a few seconds because, when I came to again, I was still laughing at Jonah.</p>
+                     </div>
+                     <div class="testimonial_author">
+                        <img src="assets/img/home-4/testimonial_author_2.jpg" alt="Testimonial Author Image">
+                        <p class="author_detail"><strong>Alva Dickinson</strong> <br /> CEO, Craftytheem</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-4">
+                  <div class="single_testimial_box_4">
+                     <div class="testimonial_content_4">
+                        <i class="zmdi zmdi-quote"></i>
+                        <p>His wife found him unconscious on the ground, with blood everywhere must have been out for
+                           only
+                           a few seconds because, when I came to again, I was still laughing at Jonah.</p>
+                     </div>
+                     <div class="testimonial_author">
+                        <img src="assets/img/home-4/testimonial_author_1.jpg" alt="Testimonial Author Image">
+                        <p class="author_detail"><strong>Alva Dickinson</strong> <br /> CEO, Craftytheem</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Home-4 Testimonial Section End -->
+
+
+      <!-- Home-4 Call to Action Section Start -->
+      <section class="cta_area call_to_action_4">
+         <div class="container">
+            <div class="row d-flex align-items-center">
+               <div class="col-md-8 offset-md-2 text-center">
+                  <h2>Ready to Build your own marketing site? </h2>
+                  <p>Writers and stars of Veep have responded incredulously to the news an Australian politician
+                     required
+                     stitches
+                     Graham Perrett, a federal Labor MP in Queensland, was eating </p>
+
+                  <a href="contact-v1.html" class="boxed_btn">Contact Us</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Home-4 Call to Action Section End -->
+
+      <!-- Footer Area Start -->
+      <section class="footer_area theme_4">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 col-md-12">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <h4>Product</h4>
+                        <ul>
+                           <li><a href="service-details.html">Features</a></li>
+                           <li><a href="pricing-table.html">Pricing</a></li>
+                           <li><a href="services-v1.html">Customers</a></li>
+                           <li><a href="services-v2.html">Page Builder</a></li>
+                           <li><a href="blog.html">What's new</a></li>
+                        </ul>
+                     </div>
+
+                     <div class="col-md-4">
+                        <h4>Company</h4>
+                        <ul>
+                           <li><a href="about.html">About us</a></li>
+                           <li><a href="case-study-v1.html">Try Demo</a></li>
+                           <li><a href="blog-single.html">Terms of service</a></li>
+                           <li><a href="seo-analysis.html">Page Builder</a></li>
+                           <li><a href="faq.html">Privacy policy</a></li>
+                        </ul>
+                     </div>
+
+                     <div class="col-md-4">
+                        <h4>Follow Us</h4>
+
+                        <ul>
+                           <li>
+                              <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                    class="zmdi zmdi-facebook"></i>Facebook</a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                    class="zmdi zmdi-twitter"></i>Twitter</a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                    class="zmdi zmdi-pinterest"></i>Pinterest</a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                    class="zmdi zmdi-linkedin"></i>Linkedin</a>
+                           </li>
+                           <li>
+                              <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
+                                    class="zmdi zmdi-instagram"></i>Instagram</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div><!-- col / -->
+
+               <div class="col-lg-4 col-md-12">
+                  <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
+
+                  <div class="email_subscribe_form">
+                     <form action="index.html">
+                        <input type="email" name="email" placeholder="Email Addresss" id="email">
+                        <input type="submit" value="Sign Up">
                      </form>
                   </div>
+               </div><!-- col / -->
+            </div><!-- row / -->
+         </div>
+      </section>
+      <!-- Footer Area End -->
+
+
+      <!-- Copy Right Area Start -->
+      <div class="copyright_area theme_4">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  &copy; Traffic 2020. All rights reserved . Powered By <a
+                     href="https://www.linkedin.com/in/iamtheasad/" target="_blank">Rana</a>.
                </div>
             </div>
          </div>
+
+         <!-- Bottom to Top -->
+         <button class="btn bottom_to_top d-flex justify-content-center align-items-center">
+            <i class="zmdi zmdi-chevron-up"></i>
+         </button>
       </div>
-   </header>
-   <!-- Home-4 Header Section End -->
+      <!-- Copy Right Area End -->
 
-
-   <!-- Home-4 How can traffic help my buisness grow Start -->
-   <div class="section_padding theme_4">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-5">
-               <div class="tile_gallery">
-                  <img src="assets/img/home-4/business_report_1.jpg" alt="Buisness Report">
-                  <img src="assets/img/home-4/business_report_2.jpg" alt="Buisness Report">
-               </div>
-            </div>
-            <div class="col-md-7">
-               <div class="about_text">
-                  <h3>How can traffic <br />
-                     help my buisness grow?</h3>
-                  <p>
-                     The Greenpeace activist, said the sandstorm was reminiscent of those witnessed about two
-                     ago before a large-scale reforestation campaign in northern China helped reduce the number
-                     sandstorms reaching the capital.We have had a lucky few years recently. Sandstorms have tradi
-                     been a problem for Beijing and for the northern .
-                  </p>
-                  <br />
-                  <p>
-                     The Greenpeace activist, said the sandstorm was reminiscent of those witnessed about two
-                     ago before a large-scale reforestation campaign in northern China helped reduce the number
-                     sandstorms reaching the capital.We have had a lucky.
-                  </p>
-
-                  <a href="about.html" class="inline_btn">About Traffic <i class="zmdi zmdi-long-arrow-right"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
    </div>
-   <!-- Home-4 How can traffic help my buisness grow End -->
-
-
-   <!-- Home-4 Service Section Start -->
-   <div class="section_padding service_section pt-0">
-      <div class="container">
-         <div class="row text-center">
-            <div class="col-lg-6">
-               <div class="service_content">
-                  <div class="row">
-                     <div class="col-lg-6">
-                        <div class="service_box_4">
-                           <div class="service_icon_4">
-                              <img src="assets/img/home-4/service_icon_1.png" alt="Service Icon">
-                           </div>
-                           <h4>Web Analytics</h4>
-                           <p>
-                              Li said Beijing’s latest would amet consectetur adipisicing elit. Deleniti, fugiat!
-                              Harum incidunt repellat, expedita illum eveniet.
-                           </p>
-                        </div>
-                     </div>
-
-                     <div class="col-lg-6">
-                        <div class="service_box_4">
-                           <div class="service_icon_4">
-                              <img src="assets/img/home-4/service_icon_2.png" alt="Service Icon">
-                           </div>
-                           <h4>Inbound Markeitng</h4>
-                           <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit minus quaerat
-                              veniam ut. Dolore fugit dolorem in quod enim illo architecto.
-                           </p>
-                        </div>
-                     </div>
-
-                     <div class="col-lg-6">
-                        <div class="service_box_4">
-                           <div class="service_icon_4">
-                              <img src="assets/img/home-4/service_icon_3.png" alt="Service Icon">
-                           </div>
-                           <h4>Ads on Target</h4>
-                           <p>
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem, eveniet
-                              quas illo cupiditate quos eos excepturi adipisci harum cumque!
-                           </p>
-                        </div>
-                     </div>
-
-                     <div class="col-lg-6">
-                        <div class="service_box_4">
-                           <div class="service_icon_4">
-                              <i class="zmdi zmdi-globe"></i>
-                           </div>
-                           <h4>PPC Management</h4>
-                           <p>
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto exercitationem
-                              veniam suscipit autem numquam? Provident error quaerat incidunt ducimus minima!
-                           </p>
-                        </div>
-                     </div>
-                  </div><!-- row / -->
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- Home-4 Service Section End -->
-
-
-   <!-- Home-4 How traffic work Start -->
-   <section class="cta_area theme_4">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-5 offset-md-6 text-center">
-               <h2>How traffic work ?</h2>
-               <p>When the guidelines were agreed, it was clear that this was more than
-                  rhetoric. EU governments have essentially committed</p>
-
-               <a href="https://www.youtube.com/watch?v=P-jCuxfJNeU" class="btn video_play_icon"><img
-                     src="assets/img/home-4/video_paly_icon.png" alt="Video Play Button"></a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- Home-4 How traffic work End -->
-
-
-   <!-- Home-4 Feature Start -->
-   <section class="feature section_padding">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-6">
-               <img class="image_shadow" src="assets/img/home-4/feature_bg.jpg" alt="Feature Image Background">
-            </div>
-            <div class="col-md-6 d-flex align-items-center">
-               <div class="feature_content">
-                  <h2>How traffic work ?</h2>
-                  <span>Latest air pollution crisis would also remind the public that while industrial smog remained a
-                     pressing issue.</span>
-
-                  <div class="single_feature_item">
-                     <div class="row no-gutters">
-                        <div class="col-md-1 d-flex justify-content-center align-items-center">
-                           <div class="feature_icon">
-                              <img src="assets/img/home-4/feature_icon_1.png" alt="Feature Icon">
-                           </div>
-                        </div>
-                        <div class="col-md-11 pl-md-4">
-                           <h3>Unique & Creative Design</h3>
-                           <p>
-                              Writers and stars of Veep have responded incredulously to the new
-                              Australian politician required stitches after knocking himself uncon
-                              while laughing at the new season.
-                           </p>
-                        </div>
-                     </div>
-                  </div><!-- single_feature_item / -->
-
-                  <div class="single_feature_item">
-                     <div class="row no-gutters">
-                        <div class="col-md-1 d-flex justify-content-center align-items-center">
-                           <div class="feature_icon">
-                              <img src="assets/img/home-4/feature_icon_2.png" alt="Feature Icon">
-                           </div>
-                        </div>
-                        <div class="col-md-11 pl-md-4">
-                           <h3>Targeted Niche</h3>
-                           <p>
-                              Writers and stars of Veep have responded incredulously to the new
-                              Australian politician required stitches after knocking himself uncon
-                              while laughing at the new season.
-                           </p>
-                        </div>
-                     </div>
-                  </div><!-- single_feature_item / -->
-                  <div class="single_feature_item">
-                     <div class="row no-gutters">
-                        <div class="col-md-1 d-flex justify-content-center align-items-center">
-                           <div class="feature_icon">
-                              <img src="assets/img/home-4/feature_icon_3.png" alt="Feature Icon">
-                           </div>
-                        </div>
-                        <div class="col-md-11 pl-md-4">
-                           <h3>Secure Support</h3>
-                           <p>
-                              Writers and stars of Veep have responded incredulously to the new
-                              Australian politician required stitches after knocking himself uncons
-                              while laughing at the new season.
-                           </p>
-                        </div>
-                     </div>
-                  </div><!-- single_feature_item / -->
-                  <div class="single_feature_item">
-                     <div class="row no-gutters">
-                        <div class="col-md-1 d-flex justify-content-center align-items-center">
-                           <div class="feature_icon">
-                              <i class="zmdi zmdi-home"></i>
-                           </div>
-                        </div>
-                        <div class="col-md-11 pl-md-4">
-                           <h3>Easy to Customise</h3>
-                           <p>
-                              Writers and stars of Veep have responded incredulously to the new
-                              Australian politician required stitches after knocking himself uncon
-                              while laughing at the new season.
-                           </p>
-                        </div>
-                     </div>
-                  </div><!-- single_feature_item / -->
-               </div>
-            </div><!-- col / -->
-         </div>
-      </div>
-   </section>
-   <!-- Home-4 Feature End -->
-
-
-   <!-- Home-4 Testimonial Section Start -->
-   <section id="testimonial_4" class="section_padding">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 offset-lg-3 text-center">
-               <div class="section_title">
-                  <h2>Our Testimonial</h2>
-                  <p> Jonah Ryan is caught shaving his head to fake having cancer. I was laughing
-                     rice went down the wrong way Perrett told BuzzFeed News. </p>
-               </div>
-            </div>
-         </div>
-
-         <div class="row">
-            <div class="col-md-4">
-               <div class="single_testimial_box_4">
-                  <div class="testimonial_content_4">
-                     <i class="zmdi zmdi-quote"></i>
-                     <p>His wife found him unconscious on the ground, with blood everywhere must have been out for only
-                        a few seconds because, when I came to again, I was still laughing at Jonah.</p>
-                  </div>
-                  <div class="testimonial_author">
-                     <img src="assets/img/home-4/testimonial_author_2.jpg" alt="Testimonial Author Image">
-                     <p class="author_detail"><strong>Alva Dickinson</strong> <br /> CEO, Craftytheem</p>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-md-4">
-               <div class="single_testimial_box_4 active">
-                  <div class="testimonial_content_4">
-                     <i class="zmdi zmdi-quote"></i>
-                     <p>His wife found him unconscious on the ground, with blood everywhere must have been out for only
-                        a few seconds because, when I came to again, I was still laughing at Jonah.</p>
-                  </div>
-                  <div class="testimonial_author">
-                     <img src="assets/img/home-4/testimonial_author_2.jpg" alt="Testimonial Author Image">
-                     <p class="author_detail"><strong>Alva Dickinson</strong> <br /> CEO, Craftytheem</p>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-md-4">
-               <div class="single_testimial_box_4">
-                  <div class="testimonial_content_4">
-                     <i class="zmdi zmdi-quote"></i>
-                     <p>His wife found him unconscious on the ground, with blood everywhere must have been out for only
-                        a few seconds because, when I came to again, I was still laughing at Jonah.</p>
-                  </div>
-                  <div class="testimonial_author">
-                     <img src="assets/img/home-4/testimonial_author_1.jpg" alt="Testimonial Author Image">
-                     <p class="author_detail"><strong>Alva Dickinson</strong> <br /> CEO, Craftytheem</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- Home-4 Testimonial Section End -->
-
-
-   <!-- Home-4 Call to Action Section Start -->
-   <section class="cta_area call_to_action_4">
-      <div class="container">
-         <div class="row d-flex align-items-center">
-            <div class="col-md-8 offset-md-2 text-center">
-               <h2>Ready to Build your own marketing site? </h2>
-               <p>Writers and stars of Veep have responded incredulously to the news an Australian politician required
-                  stitches
-                  Graham Perrett, a federal Labor MP in Queensland, was eating </p>
-
-               <a href="contact-v1.html" class="boxed_btn">Contact Us</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- Home-4 Call to Action Section End -->
-
-   <!-- Footer Area Start -->
-   <section class="footer_area theme_4">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-8 col-md-12">
-               <div class="row">
-                  <div class="col-md-4">
-                     <h4>Product</h4>
-                     <ul>
-                        <li><a href="service-details.html">Features</a></li>
-                        <li><a href="pricing-table.html">Pricing</a></li>
-                        <li><a href="services-v1.html">Customers</a></li>
-                        <li><a href="services-v2.html">Page Builder</a></li>
-                        <li><a href="blog.html">What's new</a></li>
-                     </ul>
-                  </div>
-
-                  <div class="col-md-4">
-                     <h4>Company</h4>
-                     <ul>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="case-study-v1.html">Try Demo</a></li>
-                        <li><a href="blog-single.html">Terms of service</a></li>
-                        <li><a href="seo-analysis.html">Page Builder</a></li>
-                        <li><a href="faq.html">Privacy policy</a></li>
-                     </ul>
-                  </div>
-
-                  <div class="col-md-4">
-                     <h4>Follow Us</h4>
-
-                     <ul>
-                        <li>
-                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                 class="zmdi zmdi-facebook"></i>Facebook</a>
-                        </li>
-                        <li>
-                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                 class="zmdi zmdi-twitter"></i>Twitter</a>
-                        </li>
-                        <li>
-                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                 class="zmdi zmdi-pinterest"></i>Pinterest</a>
-                        </li>
-                        <li>
-                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                 class="zmdi zmdi-linkedin"></i>Linkedin</a>
-                        </li>
-                        <li>
-                           <a href="https://www.linkedin.com/in/iamtheasad/" target="_blank"><i
-                                 class="zmdi zmdi-instagram"></i>Instagram</a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div><!-- col / -->
-
-            <div class="col-lg-4 col-md-12">
-               <h4 class="footer_margin">Sign Up to Our Weekly Newslater</h4>
-
-               <div class="email_subscribe_form">
-                  <form action="index.html">
-                     <input type="email" name="email" placeholder="Email Addresss" id="email">
-                     <input type="submit" value="Sign Up">
-                  </form>
-               </div>
-            </div><!-- col / -->
-         </div><!-- row / -->
-      </div>
-   </section>
-   <!-- Footer Area End -->
-
-
-   <!-- Copy Right Area Start -->
-   <div class="copyright_area theme_4">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12 text-center">
-               &copy; Traffic 2020. All rights reserved . Powered By <a href="https://www.linkedin.com/in/iamtheasad/"
-                  target="_blank">Rana</a>.
-            </div>
-         </div>
-      </div>
-
-      <!-- Bottom to Top -->
-      <button class="btn bottom_to_top d-flex justify-content-center align-items-center">
-         <i class="zmdi zmdi-chevron-up"></i>
-      </button>
-   </div>
-   <!-- Copy Right Area End -->
 
 
 
@@ -569,6 +620,9 @@ crossorigin="anonymous"></script> -->
    <!-- isotop js CDN link -->
    <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
 
+
+   <!-- Color Swithcer -->
+   <script src="assets/js/colornip.min.js"></script>
 
    <!-- Defualt JS -->
    <script src="assets/js/script.js"></script>

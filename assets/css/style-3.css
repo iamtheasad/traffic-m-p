@@ -1,9 +1,3 @@
-.boxed_btn,
-input[type="submit"],
-button[type="submit"] {
-   background: #06D6A0;
-}
-
 /************************************** 
    Home-3 Header Area Start
 ***************************************/
@@ -48,7 +42,7 @@ a.video_play_btn {
    color: #fff;
    width: 3.75rem;
    height: 3.75rem;
-   background: #06D6A0;
+   background: #ef476f;
    display: -webkit-inline-box;
    display: -webkit-inline-flex;
    display: -moz-inline-box;
@@ -70,6 +64,10 @@ a.video_play_btn {
    text-decoration: none;
    margin-top: 1.875rem;
    font-size: 1.25rem;
+}
+
+a.video_play_btn:hover {
+   background-color: #373737;
 }
 
 .homepage_3_slides.owl-carousel.owl-theme .owl-nav button {
@@ -111,21 +109,8 @@ a.video_play_btn {
    transform: translateX(-50%);
 }
 
-.owl-theme .owl-dots .owl-dot.active span {
-   background-color: #06d6a0;
-}
-
 .menu_area ul li a {
    color: #fff;
-}
-
-.mainmenu li:hover a {
-   color: #06d6a0;
-}
-
-ul.dropdown_header_menu,
-ul.mega_menu {
-   background-color: #06d6a0;
 }
 
 /************************************** 

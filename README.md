@@ -10,6 +10,7 @@
 3. Bootstrap 4,
 4. jquery,
 5. Flexbox,
-6. Material Design Iconic Font Technology are Used Here
+6. Owl-Carousel
+7. Material Design Iconic Font Technology are Used Here
 
 
